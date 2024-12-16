@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider (CSS Only)</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+
+      .slider-container {
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
+        border: 4px solid red;
+        position: relative;
+      }
+
+      .slider-wrapper {
+        display: flex;
+        width: calc(800px * 4);
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .slide {
+        width: 800px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+      }
+
+      .slide img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+      }
+
+      /* Navigation */
+      .navigation {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+      }
+
+      .navigation label {
+        background-color: orange;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      /* Hide checkboxes */
+      input[type="radio"] {
+        display: none;
+      }
+
+      /* Slide control */
+      #slide1:checked ~ .slider-wrapper {
+        transform: translateX(0);
+      }
+      #slide2:checked ~ .slider-wrapper {
+        transform: translateX(-800px);
+      }
+      #slide3:checked ~ .slider-wrapper {
+        transform: translateX(-1600px);
+      }
+      #slide4:checked ~ .slider-wrapper {
+        transform: translateX(-2400px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider-container">
+      <!-- Radio buttons for controlling slides -->
+      <input type="radio" name="slider" id="slide1" checked />
+      <input type="radio" name="slider" id="slide2" />
+
+      <input type="radio" name="slider" id="slide3" />
+      <input type="radio" name="slider" id="slide4" />
+
+      <!-- Slider wrapper -->
+      <div class="slider-wrapper">
+        <div class="slide">
+          <img src="/fountain/Top_cartegories/Marketing.png" alt="Marketing" />
+        </div>
+        <div class="slide">
+          <img src="/fountain/Top_cartegories/Design.jpg" alt="Design" />
+        </div>
+        <div class="slide">
+          <img
+            src="/fountain/Top_cartegories/Programming.jpg"
+            alt="Programming"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="/fountain/Top_cartegories/Technology.jpg"
+            alt="Technology"
+          />
+        </div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="navigation">
+        <label for="slide4">&lt;</label>
+        <label for="slide2">&gt;</label>
+      </div>
+    </div>
+    <button popovertarget="myPopover">Click me!</button>
+    <div id="myPopover" popover>This is a popover content!</div>
+
+    <form action="" class="form">
+      <img src="/Fountain/img/Remove_find.png" alt="Remove" class="remove" />
+      <input type="search" name="username" class="input_login" />
+      <button type="button" class="submit_login" popovertarget="login">
+        Login
+      </button>
+      <button type="submit" class="Register">Register</button>
+    </form>
+    <div id="login" popover class="form_login">
+      <input type="text" name="username" placeholder="Username" />
+      <input type="password" name="password" placeholder="Password" />
+      <input type="submit" value="Submit" />
+    </div>
+
+    <!-- Checkbox điều khiển hiển thị/ẩn Login Popover -->
+    <input type="checkbox" id="togglePopover" class="hidden-checkbox" />
+
+    <!-- Vùng màn hình xung quanh để click outside -->
+    <div
+      class="overlay"
+      onclick="document.getElementById('togglePopover').checked = false;"
+    ></div>
+
+    <form action="" class="form">
+      <img src="/Fountain/img/Remove_find.png" alt="Remove" class="remove" />
+      <input type="search" name="username" class="input_login" />
+
+      <!-- Label click mở Login -->
+      <label for="togglePopover" class="submit_login">Login</label>
+
+      <button type="submit" class="Register">Register</button>
+    </form>
+
+    <div id="login" class="form_login">
+      <input type="text" name="username" placeholder="Username" />
+      <input type="password" name="password" placeholder="Password" />
+      <input type="submit" value="Submit" />
+    </div>
+
+    <marquee behavior="Move Up" direction="right"> hi </marquee>
+
+    <div class="background-outstanding">
+      <div>
+        <img
+          src="/fountain/img/Remove_Competition.png"
+          alt="Competition"
+          class="Competition_outstanding"
+        />
+      </div>
+      <div class="trans_text">
+        <div class="text-outstanding">
+          <p>
+            Outstanding
+            <span
+              style="
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: black;
+              "
+            >
+              Instructors
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="background_Instructors">
+        <div>
+          <img
+            src="\fountain\Learning_Institution\Instructors.jpg"
+            alt="Instructors"
+            class="Instructors"
+          />
+        </div>
+        <div>
+          <img
+            src="\fountain\Learning_Institution\Instructors.jpg"
+            alt="Instructors"
+            class="Instructors_2"
+          />
+        </div>
+        <div>
+          <img
+            src="\fountain\Learning_Institution\Instructors.jpg"
+            alt="Instructors"
+            class="Instructors_3"
+          />
+        </div>
+      </div>
+      <div>
+        <div class="hr_instructors"></div>
+      </div>
+    </div>
+
+    <div class="background-outstanding">
+      <div>
+        <img
+          src="/fountain/img/Remove_Competition.png"
+          alt="Competition"
+          class="Competition_outstanding"
+        />
+      </div>
+      <div class="trans_text">
+        <div class="text-outstanding">
+          <p>
+            Outstanding
+            <span
+              style="
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: black;
+              "
+            >
+              Instructors
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="background_Instructors">
+        <div>
+          <img
+            src="\fountain\Learning_Institution\Instructors.jpg"
+            alt="Instructors"
+            class="Instructors"
+          />
+        </div>
+        <div>
+          <img
+            src="\fountain\Learning_Institution\Instructors.jpg"
+            alt="Instructors"
+            class="Instructors_2"
+          />
+        </div>
+        <div>
+          <img
+            src="\fountain\Learning_Institution\Instructors.jpg"
+            alt="Instructors"
+            class="Instructors_3"
+          />
+        </div>
+      </div>
+      <div>
+        <div class="hr_instructors"></div>
+      </div>
+    </div>
+
+    <article class="background_institution">
+      <div class="background_learning_institution">
+        <div class="circle-container">
+          <div class="circle-border"></div>
+          <div class="circle_color"></div>
+          <img
+            src="/fountain/Learning_Institution/institution.png"
+            alt="Institution"
+            class="circle-image"
+          />
+        </div>
+        <div class="content">
+          <div class="title">
+            <p>
+              We are <span class="Experts_hr">Experts </span>Learning
+              Institution
+            </p>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit elit,
+              bibendum volutpat platea mi, adipiscing eget magna. Eu nulla ut
+              urna venenatis velit et tincidunt. Id vitae velit.
+            </p>
+          </div>
+          <div>
+            <form action=" " method="">
+              <input
+                type="submit"
+                name=""
+                id=""
+                value="Enroll now"
+                class="button_Experts"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Hinh tron background -->
+      <div class="">
+        <div class="background_Learning_institution"></div>
+      </div>
+      <!--gach chan-->
+      <div class="Hr">
+        <div class="hr"></div>
+      </div>
+      <!--Outstanding-->
+      <div class="background-outstanding">
+        <div>
+          <img
+            src="/fountain/img/Remove_Competition.png"
+            alt="Competition"
+            class="Competition_outstanding"
+          />
+        </div>
+        <div class="trans_text">
+          <div class="text-outstanding">
+            <p>
+              Outstanding
+              <span
+                style="
+                  font-family: Poppins;
+                  font-size: 20px;
+                  font-weight: 400;
+                  line-height: 30px;
+                  text-align: center;
+                  text-underline-position: from-font;
+                  text-decoration-skip-ink: none;
+                  color: black;
+                "
+              >
+                Instructors
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="background_Instructors">
+          <div>
+            <img
+              src="\fountain\Learning_Institution\Instructors.jpg"
+              alt="Instructors"
+              class="Instructors"
+            />
+          </div>
+          <div>
+            <img
+              src="\fountain\Learning_Institution\Instructors.jpg"
+              alt="Instructors"
+              class="Instructors_2"
+            />
+          </div>
+          <div>
+            <img
+              src="\fountain\Learning_Institution\Instructors.jpg"
+              alt="Instructors"
+              class="Instructors_3"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="hr_instructors"></div>
+        </div>
+      </div>
+      <!-- Hinh tron background -->
+      <div class="">
+        <div class="background_Learning_institution_2"></div>
+      </div>
+    </article>
+  </body>
+</html>
+
+<form action="" class="form_den">
+  <label for=""
+    >Registration to get notified about new competition and article we
+    publish.</label
+  ><input
+    type="text"
+    name=""
+    id=""
+    placeholder="Full name"
+    class="form_input"
+  /><input
+    type="email"
+    name=""
+    id=""
+    placeholder="Email"
+    class="form_input"
+  /><input
+    type="tel"
+    name=""
+    id=""
+    placeholder="Phone number"
+    class="form_input"
+  /><select name="Select" class="form_slect">
+    <option value="default" selected hidden>Select a course</option>
+    <option value="List of courses goes here">List of courses goes here</option>
+    <option value="List of courses goes here">List of courses goes here</option>
+    <option value="List of courses goes here">
+      List of courses goes here
+    </option></select
+  ><input type="submit" name="" id="" value="Register" class="button_Den" />
+</form>
