@@ -164,3 +164,15 @@
 
 
 }
+
+.hr_publicstions {
+    width: 312px;
+    height: 4.8px;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #F77E23;
+    transform: rotate3d(0, 112, -57, 2deg);
+    position: relative;
+    left: -32px;
+    top: -322px;
+}

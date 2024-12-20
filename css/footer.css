@@ -114,8 +114,8 @@
     display: flex;
     font-size: 20px;
     border: none;
-    padding: 0;
-    padding-right: 291px;
+    padding: 14px;
+    padding-right: 252px;
 }
 
 .ft_Subscribe label {
@@ -141,6 +141,7 @@
     background: #F77E23;
     color: white;
     border: none;
+    cursor: pointer;
 
 }
 
@@ -178,13 +179,19 @@
 .dislay_ft {
     display: flex;
     align-items: center;
-    /* gap: 3104px; */
     justify-content: space-between;
     padding: 62px;
+    flex-wrap: wrap;
 }
 
 .display_content_ft {
     display: flex;
     flex-direction: column;
     gap: 20px
+}
+
+.display_btn_ft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }

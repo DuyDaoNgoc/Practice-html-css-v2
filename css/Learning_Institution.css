@@ -1,10 +1,10 @@
 /* Cấu trúc nền */
 .background_learning_institution {
   display: flex;
-  align-items: center;
-  gap: 244px;
-  margin: 4px auto;
-  max-width: 1103px;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 auto;
+ flex-wrap: wrap;
 }
 
 /* Khung chứa hình tròn và viền */
@@ -45,7 +45,8 @@
   gap: 363px;
   flex-direction: row;
   margin: 0 auto;
-  position: absolute
+  position: absolute;
+  flex-wrap: wrap;
 }
 
 /* Ảnh vượt ra ngoài viền */
@@ -141,7 +142,8 @@
   font-family: 'DM Sans';
   font-weight: 600;
   font-size: 16px;
-  line-height: 20px
+  line-height: 20px;
+  cursor: pointer;
 }
 
 .button_Experts:hover {
@@ -199,7 +201,6 @@
 }
 
 .Hr {
-  transform: translate(305px, 859px);
   position: relative;
   margin: 2px auto;
 }
@@ -207,12 +208,13 @@
 .hr {
   width: 211px;
   height: 4.8px;
-  top: 134px;
-  left: 798px;
   border-radius: 4px;
   margin: 0 auto;
   background-color: #F77E23;
   transform: rotate3d(0, 112, -57, 6deg);
+  position: absolute;
+  left: 410px;
+  top: -5px;
 }
 
 .background-outstanding {
@@ -289,35 +291,21 @@
 .Instructors {
   width: 40px;
   height: 40px;
-  gap: 8px;
   border-radius: 30px;
   border: 3px solid white;
-  opacity: 1;
-  z-index: 4;
   position: absolute;
 }
 
-.Instructors_2 {
-  width: 40px;
-  height: 40px;
-  gap: 0px;
-  border-radius: 30px;
-  border: 3px solid white;
-  opacity: 1;
-  z-index: 4;
-  position: absolute;
-}
-
+.Instructors,
+.Instructors_2,
 .Instructors_3 {
   width: 40px;
   height: 40px;
-  gap: 0px;
   border-radius: 30px;
   border: 3px solid white;
-  opacity: 1;
-  z-index: 4;
   position: absolute;
 }
+
 
 .hr_instructors {
   background-color: #F77E23;

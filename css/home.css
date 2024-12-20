@@ -53,27 +53,10 @@ header h1 {
 
 nav li {
     display: inline;
-    margin-right: 20px;
 }
 
 /* Đặt menu con mặc định ẩn */
-.submenu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-    /* Đẩy xuống 20px */
-    transition: all 0.3s ease-in-out;
-    /* Hiệu ứng mượt */
-    background-color: red;
-    /* Nền menu con */
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    z-index: 1000;
-}
+
 
 
 
@@ -83,7 +66,6 @@ nav li {
     background: bottom;
     width: 737px;
     height: 38px;
-    align-items: center;
     display: flex;
     font-size: 16px;
     z-index: 99;
@@ -98,11 +80,12 @@ nav li {
 .menu {
     list-style: none;
     display: flex;
-    gap: 23px;
     padding: 0;
     margin: 0;
     position: relative;
-    left: 42px;
+    left: -21px;
+    gap: 34px;
+
 }
 
 .menu li {
@@ -114,14 +97,21 @@ nav li {
     color: white;
     font-size: 16px;
     display: block;
-    padding: 5px 10px;
     transition: transform 0.3s ease, color 0.3s ease;
 
 }
 
 
-.menu li a:hover {
-    transform: translateY(-10px);
+
+.menu div p a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 700;
+}
+
+.menu div:hover {
+    transition: transform 0.7s ease, color 0.7s ease;
+    transform: translateY(-35px);
 }
 
 
@@ -214,7 +204,6 @@ div {
 
 .index-text h2 {
     font-size: 60px;
-    line-height: 71px;
     margin-bottom: 24px;
     font-family: Poppins;
     width: 734px;
@@ -277,6 +266,7 @@ div {
     padding: 10px;
     border: aliceblue;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .submit_login,
@@ -427,12 +417,19 @@ div {
     z-index: 9999;
 }
 
+.br_cursor :active {
+    transform: translateX(-187%);
+    transition: transform 0.7s ease, color 0.7s ease;
+}
+
 .cursor_black img {
     width: 30px;
     height: 40px;
     filter: invert(1);
     transform: rotate(-88deg);
 }
+
+
 
 .background_test {
     background-color: #F77E23;

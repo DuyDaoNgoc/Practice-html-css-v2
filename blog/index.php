@@ -25,14 +25,14 @@ document.addEventListener("DOMContentLoaded", function() {
         const overlay = document.createElement("div");
 
         overlay.style.cssText = ` position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.3);
-        z-index: 9998;
-        display: none;
-        `;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 9998;
+    display: none;
+    `;
         document.body.appendChild(overlay);
 
         loginButton.addEventListener("click", function() {
@@ -58,67 +58,60 @@ document.addEventListener("DOMContentLoaded", function() {
         <h1><a href="#" class="text_menu">Fountain</a></h1>
         <nav class="nav_menu">
             <ul class="menu">
-                <li><a href="#">Home</a>
-                    <ul class="submenu">
-                        <li><a href="#">Home </a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Courses</a>
-                    <ul class="submenu">
-                        <li><a href="#">Courses </a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Instructors</a>
-                    <ul class="submenu">
-                        <li><a href="#">Instructors </a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Schedules</a>
-                    <ul class="submenu">
-                        <li><a href="#">Schedules </a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contact Us</a>
-                    <ul class="submenu">
-                        <li><a href="#">Contact Us </a></li>
-                    </ul>
-                </li>
+                <div>
+                    <li><a href="#">Home</a></li>
+                    <p><a href="#">Home </a></p>
+                </div>
+                <div>
+                    <li><a href="#">Courses</a></li>
+                    <p><a href="#">Courses </a></p>
+                </div>
+                <div>
+                    <li><a href="#">Instructors</a></li>
+                    <p><a href="#">Instructors </a></p>
+                </div>
+                <div>
+                    <li><a href="#">Schedules</a></li>
+                    <p><a href="#">Schedules </a></p>
+                </div>
+                <div>
+                    <li><a href="#">Contact Us</a></li>
+                    <p><a href="#">Contact Us </a></p>
+                </div>
             </ul>
         </nav>
         <form action="\fountain\login\login.php" class="form" method="post"><img src="\fountain\svg\search.svg"
-                alt="Remove" class="remove"><input type="search" name="username" class="input_login"><button
-                type="button" class="submit_login ">Login</button><button type="submit"
+                alt="Remove" class="remove" /><input type="search" name="username" class="input_login" /><button
+                type="button" class="submit_login">Login</button><button type="submit"
                 class="Register">Register</button></form>
-        <div class="form_login"><label for="">Login</label>
-            <input type="text" name="taikhoan" placeholder="Username">
-            <input type="password" name="matkhau" placeholder="Password"><button value="Đăng Nhập" class="button_login"
-                name="submit">Login</button>
-        </div>
+        <div class="form_login"><label for="">Login</label><input type="text" name="taikhoan"
+                placeholder="Username" /><input type="password" name="matkhau" placeholder="Password" /><button
+                value="Đăng Nhập" class="button_login" name="submit">Login </button></div>
     </header>
-    <section class="img_index"><img src="/Fountain/img/menu_home.png" alt="Menu ảnh" class="img_home">
+    <section class="img_index"><img src="/Fountain/img/menu_home.png" alt="Menu ảnh" class="img_home" />
         <div class="index-text">
             <h2>A Classical Education for the Future</h2>
             <p class="content_index">We prepare you to engage in the world that is and to help bring about a world
-                that ought to be.</p><a href="#" class="get-button">Get Started</a>
+                that ought to be. </p><a href="#" class="get-button">Get Started</a>
         </div>
     </section>
     <div class="support">
         <div class="support_index">
             <div class="live_chat">
                 <p>Live chat</p>
-                <div class="Remove_Chat"><img src="/Fountain/img/Remove_Chat.png" alt=""></div>
+                <div class="Remove_Chat"><img src="/Fountain/img/Remove_Chat.png" alt="" /></div>
             </div>
             <div class="Examination">
                 <p>Examination</p>
-                <div class="Remove_Examination"><img src="/Fountain/img/Remove_Examination1.png" alt=""></div>
+                <div class="Remove_Examination"><img src="/Fountain/img/Remove_Examination1.png" alt="" /></div>
             </div>
             <div class="Competition">
                 <p>Competition</p>
-                <div class="Remove_Competition"><img src="/Fountain/img/Remove_Competition.png" alt=""></div>
+                <div class="Remove_Competition"><img src="/Fountain/img/Remove_Competition.png" alt="" /></div>
             </div>
         </div>
         <div class="br_cursor">
-            <div class="cursor_black"><a href="#"><img src="/fountain/svg/right.svg" alt=""></a></div>
+            <div class="cursor_black"><a href="#"><img src="/fountain/svg/right.svg" alt="" /></a></div>
         </div>
     </div>
     <!--Top cartegories-->
@@ -129,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="article_background">
             <div class="display_top_caregories">
                 <figure class="figure_Top_cartegories"><a href="#">
-                        <div><img src="/fountain\Top_cartegories\Marketing.png" alt="Marketing"></div>
+                        <div><img src="/fountain\Top_cartegories\Marketing.png" alt="Marketing" /></div>
                         <figcaption class="fig_Makerting">
                             <h3>Maketing</h3>
                         </figcaption>
@@ -137,11 +130,11 @@ document.addEventListener("DOMContentLoaded", function() {
                             <p>Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Quam nibh netus auctor consect massa. Maecen
                                 vivamus sed nibh enim sed. Hac ridiculus tellus urna quam odio quis montes,
-                                diam. Malesuada ut urna eu faucibus</p>
+                                diam. Malesuada ut urna eu faucibus </p>
                         </div>
                     </a></figure>
                 <figure class="figure_Top_cartegories"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Design.jpg" alt="Design"></div>
+                        <div><img src="\fountain\Top_cartegories\Design.jpg" alt="Design" /></div>
                         <figcaption class="fig_Makerting">
                             <h3>Design</h3>
                         </figcaption>
@@ -149,11 +142,11 @@ document.addEventListener("DOMContentLoaded", function() {
                             <p>Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Quam nibh netus auctor consect massa. Maecen
                                 vivamus sed nibh enim sed. Hac ridiculus tellus urna quam odio quis montes,
-                                diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                                diam. Malesuada ut urna eu faucibus faucibus faucibus u </p>
                         </div>
                     </a></figure>
                 <figure class="figure_Top_cartegories"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Programming.jpg" alt="Programming"></div>
+                        <div><img src="\fountain\Top_cartegories\Programming.jpg" alt="Programming" /></div>
                         <figcaption class="fig_Makerting">
                             <h3>Programming</h3>
                         </figcaption>
@@ -161,11 +154,11 @@ document.addEventListener("DOMContentLoaded", function() {
                             <p>Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Quam nibh netus auctor consect massa. Maecen
                                 vivamus sed nibh enim sed. Hac ridiculus tellus urna quam odio quis montes,
-                                diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                                diam. Malesuada ut urna eu faucibus faucibus faucibus u </p>
                         </div>
                     </a></figure>
                 <figure class="figure_Top_cartegories"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology"></div>
+                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology" /></div>
                         <figcaption class="fig_Makerting">
                             <h3>Technology</h3>
                         </figcaption>
@@ -173,11 +166,11 @@ document.addEventListener("DOMContentLoaded", function() {
                             <p>Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Quam nibh netus auctor consect massa. Maecen
                                 vivamus sed nibh enim sed. Hac ridiculus tellus urna quam odio quis montes,
-                                diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                                diam. Malesuada ut urna eu faucibus faucibus faucibus u </p>
                         </div>
                     </a></figure>
                 <figure class="figure_Top_cartegories"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology"></div>
+                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology" /></div>
                         <figcaption class="fig_Makerting">
                             <h3>Technology</h3>
                         </figcaption>
@@ -185,11 +178,11 @@ document.addEventListener("DOMContentLoaded", function() {
                             <p>Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Quam nibh netus auctor consect massa. Maecen
                                 vivamus sed nibh enim sed. Hac ridiculus tellus urna quam odio quis montes,
-                                diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                                diam. Malesuada ut urna eu faucibus faucibus faucibus u </p>
                         </div>
                     </a></figure>
                 <figure class="figure_Top_cartegories"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology"></div>
+                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology" /></div>
                         <figcaption class="fig_Makerting">
                             <h3>Technology</h3>
                         </figcaption>
@@ -197,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <p>Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Quam nibh netus auctor consect massa. Maecen
                                 vivamus sed nibh enim sed. Hac ridiculus tellus urna quam odio quis montes,
-                                diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                                diam. Malesuada ut urna eu faucibus faucibus faucibus u </p>
                         </div>
                     </a></figure>
             </div>
@@ -214,11 +207,11 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="display_backgound_article_learning">
             <div class="inside_background_learning">
                 <!--img-->
-                <div class="background_learning_institution ">
+                <div class="background_learning_institution">
                     <div class="circle-container">
                         <div class="circle-border_examination"></div>
                         <div class="circle_color"><img src="\fountain\Learning_Institution\institution.png"
-                                alt="Institution" class="circle-image"></div>
+                                alt="Institution" class="circle-image" /></div>
                     </div>
                     <!--Increase-->
                     <div class="background-outstanding">
@@ -239,6 +232,7 @@ color: black;
                                         Instructors </span></p>
                             </div>
                         </div>
+                        <div class="hr"></div>
                         <div class="background_Instructors">
                             <div><img src="\fountain\Learning_Institution\Instructors.jpg" alt="Instructors"
                                     class="Instructors" /></div>
@@ -255,18 +249,19 @@ color: black;
                 <div>
                     <div class="display_title">
                         <div class="title">
-                            <p>We are<span class="examination-hr"> Experts </span>Learning Institution
+                            <p>We are<span class="examination-hr">Experts </span>Learning Institution
                             </p>
                         </div>
                         <div class="content_our_onl">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit elit, bibendum volutpat
-                                platea mi, adipiscing eget magna. Eu nulla ut urna venenatis velit et tincidunt. Id
-                                vitae velit
-                            </p>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Sit elit,
+                                bibendum volutpat platea mi,
+                                adipiscing eget magna. Eu nulla ut urna venenatis velit et tincidunt. Id
+                                vitae velit </p>
                         </div>
                         <div>
                             <form action=" " method="" class="form_our"><input type="submit" name="" id=""
-                                    value="Take a test" class="button_examination"></form>
+                                    value="Take a test" class="button_Experts" /></form>
                         </div>
                     </div>
                 </div>
@@ -290,7 +285,8 @@ color: black;
                 </div>
                 <div class="transform_sort_by">
                     <div class="sort_by_background">
-                        <div class="sort_by_img"><img src="/fountain/img/bottom.png" alt="bottom"></div>
+                        <div class="sort_by_img"><img src="/fountain/img/bottom.png" alt="bottom" />
+                        </div>
                         <div class="sort_by_text">
                             <p>Sort by</p>
                         </div>
@@ -299,12 +295,12 @@ color: black;
             </div>
             <div class="display_figure">
                 <figure class="figure_star"><a href="#" class="a_star"><img
-                            src="/fountain/Explore_our_popular_course\Learn_Marketing_from_Top_Instructors..jpg">
+                            src="/fountain/Explore_our_popular_course\Learn_Marketing_from_Top_Instructors..jpg" />
                         <div class="display_star">
                             <figcaption class="ficaption_star">
                                 <h3>Learn Marketing from Top Instructors</h3>
                             </figcaption>
-                            <div class="review_star"><img src="/fountain/img/star.png" alt="star">
+                            <div class="review_star"><img src="/fountain/img/star.png" alt="star" />
                                 <p>4.5</p>
                             </div>
                         </div>
@@ -321,12 +317,12 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_star"><a href="#" class="a_star"><img
-                            src="\fountain\Explore_our_popular_course\Front-end_development.jpg">
+                            src="\fountain\Explore_our_popular_course\Front-end_development.jpg" />
                         <div class="display_star">
                             <figcaption class="ficaption_star">
                                 <h3>Front-end development is not hard as you think</h3>
                             </figcaption>
-                            <div class="review_star"><img src="/fountain/img/star.png" alt="star">
+                            <div class="review_star"><img src="/fountain/img/star.png" alt="star" />
                                 <p>4.5</p>
                             </div>
                         </div>
@@ -343,12 +339,12 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_star"><a href="#" class="a_star"><img
-                            src="\fountain\Explore_our_popular_course\Everrything_you_need_to_know_in_UX.jpg">
+                            src="\fountain\Explore_our_popular_course\Everrything_you_need_to_know_in_UX.jpg" />
                         <div class="display_star">
                             <figcaption class="ficaption_star">
                                 <h3>Everrything you need to know in UX</h3>
                             </figcaption>
-                            <div class="review_star"><img src="/fountain/img/star.png" alt="star">
+                            <div class="review_star"><img src="/fountain/img/star.png" alt="star" />
                                 <p>4.5</p>
                             </div>
                         </div>
@@ -365,12 +361,12 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_star"><a href="#" class="a_star"><img
-                            src="\fountain\Explore_our_popular_course\Learn_photography.jpg">
+                            src="\fountain\Explore_our_popular_course\Learn_photography.jpg" />
                         <div class="display_star">
                             <figcaption class="ficaption_star">
                                 <h3>Learn photography with ease</h3>
                             </figcaption>
-                            <div class="review_star"><img src="/fountain/img/star.png" alt="star">
+                            <div class="review_star"><img src="/fountain/img/star.png" alt="star" />
                                 <p>4.5</p>
                             </div>
                         </div>
@@ -387,12 +383,12 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_star"><a href="#" class="a_star"><img
-                            src="\fountain\Explore_our_popular_course\Be_a_pro_in_data_analysis.jpg">
+                            src="\fountain\Explore_our_popular_course\Be_a_pro_in_data_analysis.jpg" />
                         <div class="display_star">
                             <figcaption class="ficaption_star">
                                 <h3>Be a pro in data analysis</h3>
                             </figcaption>
-                            <div class="review_star"><img src="/fountain/img/star.png" alt="star">
+                            <div class="review_star"><img src="/fountain/img/star.png" alt="star" />
                                 <p>4.5</p>
                             </div>
                         </div>
@@ -409,12 +405,12 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_star"><a href="#" class="a_star"><img
-                            src="\fountain\Explore_our_popular_course\Ethical_Harking.jpg">
+                            src="\fountain\Explore_our_popular_course\Ethical_Harking.jpg" />
                         <div class="display_star">
                             <figcaption class="ficaption_star">
-                                <h3>Ethical Harking is not hard as you think </h3>
+                                <h3>Ethical Harking is not hard as you think</h3>
                             </figcaption>
-                            <div class="review_star"><img src="/fountain/img/star.png" alt="star">
+                            <div class="review_star"><img src="/fountain/img/star.png" alt="star" />
                                 <p>4.5</p>
                             </div>
                         </div>
@@ -442,11 +438,11 @@ color: black;
                     <div class="circle-container_our">
                         <div class="circle-border_examination"></div>
                         <div class="circle_color"><img src="\fountain\examination\examination.png" alt="Institution"
-                                class="circle-image_our"></div>
+                                class="circle-image_our" /></div>
                     </div>
                     <!--Increase-->
                     <div class="background-Increase">
-                        <div><img src="/fountain/img/Increase.png" alt="Competition" class="Competition_outstanding">
+                        <div><img src="/fountain/img/Increase.png" alt="Competition" class="Competition_outstanding" />
                         </div>
                         <div class="trans_text_increase">
                             <div class="text-Instrctors">
@@ -463,7 +459,7 @@ color: black;
                     <div>
                         <div class="title_our">
                             <p>Our online <span class="examination-hr">examination </span>is
-                                top-notch</p>
+                                top-notch </p>
                         </div>
                         <div class="content_our_onl">
                             <p>Prepare your self for greater challenges with our online
@@ -471,7 +467,7 @@ color: black;
                         </div>
                         <div>
                             <form action=" " method="" class="form_our"><input type="submit" name="" id=""
-                                    value="Take a test" class="button_examination"></form>
+                                    value="Take a test" class="button_examination" /></form>
                         </div>
                     </div>
                 </div>
@@ -496,23 +492,23 @@ color: black;
             <!--NATURE of Science-->
             <div class="display_Popular_examination">
                 <figure class="figure_Popular_examination"><a href="#"><img
-                            src="/fountain/Popular_examination/NATURE_of_Sciencecbd.png" alt="NATURE_of_Sciencecbd">
+                            src="/fountain/Popular_examination/NATURE_of_Sciencecbd.png" alt="NATURE_of_Sciencecbd" />
                         <figcaption>NATURE of Science</figcaption>
                     </a></figure>
                 <!-- 2022 Astro Report-->
                 <figure class="figure_Popular_examination"><a href="#"><img
-                            src="/fountain/Popular_examination/2022_Astro_Reportpng.png" alt="2022_Astro_Reportpng">
+                            src="/fountain/Popular_examination/2022_Astro_Reportpng.png" alt="2022_Astro_Reportpng" />
                         <figcaption>2022 Astro Report</figcaption>
                     </a></figure>
                 <!-- Data Analysis With Python -->
                 <figure class="figure_Popular_examination"><a href="#"><img
                             src="/fountain/Popular_examination/Data_Analysis_With_Python.png"
-                            alt="Data_Analysis_With_Python">
+                            alt="Data_Analysis_With_Python" />
                         <figcaption>Data Analysis With Python</figcaption>
                     </a></figure>
                 <!-- Advanced UX Designs -->
                 <figure class="figure_Popular_examination"><a href="#"><img
-                            src="/fountain/Popular_examination/UX_Designs.png" alt="UX_Designs">
+                            src="/fountain/Popular_examination/UX_Designs.png" alt="UX_Designs" />
                         <figcaption>Advanced UX Designs</figcaption>
                     </a></figure>
             </div>
@@ -527,7 +523,7 @@ color: black;
     <!--Competate with various scholars around the globe-->
     <article>
         <div>
-            <h1 class="h1_Competate">Competate with various scholars around the globe</h1>
+            <h1 class="h1_Competate">Competate with various scholars around the globe </h1>
         </div>
         <div class="background_Competate_with_various_scholars_around_the_globe">
             <div class="background_Den">
@@ -535,7 +531,7 @@ color: black;
                     <div class="circle-border_den"></div>
                     <div class="circle_color_den"></div><img
                         src="\fountain\Competate_with_various_scholars_around_the_globe\Den.png" alt="Institution"
-                        class="circle-image_den">
+                        class="circle-image_den" />
                 </div>
             </div>
             <!-- Hinh tron background -->
@@ -544,11 +540,12 @@ color: black;
             </div>
             <!--Den of Schorlars-->
             <div class="background-Competate">
-                <div><img src="/fountain/img/Remove_Competition.png" alt="Competition" class="Competition_Competate ">
+                <div><img src="/fountain/img/Remove_Competition.png" alt="Competition" class="Competition_Competate" />
                 </div>
                 <div class="trans_text_den">
                     <div class="text-Competate">
-                        <p>Den <span style="font-family: Poppins;
+                        <p>Den <span style="
+font-family: Poppins;
 font-size: 22px;
 font-weight: 400;
 line-height: 30px;
@@ -556,9 +553,8 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: black;
-
-"> of Schorlars </span>
-                        </p>
+">
+                                of Schorlars </span></p>
                     </div>
                 </div>
                 <div>
@@ -570,43 +566,35 @@ color: black;
                 <div class="background_Learning_institution_2"></div>
             </div>
             <form action="" class="form_den">
-
-                <div class="register">
-                    <label for="" class="form_den_label">Registration to get
-                        notified about new competition and article we
+                <div class="register"><label for="" class="form_den_label">Registration
+                        to get notified
+                        about new competition and article we
                         publish.</label><input type="text" name="" id="" placeholder="Full name"
-                        class="form_input"><input type="email" name="" id="" placeholder="Email"
-                        class="form_input"><input type="tel" name="" id="" placeholder="Phone number"
-                        class="form_input">
-
-                    <div class="dropdown">
-                        <input type="checkbox" id="toggle" hidden>
-                        <label for="toggle" class="selected">Select a course</label>
+                        class="form_input" /><input type="email" name="" id="" placeholder="Email"
+                        class="form_input" /><input type="tel" name="" id="" placeholder="Phone number"
+                        class="form_input" />
+                    <div class="dropdown"><input type="checkbox" id="toggle" hidden /><label for="toggle"
+                            class="selected">Select
+                            a course</label>
                         <ul class="list_a_course">
                             <li>❄️ List of courses goes here</li>
                             <li>❄️ List of courses goes here</li>
                             <li>❄️ List of courses goes here</li>
                         </ul>
-                    </div>
-
-
-
-
-                    <input type="submit" name="" id="" value="Register" class="button_Den">
+                    </div><input type="submit" name="" id="" value="Register" class="button_Den" />
                 </div>
             </form>
-
         </div>
     </article>
     <!--Featured Competition-->
     <article class="article_content_Featured">
         <div>
             <div>
-                <h1 class="Featured ">Featured Competition</h1><a href="#" class="see_all_Featured">See all</a>
+                <h1 class="Featured">Featured Competition</h1><a href="#" class="see_all_Featured">See all</a>
             </div>
             <div class="article_background_Featured">
                 <figure class="figure_Featured"><a href="#">
-                        <div><img src="/fountain\Top_cartegories\Marketing.png" alt="Marketing"></div>
+                        <div><img src="/fountain\Top_cartegories\Marketing.png" alt="Marketing" /></div>
                         <figcaption class="fig_Contest">
                             <h3>Marketing Contest</h3>
                             <p>The Future Economy</p>
@@ -617,7 +605,7 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_Featured"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Design.jpg" alt="Design">
+                        <div><img src="\fountain\Top_cartegories\Design.jpg" alt="Design" />
                         </div>
                         <figcaption class="fig_Contest">
                             <h3>UI/UX Design Contest</h3>
@@ -629,8 +617,9 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_Featured"><a href="#">
-                        <div><img src="\fountain\Featured Competition\Programming_Contest.jpg" alt="Programming"></div>
-                        <figcaption class=" fig_Contest ">
+                        <div><img src="\fountain\Featured Competition\Programming_Contest.jpg" alt="Programming" />
+                        </div>
+                        <figcaption class="fig_Contest">
                             <h3>Programming Contest</h3>
                             <p>The Future of AI</p>
                         </figcaption>
@@ -640,8 +629,8 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_Featured"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Programming.jpg" alt="Technology"></div>
-                        <figcaption class="fig_Contest ">
+                        <div><img src="\fountain\Top_cartegories\Programming.jpg" alt="Technology" /></div>
+                        <figcaption class="fig_Contest">
                             <h3>Photography Contest</h3>
                             <p>The Beauty of Art</p>
                         </figcaption>
@@ -651,8 +640,8 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_Featured"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology"></div>
-                        <figcaption class="fig_Contest ">
+                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology" /></div>
+                        <figcaption class="fig_Contest">
                             <h3>Biology Contest</h3>
                         </figcaption>
                         <div class="Content_Contest">
@@ -665,8 +654,8 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_Featured"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology"></div>
-                        <figcaption class="fig_Contest ">
+                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology" /></div>
+                        <figcaption class="fig_Contest">
                             <h3>Data Analysis Contest</h3>
                             <p></p>
                         </figcaption>
@@ -680,8 +669,8 @@ color: black;
                         </div>
                     </a></figure>
                 <figure class="figure_Featured"><a href="#">
-                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology"></div>
-                        <figcaption class="fig_Contest ">
+                        <div><img src="\fountain\Top_cartegories\Technology.jpg" alt="Technology" /></div>
+                        <figcaption class="fig_Contest">
                             <h3>Conteng Writing Contest</h3>
                             <p></p>
                         </figcaption>
@@ -696,14 +685,14 @@ color: black;
                     </a></figure>
             </div>
             <div class="LR_content_Featured">
-                <div class="background_left_Featured"><label for="slide4" class="left_Featured ">&lt;
+                <div class="background_left_Featured"><label for="slide4" class="left_Featured">&lt;
                     </label></div>
-                <div class="background_right_Featured "><label for="slide2" class="right_Featured">&gt;
+                <div class="background_right_Featured"><label for="slide2" class="right_Featured">&gt;
                     </label></div>
             </div>
         </div>
     </article>
-    <!--Get Publicstions from best Aurtors around the  Globe-->
+    <!--Get Publicstions from best Aurtors around the Globe-->
     <article class="background_Our_online_examination_istop-notch">
         <div class="display_backgound_article">
             <div class="inside_background">
@@ -712,18 +701,17 @@ color: black;
                     <div class="circle-container_our">
                         <div class="circle-border_examination"></div>
                         <div class="circle_color"><img src="\fountain\Popular_examination\NATURE_of_Sciencecbd.png"
-                                alt="Get Publicstions from best Aurtors around the  Globe" class="circle-image_nature">
-                        </div>
+                                alt="Get Publicstions from best Aurtors around the  Globe"
+                                class="circle-image_nature" /></div>
                     </div>
                     <!--Increase-->
                     <div class="background-Readers_are_leaders">
-                        <div><img src="/fountain/img/Increase.png" alt="Competition" class="Competition_outstanding">
+                        <div><img src="/fountain/img/Increase.png" alt="Competition" class="Competition_outstanding" />
                         </div>
                         <div class="trans_text_den">
                             <div class="text-Readers_are_leaders">
                                 <p><span class="content_Icrease">Readers
-                                        are</span>
-                                    leaders </p>
+                                        are</span> leaders </p>
                             </div>
                         </div>
                         <div>
@@ -734,16 +722,18 @@ color: black;
                 <div>
                     <div>
                         <div class="title_narute">
-                            <p>Get<span class="examination-hr"> Publicstions </span>from best Aurtors around the Globe
-                            </p>
+                            <p>Get<span class="examination-hr"> Publicstions
+                                </span>from best Aurtors around the Globe </p>
                         </div>
                         <div class="content_our_onl">
-                            <p>Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.
-                                pharetra. Aliquam </p>
+                            <p>Lorem ipsum dolor sit at,
+                                consectetur adipielit. Facilisi fermentum,
+                                dignissim pharetra. pharetra. Aliquam </p>
                         </div>
+                        <div class="hr_publicstions"></div>
                         <div>
                             <form action=" " method="" class="form_our"><input type="submit" name="" id=""
-                                    value="Take a test" class="button_examination"></form>
+                                    value="Take a test" class="button_examination" /></form>
                         </div>
                     </div>
                 </div>
@@ -767,23 +757,24 @@ color: black;
             <!--NATURE of Science-->
             <div class="display_Popular_examination">
                 <figure class="figure_Popular_examination"><a href="#"><img
-                            src="/fountain/Popular_examination/NATURE_of_Sciencecbd.png" alt="NATURE_of_Sciencecbd">
+                            src="/fountain/Popular_examination/NATURE_of_Sciencecbd.png" alt="NATURE_of_Sciencecbd" />
                         <figcaption>NATURE of Science</figcaption>
                     </a></figure>
                 <!-- 2022 Astro Report-->
                 <figure class="figure_Popular_examination"><a href="#"><img
-                            src="/fountain/Popular_examination/2022_Astro_Reportpng.png" alt="2022_Astro_Reportpng">
+                            src="/fountain/Popular_examination/2022_Astro_Reportpng.png" alt="2022_Astro_Reportpng" />
                         <figcaption>2022 Astro Report</figcaption>
                     </a></figure>
                 <!-- Data Analysis With Python -->
                 <figure class="figure_Popular_examination"><a href="#"><img
                             src="/fountain/Popular_examination/Data_Analysis_With_Python.png"
-                            alt="Data_Analysis_With_Python">
-                        <figcaption>Data Analysis With Python</figcaption>
+                            alt="Data_Analysis_With_Python" />
+                        <figcaption>Data Analysis With Python
+                        </figcaption>
                     </a></figure>
                 <!-- Advanced UX Designs -->
                 <figure class="figure_Popular_examination"><a href="#"><img
-                            src="/fountain/Popular_examination/UX_Designs.png" alt="UX_Designs">
+                            src="/fountain/Popular_examination/UX_Designs.png" alt="UX_Designs" />
                         <figcaption>Advanced UX Designs</figcaption>
                     </a></figure>
             </div>
@@ -799,7 +790,8 @@ color: black;
     <h1 class="review">Reviews</h1>
     <article class="reviews">
         <div class="title_student">
-            <h1>What our <span class="Experts_hr">Students</span> say about us </h1>
+            <h1>What our <span class="Experts_hr">Students</span>say about us
+            </h1>
             <div class="hr_students"></div>
             <div class="LR_content_review">
                 <div class="background_left_review"><button class="left_review">&lt;
@@ -811,15 +803,15 @@ color: black;
         <div class="review_article">
             <figure class="review_figure">
                 <div class="div_review_father">
-                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah">
+                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
                         <p class="review_p">Mohh Jumah <span class="review_color">Senior
                                 Developer</span></p>
                     </div>
                     <div class="content_review">
                         <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Consectetur ac blandit nam
-                            massa massa elementum mollis lectus. Sit ultricies nisl
-                            amet non,
+                            consectetur adipiscing elit. Consectetur ac blandit
+                            nam massa massa elementum mollis lectus. Sit
+                            ultricies nisl amet non,
                             quis enim velit tempus. Interdum duis imperdiet
                             venenatis </p>
                     </div>
@@ -827,15 +819,15 @@ color: black;
             </figure>
             <figure class="review_figure">
                 <div class="div_review_father">
-                    <div class="div_review"><img src="\fountain\review\John_Mark.jpg" alt="Mohh_Jumah">
+                    <div class="div_review"><img src="\fountain\review\John_Mark.jpg" alt="Mohh_Jumah" />
                         <p class="review_p">John Mark <span class="review_color">Senior
                                 Developer</span></p>
                     </div>
                     <div class="content_review">
                         <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Consectetur ac blandit nam
-                            massa massa elementum mollis lectus. Sit ultricies nisl
-                            amet non,
+                            consectetur adipiscing elit. Consectetur ac blandit
+                            nam massa massa elementum mollis lectus. Sit
+                            ultricies nisl amet non,
                             quis enim velit tempus. Interdum duis imperdiet
                             venenatis </p>
                     </div>
@@ -843,15 +835,15 @@ color: black;
             </figure>
             <figure class="review_figure">
                 <div class="div_review_father">
-                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah">
+                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
                         <p class="review_p">Mohh Jumah <span class="review_color">Senior
                                 Developer</span></p>
                     </div>
                     <div class="content_review">
                         <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Consectetur ac blandit nam
-                            massa massa elementum mollis lectus. Sit ultricies nisl
-                            amet non,
+                            consectetur adipiscing elit. Consectetur ac blandit
+                            nam massa massa elementum mollis lectus. Sit
+                            ultricies nisl amet non,
                             quis enim velit tempus. Interdum duis imperdiet
                             venenatis </p>
                     </div>
@@ -859,15 +851,15 @@ color: black;
             </figure>
             <figure class="review_figure">
                 <div class="div_review_father">
-                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah">
+                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
                         <p class="review_p">Mohh Jumah <span class="review_color">Senior
                                 Developer</span></p>
                     </div>
                     <div class="content_review">
                         <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Consectetur ac blandit nam
-                            massa massa elementum mollis lectus. Sit ultricies nisl
-                            amet non,
+                            consectetur adipiscing elit. Consectetur ac blandit
+                            nam massa massa elementum mollis lectus. Sit
+                            ultricies nisl amet non,
                             quis enim velit tempus. Interdum duis imperdiet
                             venenatis </p>
                     </div>
@@ -875,15 +867,15 @@ color: black;
             </figure>
             <figure class="review_figure">
                 <div class="div_review_father">
-                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah">
+                    <div class="div_review"><img src="\fountain\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
                         <p class="review_p">Mohh Jumah <span class="review_color">Senior
                                 Developer</span></p>
                     </div>
                     <div class="content_review">
                         <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Consectetur ac blandit nam
-                            massa massa elementum mollis lectus. Sit ultricies nisl
-                            amet non,
+                            consectetur adipiscing elit. Consectetur ac blandit
+                            nam massa massa elementum mollis lectus. Sit
+                            ultricies nisl amet non,
                             quis enim velit tempus. Interdum duis imperdiet
                             venenatis </p>
                     </div>
@@ -893,58 +885,62 @@ color: black;
     </article>
     <footer class="footer">
         <div class="display_content_ft">
-            <div class="dislay_ft">
-                <div class="div_footer">
-                    <h1><a href="">Fountain</a></h1>
-                    <p>We are not here to sell you products,
-                        we sell value through our expertise.</p>
-                    <div class="fb_tw_ins_in">
-                        <div class="fb"><a href=""><img src="\fountain\svg\facebook.svg" alt="facbook"></a></div>
-                        <div class="fb"><a href=""><img src="\fountain\svg\twitter.svg" alt="twitter"></a></div>
-                        <div class="fb"><a href=""><img src="\fountain\svg\instagram.svg" alt="instagram"></a></div>
-                        <div class="in"><a href=""><img src="\fountain\svg\linkedin.svg" alt=""></a></div>
+            <div class="display_btn_ft">
+                <div class="dislay_ft">
+                    <div class="div_footer">
+                        <h1><a href="">Fountain</a></h1>
+                        <p>We are not here to sell you products,
+                            we sell value through our expertise. </p>
+                        <div class="fb_tw_ins_in">
+                            <div class="fb"><a href="#"><img src="\fountain\svg\facebook.svg" alt="facbook" /></a></div>
+                            <div class="fb"><a href="#"><img src="\fountain\svg\twitter.svg" alt="twitter" /></a></div>
+                            <div class="fb"><a href="#"><img src="\fountain\svg\instagram.svg" alt="instagram" /></a>
+                            </div>
+                            <div class="in"><a href="#"><img src="\fountain\svg\linkedin.svg" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address_and_company">
+                        <div>
+                            <div>
+                                <h4>Address:</h4>
+                                <p>38 opebi Road,
+                                    Ikeja,
+                                    Lagos State,
+                                    Nigeia.</p>
+                            </div>
+                            <div>
+                                <h4>Phone:</h4>
+                                <p>+2349022396389</p>
+                            </div>
+                            <div>
+                                <h4>Email:</h4>
+                                <p>contact@contentionary.com</p>
+                            </div>
+                        </div>
+                        <div>
+                            <ul class="ul_company">
+                                <h4>Company</h4>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="address_and_company">
-                    <div>
-                        <div>
-                            <h4>Address:</h4>
-                            <p> 38 opebi Road, Ikeja, Lagos State, Nigeia.</p>
-                        </div>
-                        <div>
-                            <h4>Phone:</h4>
-                            <p>+2349022396389</p>
-                        </div>
-                        <div>
-                            <h4>Email:</h4>
-                            <p>contact@contentionary.com</p>
-                        </div>
+                <div>
+                    <div class="display_ft_subscribe">
+                        <form action="" class="ft_Subscribe"><label for="">Subscribe to
+                                get latest updates </label>
+                            <div class="inp_btn_subscribe"><input type="text" name="" id=""
+                                    placeholder="Your Email address" /><button>Subscribe</button>
+                            </div>
+                        </form>
                     </div>
-                    <div>
-                        <ul class="ul_company">
-                            <h4>Company</h4>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Pricing</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="display_ft_subscribe">
-                    <form action="" class="ft_Subscribe">
-                        <label for=""> Subscribe to get latest updates </label>
-                        <div class="inp_btn_subscribe">
-                            <input type="text" name="" id="" placeholder="Your Email address">
-                            <button>Subscribe</button>
-                        </div>
-
-                    </form>
                 </div>
             </div>
             <div class="display_Contenttionary">
-                <div class="Contenttionary">
-                    <img src="\fountain\img\logo.png" alt="logo">
+                <div class="Contenttionary"><img src="\fountain\img\logo.png" alt="logo" />
                     <p>Contenttionary</p>
                 </div>
                 <div>

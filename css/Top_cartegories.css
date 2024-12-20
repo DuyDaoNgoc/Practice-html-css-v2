@@ -52,7 +52,7 @@ user agent stylesheet div {
 .article_content {
     gap: 1px;
     margin: 73px auto;
-    max-width: 1200px;
+    max-width: 1224px;
 }
 
 .article_content h1 {
@@ -120,7 +120,7 @@ user agent stylesheet div {
 
 .display_top_caregories {
     display: flex;
-    gap: 20px;
+gap: 20px;
 }
 
 .transform_top_cartegoris {
@@ -184,13 +184,14 @@ user agent stylesheet div {
 /* Left and Right navigation buttons */
 .LR_content {
     display: flex;
-    gap: 975px;
+    gap: 1015px;
     justify-content: center;
     align-items: center;
     bottom: 208px;
     position: absolute;
     left: 4%;
     z-index: 12;
+
 }
 
 
