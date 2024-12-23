@@ -1,6 +1,6 @@
 /* Container chính */
 .Popular_examination {
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 0;
     text-align: center;
