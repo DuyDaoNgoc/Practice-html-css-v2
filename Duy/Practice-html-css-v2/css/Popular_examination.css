@@ -1,0 +1,124 @@
+/* Container chính */
+.Popular_examination {
+    display: grid;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    margin: 153px auto;
+    /* width: max-content; */
+    gap: 27px;
+    max-width: 1200px;
+}
+
+/* Tiêu đề */
+.title_Popular_examination {
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Link "See all" */
+.see_all_popular_examination {
+    font-size: 24px;
+    color: #F77E23;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+    display: flex;
+    flex: none;
+    justify-content: flex-end;
+}
+
+/* Figure */
+.figure_Popular_examination {
+    position: relative;
+    width: 282px;
+    height: 302.93px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    margin: 0;
+}
+
+.display_Popular_examination {
+    display: flex;
+    gap: 20px;
+    position: relative;
+
+}
+
+.figure_Popular_examination img {
+    width: 100%;
+    height: 111%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+/* Chú thích */
+.figure_Popular_examination figcaption {
+    position: absolute;
+    left: 24.28px;
+    font-size: 26.15px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: start;
+    top: 204px;
+    width: 192px;
+    height: 39px;
+    line-height: 39.22px;
+}
+
+.LR_content_exam {
+    display: flex;
+    gap: 975px;
+    justify-content: center;
+    align-items: center;
+    bottom: 193px;
+    position: relative;
+    left: 0%;
+}
+
+.background_left_exam,
+.background_right_exam {
+    background-color: #F77E23;
+    width: 5vw;
+    height: 5vw;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.background_left_exam:hover,
+.background_right_exam:hover {
+    background-color: white;
+    color: #F77E23;
+}
+
+.right_exam,
+.left_exam {
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 45px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    cursor: pointer;
+}
