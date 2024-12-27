@@ -1,10 +1,9 @@
 /* Cấu trúc nền */
 .background_learning_institution {
   display: flex;
- justify-content: space-between;
- align-items: center;
- margin: 0 auto;
- flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 /* Khung chứa hình tròn và viền */
@@ -42,11 +41,11 @@
 
 .inside_background_learning {
   display: flex;
-  gap: 363px;
+  gap: 400px;
   flex-direction: row;
   margin: 0 auto;
   position: absolute;
-  flex-wrap: wrap;
+
 }
 
 /* Ảnh vượt ra ngoài viền */
@@ -69,8 +68,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  position: relative;
-  left: 52px;
 }
 
 .display_backgound_article_learning {
@@ -85,6 +82,7 @@
 
 /* Phần nội dung */
 .content {
+  width: 100%;
   max-width: 500px;
 
 }
@@ -103,18 +101,19 @@
 
 .title {
   display: flex;
-  width: 662px;
+  flex-direction: column;
+  width: 100%;
+  max-width: 662px;
 }
 
 .description p {
-  font-size: 24px;
+  font-size: 16px;
   color: #666;
+  width: 100%;
   max-width: 562px;
-  /* height: 150px; */
-  left: 595px;
   font-family: 'Poppins';
   font-weight: 400;
-  line-height: 36px;
+  line-height: 24px;
 }
 
 .circle_color {
@@ -128,20 +127,17 @@
 }
 
 .button_Experts {
-  width: 158px;
-  height: 60px;
+  width: 100%;
+  max-width: 158px;
+  height: 40px;
   border-radius: 5px;
   border: aliceblue;
   background-color: #FF6F28;
-  gap: 10px;
-  padding-top: 20px;
-  padding-right: 42px;
-  padding-bottom: 20px;
-  padding-left: 42px;
+  padding: 10px 20px;
   color: white;
   font-family: 'DM Sans';
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   cursor: pointer;
 }
@@ -189,7 +185,6 @@
     backdrop-filter: blur(300px);
     width: 100%;
     height: 675px;
-    position: relative;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: inline-grid;
