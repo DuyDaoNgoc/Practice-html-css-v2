@@ -10,3 +10,6 @@
 
 # TECHNICAL STACKS:
 <li>HTML5/CSS3</li> 
+
+# HOW TO RUN:
+<li>Live sever</li>
