@@ -5,7 +5,7 @@
 # TARGET:
 <li>Responsive web design: Make sure that the website can be visible perfectly on all devices.</li>
 
-# TimeLne:
+# TimeLine:
 <li>17 Days (27th Mar - 11th May) but I have temporarily paused for the holiday.</li>
 
 # OVERVIEW:
