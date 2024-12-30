@@ -15,4 +15,14 @@
 <li>HTML5/CSS3</li> 
 
 # HOW TO RUN:
-<li>Live sever</li>
+ <ul>
+<ob>Using Live Server (Recommended):</ob> 
+
+<li>Install the Live Server extension in VSCode.</li> 
+<li>Open the project folder.</li> 
+<li> Right-click on index.html and select "Open with Live Server".</li>
+<oL>Open Directly in Browser:</oL> 
+
+<li>Locate the index.html file in the project folder.</li> 
+<li>Double-click to open it in your browser.</li> 
+</ul>
