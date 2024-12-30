@@ -9,7 +9,7 @@
 <li>17 Days (27th Mar - 11th May) but I have temporarily paused for the holiday.</li>
 
 # Design
- <li><a href="https://www.figma.com/design/FYbdpmNZWa2WlkghhSUHD8/Practice-html-css-tn?node-id=0-463&t=LGs3UNyQw4Ulas8v-0"> here </a></li> 
+ <li><a href="https://www.figma.com/design/FYbdpmNZWa2WlkghhSUHD8/Practice-html-css-tn?node-id=0-463&t=LGs3UNyQw4Ulas8v-0"> src </a></li> 
 
 # TECHNICAL STACKS:
 <li>HTML5/CSS3</li> 
