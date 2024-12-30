@@ -18,17 +18,18 @@
 
 <ol>
 <li>Using Live Server (Recommended):</li> 
-</ol> 
+
 <ul>
  <li>Install the Live Server extension in VSCode.</li> 
 <li>Open the project folder.</li> 
 <li> Right-click on index.html and select "Open with Live Server".</li>
 </ul>
 
-<oL>
+
 <li>Open Directly in Browser:</li> 
-</oL> 
+
 <ul>
 <li>Locate the index.html file in the project folder.</li> 
 <li>Double-click to open it in your browser.</li> 
 </ul>
+</ol>
