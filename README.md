@@ -16,12 +16,16 @@
 
 # HOW TO RUN:
  <ul>
-<ob>Using Live Server (Recommended):</ob> 
+<ol>
+<li>Using Live Server (Recommended):</li> 
+</ol> 
 
 <li>Install the Live Server extension in VSCode.</li> 
 <li>Open the project folder.</li> 
 <li> Right-click on index.html and select "Open with Live Server".</li>
-<oL>Open Directly in Browser:</oL> 
+<oL>
+<li>Open Directly in Browser:</li> 
+</oL> 
 
 <li>Locate the index.html file in the project folder.</li> 
 <li>Double-click to open it in your browser.</li> 
