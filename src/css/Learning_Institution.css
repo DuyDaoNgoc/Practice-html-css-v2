@@ -129,13 +129,12 @@
 .button_Experts {
   width: 100%;
   max-width: 158px;
-  height: 40px;
   border-radius: 5px;
   border: aliceblue;
   background-color: #FF6F28;
-  padding: 10px 20px;
+  padding: 20px 42px;
   color: white;
-  font-family: 'DM Sans';
+  font-family: "Source Sans 3", serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -208,8 +207,8 @@
   background-color: #F77E23;
   transform: rotate3d(0, 112, -57, 6deg);
   position: absolute;
-  left: 204%;
-  top: 0;
+  left: 234%;
+  top: -7px;
 }
 
 .background-outstanding {
