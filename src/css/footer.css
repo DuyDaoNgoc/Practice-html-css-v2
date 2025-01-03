@@ -55,7 +55,16 @@
 
 }
 
+.sub_btn {
+    background: #F77E23;
+    color: white;
+    width: 126px;
+    border: none;
+    cursor: pointer;
+}
+
 .div_footer p {
+
     color: white;
     max-width: 240px;
     font-family: Poppins;
@@ -110,14 +119,9 @@
     color: white;
 }
 
-.ft_Subscribe input {
-    display: grid;
-    font-size: 20px;
-    border: none;
-    padding: 14px;
-}
 
-.ft_Subscribe label {
+
+.ft_Subscribe {
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
@@ -127,9 +131,6 @@
     text-decoration-skip-ink: none;
 }
 
-.ft_Subscribe input::placeholder {
-    color: #F77E23;
-}
 
 .ft_Subscribe button {
     max-width: 126px;
@@ -183,6 +184,12 @@
     flex-wrap: wrap;
 }
 
+.form_ft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .display_content_ft {
     display: flex;
     flex-direction: column;
@@ -193,4 +200,18 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.input_subcribe,
+.input_subcribe::placeholder {
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    left: 419px;
+    border: none;
+
+    padding: 20px;
+    padding-right: 224px;
+    color: #F77E23;
+    border: none;
+
 }
