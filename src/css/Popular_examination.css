@@ -11,9 +11,9 @@
 }
 
 /* Tiêu đề */
-.title_Popular_examination {
+.title_section {
     font-size: 48px;
-    font-family: 'Poppins';
+    font-family: "Open Sans", serif;
     font-weight: 600;
     line-height: 72px;
     text-align: center;
@@ -109,20 +109,68 @@
 .background_right_exam:hover {
     background-color: white;
     color: #F77E23;
+    z-index: 1;
+}
+
+.background_left_exam:hover svg:hover {
+    fill: #F77E23;
+    z-index: 12;
+}
+
+.left_exam svg {
+    fill: #fff;
+
+}
+
+.left_exam svg:hover {
+    fill: #F77E23;
+    z-index: 12;
 }
 
 .right_exam,
 .left_exam {
-    max-width: 30px;
-    height: auto;
-    top: 15px;
-    left: 45px;
-    gap: 0px;
-    opacity: 0px;
-    text-align: center;
+    border: none;
+    background-color: #F77E23;
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    max-width: 60px;
+    max-height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 33px;
     cursor: pointer;
+    border: 1px solid orange;
+    color: orange;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 5px 5px;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.box-button {
+    border: 1px solid orange;
+    color: orange;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 5px 5px;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.right_exam:hover,
+.left_exam:hover {
+    background-color: white;
+    color: orange;
+}
+
+.right_exam:hover,
+.left_exam:hover .icon-svg {
+    fill: orange !important;
+}
+
+.icon-svg {
+    fill: orange;
 }

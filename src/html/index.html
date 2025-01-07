@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="icon" href="../img/logo.png" />
+    <link rel="icon" href="../asset/img/logo.png" />
 
     <link rel="stylesheet" href="../css/home.css" />
     <link rel="stylesheet" href="../css/Top_cartegories.css" />
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/Explore_our_popular_course.css" />
     <link
       rel="stylesheet"
-      href="..\css\Our_online_examination_is _top-notch.css"
+      href="../css/Our_online_examination_is _top-notch.css"
     />
     <link rel="stylesheet" href="../css/Popular_examination.css" />
     <link rel="stylesheet" href="../css/footer.css" />
@@ -26,6 +26,12 @@
       href="../css/Get_Publicstions_from_best_Aurtors_around_the_Globe.css"
     />
     <link rel="stylesheet" href="../css/review.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -57,209 +63,182 @@
   </script>
 
   <body>
-    <section class="img_index">
-      <img src="../img/menu_home.png" alt="Menu Image" />
+    <div>
       <header>
-        <h1><a href="#" class="text_menu">Fountain</a></h1>
-        <nav class="nav_menu_f">
-          <ul class="nav_menu">
-            <div>
-              <li><a href="#">Home</a></li>
-              <p><a href="#">Home </a></p>
-            </div>
-            <div>
-              <li><a href="#">Courses</a></li>
-              <p><a href="#">Courses </a></p>
-            </div>
-            <div>
-              <li><a href="#">Instructors</a></li>
-              <p><a href="#">Instructors </a></p>
-            </div>
-            <div>
-              <li><a href="#">Schedules</a></li>
-              <p><a href="#">Schedules </a></p>
-            </div>
-            <div>
-              <li><a href="#">Contact Us</a></li>
-              <p><a href="#">Contact Us </a></p>
-            </div>
-          </ul>
-        </nav>
-        <form action="../login/login.php" class="form" method="post">
+        <div class="mobile_width">
+          <div class="fountain_mobile">
+            <h1><a href="#" class="text_menu">Fountain</a></h1>
+          </div>
+          <div>
+            <ul class="max-content-mobile_menu">
+              <li class="dis_button_menu">
+                <div>
+                  <div class="button_menu">
+                    <span class="deco"></span>
+                    <span class="deco"></span>
+                    <span class="deco"></span>
+                  </div>
+                </div>
+                <div>
+                  <ul class="mobile_content_menu">
+                    <div>
+                      <li><a href="#">Home</a></li>
+                    </div>
+                    <div>
+                      <li><a href="#">Courses</a></li>
+                    </div>
+                    <div>
+                      <li><a href="#">Instructors</a></li>
+                    </div>
+                    <div>
+                      <li><a href="#">Schedules</a></li>
+                    </div>
+                    <div>
+                      <li><a href="#">Contact Us</a></li>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <nav class="nav_menu_f">
+            <ul class="nav_menu">
+              <div>
+                <li><a href="#">Home</a></li>
+                <p><a href="#">Home </a></p>
+              </div>
+              <div>
+                <li><a href="#">Courses</a></li>
+                <p><a href="#">Courses </a></p>
+              </div>
+              <div>
+                <li><a href="#">Instructors</a></li>
+                <p><a href="#">Instructors </a></p>
+              </div>
+              <div>
+                <li><a href="#">Schedules</a></li>
+                <p><a href="#">Schedules </a></p>
+              </div>
+              <div>
+                <li><a href="#">Contact Us</a></li>
+                <p><a href="#">Contact Us </a></p>
+              </div>
+            </ul>
+          </nav>
+        </div>
+
+        <form action="" class="form" method="post">
           <span class="find">
-            <img src="..\img\Remove_find.png" alt="" />
+            <img src="../asset/img/Remove_find.png" alt="" />
             <input type="search" name="username" />
           </span>
           <button type="button" class="submit_login">Login</button>
-          <button type="submit" class="register">Register</button>
+          <button type="submit" class="register_menu">Register</button>
         </form>
       </header>
+      <section class="img_index">
+        <img src="../asset/img/menu_home.png" alt="Menu Image" />
 
-      <div class="index-text">
-        <h2>A Classical Education for the Future</h2>
-        <p>
-          We prepare you to engage in the world that is and to help bring about
-          a world that ought to be.
-        </p>
-        <a href="#" class="get-button">Get Started</a>
-      </div>
-    </section>
-    <div class="sp_index">
-      <div class="support">
-        <div>
-          <img src="../img/Remove_Chat.png" alt="Live Chat" />
-          <p>Live Chat</p>
+        <div class="index-text">
+          <h2>A Classical Education for the Future</h2>
+          <p>
+            We prepare you to engage in the world that is and to help bring
+            about a world that ought to be.
+          </p>
+          <button class="button_Experts get-button">Get Started</button>
         </div>
-        <div>
-          <img src="../img/Remove_Examination1.png" alt="Examination" />
-          <p>Examination</p>
-        </div>
-        <div>
-          <img src="../img/Remove_Competition.png" alt="Competition" />
-          <p>Competition</p>
+      </section>
+      <div class="sp_index">
+        <div class="support">
+          <div class="support_item">
+            <img src="../asset/img/Remove_Chat.png" alt="Live Chat" />
+            <p>Live Chat</p>
+          </div>
+          <div class="support_item">
+            <img src="../asset/img/Remove_Examination1.png" alt="Examination" />
+            <p>Examination</p>
+          </div>
+          <div class="support_item">
+            <img src="../asset/img/Remove_Competition.png" alt="Competition" />
+            <p>Competition</p>
+          </div>
         </div>
       </div>
     </div>
 
     <!--Top cartegories-->
     <article class="article_content">
-      <div class="transform_top_cartegoris">
-        <h1 class="top_cartegories">Top cartegories</h1>
-        <a href="#" class="see_all">See all</a>
+      <div class="transform_top_categories">
+        <h1 class="top_categories">Top Categories</h1>
+        <a href="#" class="see_all">See All</a>
       </div>
       <div class="article_background">
-        <div class="display_top_caregories">
-          <figure class="figure_Top_cartegories">
+        <div class="display_top_categories">
+          <figure class="figure_top_categories">
             <a href="#">
-              <div>
-                <img
-                  src="..\img\Top_cartegories\Marketing.png"
-                  alt="Marketing"
-                />
-              </div>
-              <figcaption class="fig_Makerting">
-                <h3>Maketing</h3>
-              </figcaption>
-              <div class="Content_marketing">
-                <p>
+              <img
+                src="../asset/img/Top_cartegories/Marketing.png"
+                alt="Marketing"
+              />
+              <figcaption>
+                <h3>Marketing</h3>
+                <p class="content_description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                  nibh netus auctor consect massa. Maecen vivamus sed nibh enim
-                  sed. Hac ridiculus tellus urna quam odio quis montes, diam.
-                  Malesuada ut urna eu faucibus
+                  nibh netus auctor massa.
                 </p>
-              </div>
+              </figcaption>
             </a>
           </figure>
-          <figure class="figure_Top_cartegories">
+
+          <figure class="figure_top_categories">
             <a href="#">
-              <div>
-                <img src="..\img\Top_cartegories\Design.jpg" alt="Design" />
-              </div>
-              <figcaption class="fig_Makerting">
+              <img src="../asset/img/Top_cartegories/Design.jpg" alt="Design" />
+              <figcaption>
                 <h3>Design</h3>
-              </figcaption>
-              <div class="Content_marketing">
-                <p>
+                <p class="content_description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                  nibh netus auctor consect massa. Maecen vivamus sed nibh enim
-                  sed. Hac ridiculus tellus urna quam odio quis montes, diam.
-                  Malesuada ut urna eu faucibus faucibus faucibus u
+                  nibh netus auctor massa.
                 </p>
-              </div>
+              </figcaption>
             </a>
           </figure>
-          <figure class="figure_Top_cartegories">
+
+          <figure class="figure_top_categories">
             <a href="#">
-              <div>
-                <img
-                  src="..\img\Top_cartegories\Programming.jpg"
-                  alt="Programming"
-                />
-              </div>
-              <figcaption class="fig_Makerting">
+              <img
+                src="../asset/img/Top_cartegories/Programming.jpg"
+                alt="Programming"
+              />
+              <figcaption>
                 <h3>Programming</h3>
-              </figcaption>
-              <div class="Content_marketing">
-                <p>
+                <p class="content_description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                  nibh netus auctor consect massa. Maecen vivamus sed nibh enim
-                  sed. Hac ridiculus tellus urna quam odio quis montes, diam.
-                  Malesuada ut urna eu faucibus faucibus faucibus u
+                  nibh netus auctor massa.
                 </p>
-              </div>
+              </figcaption>
             </a>
           </figure>
-          <figure class="figure_Top_cartegories">
+
+          <figure class="figure_top_categories">
             <a href="#">
-              <div>
-                <img
-                  src="..\img\Top_cartegories\Technology.jpg"
-                  alt="Technology"
-                />
-              </div>
-              <figcaption class="fig_Makerting">
+              <img
+                src="../asset/img/Top_cartegories/Technology.jpg"
+                alt="Technology"
+              />
+              <figcaption>
                 <h3>Technology</h3>
-              </figcaption>
-              <div class="Content_marketing">
-                <p>
+                <p class="content_description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                  nibh netus auctor consect massa. Maecen vivamus sed nibh enim
-                  sed. Hac ridiculus tellus urna quam odio quis montes, diam.
-                  Malesuada ut urna eu faucibus faucibus faucibus u
+                  nibh netus auctor massa.
                 </p>
-              </div>
-            </a>
-          </figure>
-          <figure class="figure_Top_cartegories">
-            <a href="#">
-              <div>
-                <img
-                  src="..\img\Top_cartegories\Technology.jpg"
-                  alt="Technology"
-                />
-              </div>
-              <figcaption class="fig_Makerting">
-                <h3>Technology</h3>
               </figcaption>
-              <div class="Content_marketing">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                  nibh netus auctor consect massa. Maecen vivamus sed nibh enim
-                  sed. Hac ridiculus tellus urna quam odio quis montes, diam.
-                  Malesuada ut urna eu faucibus faucibus faucibus u
-                </p>
-              </div>
-            </a>
-          </figure>
-          <figure class="figure_Top_cartegories">
-            <a href="#">
-              <div>
-                <img
-                  src="..\img/Top_cartegories\Technology.jpg"
-                  alt="Technology"
-                />
-              </div>
-              <figcaption class="fig_Makerting">
-                <h3>Technology</h3>
-              </figcaption>
-              <div class="Content_marketing">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                  nibh netus auctor consect massa. Maecen vivamus sed nibh enim
-                  sed. Hac ridiculus tellus urna quam odio quis montes, diam.
-                  Malesuada ut urna eu faucibus faucibus faucibus u
-                </p>
-              </div>
             </a>
           </figure>
         </div>
-        <div class="LR_content">
-          <div class="background_left">
-            <label for="slide4" class="left">&lt; </label>
-          </div>
-          <div class="background_right">
-            <label for="slide2" class="right">&gt; </label>
-          </div>
+
+        <div class="navigation_controls">
+          <button class="nav_button nav_button_left">&lt;</button>
+          <button class="nav_button nav_button_right">&gt;</button>
         </div>
       </div>
     </article>
@@ -273,7 +252,7 @@
               <div class="circle-border_examination"></div>
               <div class="circle_color">
                 <img
-                  src="..\img\Learning_Institution\institution.png"
+                  src="../asset/img/Learning_Institution/institution.png"
                   alt="Institution"
                   class="circle-image"
                 />
@@ -283,7 +262,7 @@
             <div class="background-outstanding">
               <div>
                 <img
-                  src="../img/Remove_Competition.png"
+                  src="../asset/img/Remove_Competition.png"
                   alt="Competition"
                   class="Competition_outstanding"
                 />
@@ -313,21 +292,21 @@
               <div class="background_Instructors">
                 <div>
                   <img
-                    src=".img\Learning_Institution\Instructors.jpg"
+                    src="../asset/img/Learning_Institution/Instructors.jpg"
                     alt="Instructors"
                     class="Instructors"
                   />
                 </div>
                 <div>
                   <img
-                    src="..\img\Learning_Institution\Instructors.jpg"
+                    src="../asset/img/Learning_Institution/Instructors.jpg"
                     alt="Instructors"
                     class="Instructors_2"
                   />
                 </div>
                 <div>
                   <img
-                    src="..\img/Learning_Institution\Instructors.jpg"
+                    src="../asset/img/Learning_Institution/Instructors.jpg"
                     alt="Instructors"
                     class="Instructors_3"
                   />
@@ -355,13 +334,7 @@
               </div>
               <div>
                 <form action=" " method="" class="form_our">
-                  <input
-                    type="submit"
-                    name=""
-                    id=""
-                    value="Take a test"
-                    class="button_Experts"
-                  />
+                  <button class="button_Experts">Take a test</button>
                 </form>
               </div>
             </div>
@@ -379,19 +352,19 @@
     </article>
     <!--Explore our popular course-->
     <article class="article_sort_by">
-      <div>
+      <div class="article_div_popular">
         <div class="transform_explore">
-          <div class="font_title_Explore">
+          <div class="title_section">
             <p>Explore our popular course</p>
           </div>
-          <div class="transform_sort_by">
-            <div class="sort_by_background">
-              <div class="sort_by_img">
-                <img src="../img/bottom.png" alt="bottom" />
-              </div>
-              <div class="sort_by_text">
-                <p>Sort by</p>
-              </div>
+        </div>
+        <div class="transform_sort_by">
+          <div class="sort_by_background">
+            <div class="sort_by_img">
+              <img src="../asset/img/bottom.png" alt="bottom" />
+            </div>
+            <div class="sort_by_text">
+              <p>Sort by</p>
             </div>
           </div>
         </div>
@@ -399,14 +372,14 @@
           <figure class="figure_star">
             <a href="#" class="a_star"
               ><img
-                src="..\img\Explore_our_popular_course\Learn_Marketing_from_Top_Instructors..jpg"
+                src="../asset/img/Explore_our_popular_course/Learn_Marketing_from_Top_Instructors..jpg"
               />
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Learn Marketing from Top Instructors</h3>
                 </figcaption>
                 <div class="review_star">
-                  <img src="../img/star.png" alt="star" />
+                  <img src="../asset/img/star.png" alt="star" />
                   <p>4.5</p>
                 </div>
               </div>
@@ -426,14 +399,14 @@
           <figure class="figure_star">
             <a href="#" class="a_star"
               ><img
-                src="..\img\Explore_our_popular_course\Front-end_development.jpg"
+                src="../asset/img/Explore_our_popular_course/Front-end_development.jpg"
               />
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Front-end development is not hard as you think</h3>
                 </figcaption>
                 <div class="review_star">
-                  <img src="../img/star.png" alt="star" />
+                  <img src="../asset/img/star.png" alt="star" />
                   <p>4.5</p>
                 </div>
               </div>
@@ -453,14 +426,14 @@
           <figure class="figure_star">
             <a href="#" class="a_star"
               ><img
-                src="..\img\Explore_our_popular_course\Everrything_you_need_to_know_in_UX.jpg"
+                src="../asset/img/Explore_our_popular_course/Everrything_you_need_to_know_in_UX.jpg"
               />
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Everrything you need to know in UX</h3>
                 </figcaption>
                 <div class="review_star">
-                  <img src="../img/star.png" alt="star" />
+                  <img src="../asset/img/star.png" alt="star" />
                   <p>4.5</p>
                 </div>
               </div>
@@ -480,14 +453,14 @@
           <figure class="figure_star">
             <a href="#" class="a_star"
               ><img
-                src="..\img\Explore_our_popular_course\Learn_photography.jpg"
+                src="../asset/img/Explore_our_popular_course/Learn_photography.jpg"
               />
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Learn photography with ease</h3>
                 </figcaption>
                 <div class="review_star">
-                  <img src="../img/star.png" alt="star" />
+                  <img src="../asset/img/star.png" alt="star" />
                   <p>4.5</p>
                 </div>
               </div>
@@ -507,14 +480,14 @@
           <figure class="figure_star">
             <a href="#" class="a_star"
               ><img
-                src="..\img\Explore_our_popular_course\Be_a_pro_in_data_analysis.jpg"
+                src="../asset/img/Explore_our_popular_course/Be_a_pro_in_data_analysis.jpg"
               />
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Be a pro in data analysis</h3>
                 </figcaption>
                 <div class="review_star">
-                  <img src="../img/star.png" alt="star" />
+                  <img src="../asset/img/star.png" alt="star" />
                   <p>4.5</p>
                 </div>
               </div>
@@ -534,14 +507,14 @@
           <figure class="figure_star">
             <a href="#" class="a_star"
               ><img
-                src="..\img\Explore_our_popular_course\Ethical_Harking.jpg"
+                src="../asset/img/Explore_our_popular_course/Ethical_Harking.jpg"
               />
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Ethical Harking is not hard as you think</h3>
                 </figcaption>
                 <div class="review_star">
-                  <img src="../img/star.png" alt="star" />
+                  <img src="../asset/img/star.png" alt="star" />
                   <p>4.5</p>
                 </div>
               </div>
@@ -571,7 +544,7 @@
               <div class="circle-border_examination"></div>
               <div class="circle_color">
                 <img
-                  src="..\img\examination\examination.png"
+                  src="../asset/img/examination/examination.png"
                   alt="Institution"
                   class="circle-image_our"
                 />
@@ -581,7 +554,7 @@
             <div class="background-Increase">
               <div>
                 <img
-                  src="../img/Increase.png"
+                  src="../asset/img/Increase.png"
                   alt="Competition"
                   class="Competition_outstanding"
                 />
@@ -649,7 +622,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/NATURE_of_Sciencecbd.png"
+                src="../asset/img/Popular_examination/NATURE_of_Sciencecbd.png"
                 alt="NATURE_of_Sciencecbd"
               />
               <figcaption>NATURE of Science</figcaption>
@@ -659,7 +632,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/2022_Astro_Reportpng.png"
+                src="../asset/img/Popular_examination/2022_Astro_Reportpng.png"
                 alt="2022_Astro_Reportpng"
               />
               <figcaption>2022 Astro Report</figcaption>
@@ -669,7 +642,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/Data_Analysis_With_Python.png"
+                src="../asset/img/Popular_examination/Data_Analysis_With_Python.png"
                 alt="Data_Analysis_With_Python"
               />
               <figcaption>Data Analysis With Python</figcaption>
@@ -679,7 +652,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/UX_Designs.png"
+                src="../asset/img/Popular_examination/UX_Designs.png"
                 alt="UX_Designs"
               />
               <figcaption>Advanced UX Designs</figcaption>
@@ -687,11 +660,56 @@
           </figure>
         </div>
         <div class="LR_content_exam">
-          <div class="background_left_exam">
-            <label for="slide4" class="left_exam">&lt; </label>
-          </div>
+          <button class="left_exam">
+            <div class="svg-container">
+              <svg
+                class="icon-svg"
+                width="14"
+                height="18"
+                viewBox="0 0 14 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.9375 15.3242L3.56251 9.07422L12.9375 2.82422C13.0606 2.74214 13.1664 2.63662 13.2487 2.51368C13.331 2.39074 13.3883 2.25278 13.4174 2.10769C13.4464 1.9626 13.4465 1.81321 13.4178 1.66806C13.3891 1.52291 13.3321 1.38483 13.25 1.26172C13.1679 1.1386 13.0624 1.03286 12.9395 0.950528C12.8165 0.868194 12.6786 0.810882 12.5335 0.781864C12.3884 0.752845 12.239 0.752689 12.0939 0.781403C11.9487 0.810118 11.8106 0.867142 11.6875 0.949218L1.06001 8.03422C0.888812 8.14837 0.748443 8.30302 0.651359 8.48445C0.554275 8.66587 0.503479 8.86845 0.503479 9.07422C0.503479 9.27998 0.554275 9.48257 0.651359 9.66399C0.748443 9.84541 0.888812 10.0001 1.06001 10.1142L11.6875 17.1992C11.8106 17.2813 11.9487 17.3383 12.0939 17.367C12.239 17.3957 12.3884 17.3956 12.5335 17.3666C12.6786 17.3376 12.8165 17.2802 12.9395 17.1979C13.0624 17.1156 13.1679 17.0098 13.25 16.8867C13.3321 16.7636 13.3891 16.6255 13.4178 16.4804C13.4465 16.3352 13.4464 16.1858 13.4174 16.0407C13.3883 15.8957 13.331 15.7577 13.2487 15.6348C13.1664 15.5118 13.0606 15.4063 12.9375 15.3242Z"
+                />
+              </svg>
+            </div>
+          </button>
+
+          <!-- <button class="box-button">
+            <div class="svg-container">
+              <svg
+                class="icon-svg"
+                enable-background="new 0 0 612 792"
+                version="1.1"
+                viewBox="0 0 612 792"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m82.983 432.29c-5.728 0-10.372 4.644-10.372 10.372v41.488c0 5.729 4.644 10.373 10.372 10.373 5.729 0 10.373-4.645 10.373-10.373v-41.488c-1e-3 -5.728-4.645-10.372-10.373-10.372z"
+                />
+                <path
+                  d="m124.47 453.03c-5.728 0-10.372 4.645-10.372 10.372v41.489c0 5.728 4.644 10.372 10.372 10.372s10.372-4.645 10.372-10.372v-41.489c0-5.727-4.644-10.372-10.372-10.372z"
+                />
+                <path
+                  d="m502.79 508.7c-4.835-3.073-11.244-1.643-14.317 3.191-2.948 4.641-1.765 10.775 2.701 13.984 28.511 19.197 36.06 57.871 16.865 86.381-19.197 28.51-57.871 36.062-86.381 16.865-28.511-19.197-36.062-57.871-16.865-86.381 11.559-17.167 30.896-27.465 51.592-27.476 5.729 0 10.372-4.645 10.372-10.372 0-5.729-4.644-10.372-10.372-10.372-45.827 9e-3 -82.972 37.166-82.962 82.993 9e-3 45.827 37.166 82.972 82.993 82.962 45.827-9e-3 82.972-37.166 82.962-82.993-5e-3 -27.583-13.717-53.361-36.588-68.782z"
+                />
+                <path
+                  d="m575.96 543.05c-10.049-34.813-34.776-63.516-67.719-78.606v-229.23c1e-3 -3.668-1.936-7.063-5.093-8.93l-228.19-134.84c-3.257-1.925-7.303-1.925-10.559 0l-228.19 134.84c-0.218 0.125-0.374 0.311-0.581 0.456-0.208 0.146-0.404 0.311-0.612 0.477-0.901 0.709-1.675 1.565-2.292 2.531 0 0.072-0.125 0.114-0.166 0.187v0.073c-0.584 1.054-0.981 2.201-1.172 3.392 0 0.311-0.093 0.602-0.125 0.913-0.031 0.312-0.145 0.591-0.145 0.902v269.68c-1e-3 3.668 1.936 7.063 5.093 8.931l228.19 134.84c0.273 0.132 0.553 0.25 0.84 0.353 0.283 0.142 0.574 0.266 0.871 0.373 2.283 0.954 4.853 0.954 7.136 0 0.301-0.107 0.595-0.231 0.882-0.373 0.27-0.124 0.56-0.197 0.83-0.353l61.933-36.604c19.058 66.017 88.022 104.08 154.04 85.027 66.016-19.058 104.08-88.024 85.027-154.04zm-306.28-430.63l53.936 31.874-79.97 47.256c-4.935 2.916-6.572 9.281-3.656 14.215 2.916 4.935 9.28 6.572 14.215 3.656l89.813-53.033 53.936 31.874-207.8 122.76-53.936-31.874 86.888-51.343c4.935-2.916 6.572-9.28 3.656-14.215s-9.281-6.572-14.215-3.656l-96.721 57.161-53.946-31.874 207.8-122.8zm-89.897 216.57v69.256l-53.583-31.667v-69.255l53.583 31.666zm156.23 216.45c-2.76 10.463-4.138 21.242-4.099 32.063 3e-3 4.341 0.23 8.679 0.685 12.996l-52.546 31.065v-33.689c0-5.728-4.644-10.372-10.372-10.372s-10.372 4.645-10.372 10.372v33.689l-207.45-122.58v-245.58l53.594 31.667v87.428c-4e-3 3.672 1.932 7.072 5.093 8.941l74.327 43.927c1.6 0.94 3.423 1.438 5.28 1.441 5.728 0 10.372-4.645 10.372-10.372v-75.188l58.78 34.736v170.4c0 5.729 4.644 10.373 10.372 10.373s10.372-4.645 10.372-10.373v-170.4l187.99-111.09c4.933-2.916 6.567-9.278 3.651-14.21s-9.278-6.567-14.21-3.651l-187.8 110.98-59.122-34.944 207.8-122.8 69.142 40.856v216.05c-66.202-17.46-134.02 22.051-151.48 88.255zm120.37 135.79c-57.284 0-103.72-46.438-103.72-103.72s46.439-103.72 103.72-103.72c57.285 0 103.72 46.438 103.72 103.72-0.063 57.259-46.464 103.66-103.72 103.72z"
+                />
+                <path
+                  d="m494.58 549.42c-4.02-3.883-10.394-3.883-14.413 0l-39.342 39.343-8.225-8.226c-4.12-3.98-10.687-3.866-14.667 0.254-3.883 4.02-3.883 10.394 0 14.412l15.559 15.559c4.051 4.049 10.616 4.049 14.667 0l46.675-46.675c3.98-4.12 3.866-10.688-0.254-14.667z"
+                />
+              </svg>
+            </div>
+            Your Orders
+          </button> -->
           <div class="background_right_exam">
-            <label for="slide2" class="right_exam">&gt; </label>
+            <button class="right_exam">&gt;</button>
           </div>
         </div>
       </div>
@@ -709,7 +727,7 @@
             <div class="circle-border_den"></div>
             <div class="circle_color_den"></div>
             <img
-              src="..\img\Competate_with_various_scholars_around_the_globe\Den.png"
+              src="../asset/img/Competate_with_various_scholars_around_the_globe/Den.png"
               alt="Institution"
               class="circle-image_den"
             />
@@ -723,7 +741,7 @@
         <div class="background-Competate">
           <div>
             <img
-              src="../img/Remove_Competition.png"
+              src="../asset/img/Remove_Competition.png"
               alt="Competition"
               class="Competition_Competate"
             />
@@ -758,7 +776,7 @@
           <div class="background_Learning_institution_2"></div>
         </div>
         <form action="" class="form_den">
-          <div class="register">
+          <div class="form_regiter">
             <label for="" class="form_den_label"
               >Registration to get notified about new competition and article we
               publish.</label
@@ -816,7 +834,7 @@
             <a href="#">
               <div>
                 <img
-                  src="..\img\Top_cartegories\Marketing.png"
+                  src="../asset/img/Top_cartegories/Marketing.png"
                   alt="Marketing"
                 />
               </div>
@@ -832,7 +850,10 @@
           <figure class="figure_Featured">
             <a href="#">
               <div>
-                <img src="..\img\Top_cartegories\Design.jpg" alt="Design" />
+                <img
+                  src="../asset/img/Top_cartegories/Design.jpg"
+                  alt="Design"
+                />
               </div>
               <figcaption class="fig_Contest">
                 <h3>UI/UX Design Contest</h3>
@@ -847,7 +868,7 @@
             <a href="#">
               <div>
                 <img
-                  src="..\img\Featured Competition\Programming_Contest.jpg"
+                  src="../asset/img/Featured Competition/Programming_Contest.jpg"
                   alt="Programming"
                 />
               </div>
@@ -864,7 +885,7 @@
             <a href="#">
               <div>
                 <img
-                  src="..\img/Top_cartegories\Programming.jpg"
+                  src="../asset/img/Top_cartegories/Programming.jpg"
                   alt="Technology"
                 />
               </div>
@@ -881,7 +902,7 @@
             <a href="#">
               <div>
                 <img
-                  src="..\img\Top_cartegories\Technology.jpg"
+                  src="../asset/img/Top_cartegories/Technology.jpg"
                   alt="Technology"
                 />
               </div>
@@ -902,7 +923,7 @@
             <a href="#">
               <div>
                 <img
-                  src="..\img\Top_cartegories\Technology.jpg"
+                  src="../asset/img/Top_cartegories/Technology.jpg"
                   alt="Technology"
                 />
               </div>
@@ -924,7 +945,7 @@
             <a href="#">
               <div>
                 <img
-                  src="..\img\Top_cartegories\Technology.jpg"
+                  src="../asset/img/Top_cartegories/Technology.jpg"
                   alt="Technology"
                 />
               </div>
@@ -963,7 +984,7 @@
               <div class="circle-border_examination"></div>
               <div class="circle_color">
                 <img
-                  src="..\img\Popular_examination\NATURE_of_Sciencecbd.png"
+                  src="../asset/img/Popular_examination/NATURE_of_Sciencecbd.png"
                   alt="Get Publicstions from best Aurtors around the Globe"
                   class="circle-image_nature"
                 />
@@ -973,7 +994,7 @@
             <div class="background-Readers_are_leaders">
               <div>
                 <img
-                  src="../img/Increase.png"
+                  src="../asset/img/Increase.png"
                   alt="Competition"
                   class="Competition_outstanding"
                 />
@@ -1040,7 +1061,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/NATURE_of_Sciencecbd.png"
+                src="../asset/img/Popular_examination/NATURE_of_Sciencecbd.png"
                 alt="NATURE_of_Sciencecbd"
               />
               <figcaption>NATURE of Science</figcaption>
@@ -1050,7 +1071,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/2022_Astro_Reportpng.png"
+                src="../asset/img/Popular_examination/2022_Astro_Reportpng.png"
                 alt="2022_Astro_Reportpng"
               />
               <figcaption>2022 Astro Report</figcaption>
@@ -1060,7 +1081,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/Data_Analysis_With_Python.png"
+                src="../asset/img/Popular_examination/Data_Analysis_With_Python.png"
                 alt="Data_Analysis_With_Python"
               />
               <figcaption>Data Analysis With Python</figcaption>
@@ -1070,7 +1091,7 @@
           <figure class="figure_Popular_examination">
             <a href="#"
               ><img
-                src="..\img/Popular_examination/UX_Designs.png"
+                src="../asset/img/Popular_examination/UX_Designs.png"
                 alt="UX_Designs"
               />
               <figcaption>Advanced UX Designs</figcaption>
@@ -1106,7 +1127,7 @@
         <figure class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
-              <img src="..\img\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
+              <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
               <p class="review_p">
                 Mohh Jumah <span class="review_color">Senior Developer</span>
               </p>
@@ -1124,7 +1145,7 @@
         <figure class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
-              <img src="..\img\review\John_Mark.jpg" alt="Mohh_Jumah" />
+              <img src="../asset/img/review/John_Mark.jpg" alt="Mohh_Jumah" />
               <p class="review_p">
                 John Mark <span class="review_color">Senior Developer</span>
               </p>
@@ -1142,7 +1163,7 @@
         <figure class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
-              <img src="..\img\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
+              <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
               <p class="review_p">
                 Mohh Jumah <span class="review_color">Senior Developer</span>
               </p>
@@ -1160,7 +1181,7 @@
         <figure class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
-              <img src="..\img\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
+              <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
               <p class="review_p">
                 Mohh Jumah <span class="review_color">Senior Developer</span>
               </p>
@@ -1178,7 +1199,7 @@
         <figure class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
-              <img src="..\img\review\Mohh_Jumah.jpg" alt="Mohh_Jumah" />
+              <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
               <p class="review_p">
                 Mohh Jumah <span class="review_color">Senior Developer</span>
               </p>
@@ -1208,21 +1229,23 @@
               <div class="fb_tw_ins_in">
                 <div class="fb">
                   <a href="#"
-                    ><img src="..\img\svg\facebook.svg" alt="facbook"
+                    ><img src="../asset/icon/facebook.svg" alt="facbook"
                   /></a>
                 </div>
                 <div class="fb">
                   <a href="#"
-                    ><img src="..\img\svg\twitter.svg" alt="twitter"
+                    ><img src="../asset/icon/twitter.svg" alt="twitter"
                   /></a>
                 </div>
                 <div class="fb">
                   <a href="#"
-                    ><img src="..\img\svg\instagram.svg" alt="instagram"
+                    ><img src="../asset/icon/instagram.svg" alt="instagram"
                   /></a>
                 </div>
                 <div class="in">
-                  <a href="#"><img src="..\img\svg\linkedin.svg" alt="" /></a>
+                  <a href="#"
+                    ><img src="../asset/icon/linkedin.svg" alt=""
+                  /></a>
                 </div>
               </div>
             </div>
@@ -1253,15 +1276,18 @@
           </div>
           <div>
             <div class="display_ft_subscribe">
-              <form action="" class="ft_Subscribe">
-                <label for="">Subscribe to get latest updates </label>
+              <form class="form_ft">
+                <label class="ft_Subscribe" for=""
+                  >Subscribe to get latest updates
+                </label>
                 <div class="inp_btn_subscribe">
                   <input
                     type="text"
                     name=""
                     id=""
                     placeholder="Your Email address"
-                  /><button>Subscribe</button>
+                    class="input_subcribe"
+                  /><button class="sub_btn">Subscribe</button>
                 </div>
               </form>
             </div>
@@ -1269,7 +1295,7 @@
         </div>
         <div class="display_Contenttionary">
           <div class="Contenttionary">
-            <img src="..\img\logo.png" alt="logo" />
+            <img src="../asset/img/logo.png" alt="logo" />
             <p>Contenttionary</p>
           </div>
           <div>
