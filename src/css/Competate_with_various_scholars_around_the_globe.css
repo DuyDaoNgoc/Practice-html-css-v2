@@ -249,7 +249,7 @@
   border-radius: 10px;
   justify-items: center;
   align-content: space-evenly;
-  gap: 52px;
+  gap: 3px;
   position: relative;
   left: 50%;
   top: 50%;
@@ -276,11 +276,23 @@
   top: 122px;
   left: 39px;
   gap: 0px;
-  margin-top: -102px;
+  /* margin-top: -102px; */
   padding-inline: 20px;
   background-color: #FAFAFC;
   border: 1.07px solid #D9DCE0;
+}
 
+.form_input-opption {
+  width: 556px;
+  height: 73px;
+  top: 122px;
+  left: 39px;
+  gap: 0px;
+  /* margin-top: -102px; */
+  padding-inline: 20px;
+  background-color: #FAFAFC;
+  color: gray;
+  border: 1.07px solid #D9DCE0;
 }
 
 .form_slect {
@@ -366,8 +378,7 @@
   font-size: 16px;
   line-height: 20px;
   position: relative;
-  left: 163px;
-  top: -108px;
+  left: 127px;
   cursor: pointer;
 
 }
