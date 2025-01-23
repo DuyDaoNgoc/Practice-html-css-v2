@@ -20,7 +20,7 @@ body {
 .see_all {
     color: #f77e23;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500;
     display: block;
     text-align: right;
@@ -68,10 +68,6 @@ body {
     /* Make sure the image stays below the overlay */
 }
 
-.article_content .figure_top_categories:hover img {
-    transform: scale(1.1);
-    /* Hover effect on the image */
-}
 
 
 .figure_top_categories {
@@ -108,7 +104,7 @@ body {
 .figure_top_categories h3 {
     margin: 0;
     font-size: 29px;
-    transform: translateY(0);
+    transform: translateY(66px);
     transition: transform 0.3s ease;
     position: absolute;
     z-index: 2;
@@ -129,9 +125,6 @@ body {
     transform: translateY(20px);
 }
 
-.figure_top_categories:hover img {
-    transform: scale(1.1);
-}
 
 .figure_top_categories:hover h3 {
     transform: translateY(-50px);
@@ -139,9 +132,9 @@ body {
 
 .figure_top_categories:hover .content_description {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-10px);
     display: flex;
-    width: 100%;
+    width: 80%;
     text-align: left;
 }
 

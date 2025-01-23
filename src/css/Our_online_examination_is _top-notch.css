@@ -173,6 +173,7 @@
     overflow: hidden;
     display: inline-grid;
     height: 675px;
+    top: 40px;
   }
 }
 
