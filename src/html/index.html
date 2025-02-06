@@ -33,34 +33,6 @@
       rel="stylesheet"
     />
   </head>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const loginButton = document.querySelector(".submit_login");
-      const popupLogin = document.querySelector(".form_login");
-      const overlay = document.createElement("div");
-
-      overlay.style.cssText = ` position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 9998;
-    display: none;
-    `;
-      document.body.appendChild(overlay);
-
-      loginButton.addEventListener("click", function () {
-        popupLogin.style.display = "block";
-        overlay.style.display = "block";
-      });
-
-      overlay.addEventListener("click", function () {
-        popupLogin.style.display = "none";
-        overlay.style.display = "none";
-      });
-    });
-  </script>
 
   <body>
     <div>
@@ -174,12 +146,14 @@
       </div>
       <div class="article_background">
         <div class="display_top_categories">
-          <figure class="figure_top_categories">
+          <div>
             <a href="#">
-              <img
-                src="../asset/img/Top_cartegories/Marketing.png"
-                alt="Marketing"
-              />
+              <div class="figure_top_categories">
+                <img
+                  src="../asset/img/Top_cartegories/Marketing.png"
+                  alt="Marketing"
+                />
+              </div>
               <figcaption>
                 <h3>Marketing</h3>
                 <p class="content_description">
@@ -190,11 +164,16 @@
                 </p>
               </figcaption>
             </a>
-          </figure>
+          </div>
 
-          <figure class="figure_top_categories">
+          <div>
             <a href="#">
-              <img src="../asset/img/Top_cartegories/Design.jpg" alt="Design" />
+              <div class="figure_top_categories">
+                <img
+                  src="../asset/img/Top_cartegories/Design.jpg"
+                  alt="Design"
+                />
+              </div>
               <figcaption>
                 <h3>Design</h3>
                 <p class="content_description">
@@ -205,14 +184,16 @@
                 </p>
               </figcaption>
             </a>
-          </figure>
+          </div>
 
-          <figure class="figure_top_categories">
+          <div>
             <a href="#">
-              <img
-                src="../asset/img/Top_cartegories/Programming.jpg"
-                alt="Programming"
-              />
+              <div class="figure_top_categories">
+                <img
+                  src="../asset/img/Top_cartegories/Programming.jpg"
+                  alt="Programming"
+                />
+              </div>
               <figcaption>
                 <h3>Programming</h3>
                 <p class="content_description">
@@ -223,14 +204,15 @@
                 </p>
               </figcaption>
             </a>
-          </figure>
-
-          <figure class="figure_top_categories">
+          </div>
+          <div>
             <a href="#">
-              <img
-                src="../asset/img/Top_cartegories/Technology.jpg"
-                alt="Technology"
-              />
+              <div class="figure_top_categories">
+                <img
+                  src="../asset/img/Top_cartegories/Technology.jpg"
+                  alt="Technology"
+                />
+              </div>
               <figcaption>
                 <h3>Technology</h3>
                 <p class="content_description">
@@ -241,7 +223,7 @@
                 </p>
               </figcaption>
             </a>
-          </figure>
+          </div>
         </div>
 
         <div class="navigation_controls">
@@ -360,6 +342,7 @@
       </div>
     </article>
     <!--Explore our popular course-->
+
     <article class="article_sort_by">
       <div class="article_div_popular">
         <div class="transform_explore">
@@ -400,88 +383,85 @@
               </span>
             </a>
           </div>
-          <figure class="figure_star">
-            <a href="#" class="a_star"
-              ><img
-                src="../asset/img/Explore_our_popular_course/Front-end_development.jpg"
-              />
-              <div class="display_star">
-                <figcaption class="ficaption_star">
-                  <h3>Front-end development is not hard as you think</h3>
-                </figcaption>
-                <div class="review_star">
-                  <img src="../asset/img/star.png" alt="star" />
-                  <p>4.5</p>
-                </div>
-              </div>
-              <span class="content_star">
-                <p>6 weeks</p>
+          <div class="display_star">
+            <a href="#" class="a_star">
+              <div class="figure_star">
+                <img
+                  src="../asset/img/Explore_our_popular_course/Front-end_development.jpg"
+                />
+                <div class="display_star">
+                  <h3 class="ficaption_star">
+                    Front-end development is not hard as you think
+                  </h3>
 
-                <p>1.5k Students</p>
+                  <div class="review_star">
+                    <img src="../asset/img/star.png" alt="star" />
+                    <p>4.5</p>
+                  </div>
+                </div>
+                <span class="content_star">
+                  <p>6 weeks</p>
+                  <p>1.5k Students</p>
+                  <p class="money">30.5$</p>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="display_star">
+            <a href="#" class="a_star">
+              <div class="figure_star">
+                <img
+                  src="../asset/img/Explore_our_popular_course/Everrything_you_need_to_know_in_UX.jpg"
+                />
 
-                <p class="money">30.5$</p>
-              </span>
-            </a>
-          </figure>
-          <figure class="figure_star">
-            <a href="#" class="a_star"
-              ><img
-                src="../asset/img/Explore_our_popular_course/Everrything_you_need_to_know_in_UX.jpg"
-              />
-              <div class="display_star">
-                <figcaption class="ficaption_star">
-                  <h3>Everrything you need to know in UX</h3>
-                </figcaption>
-                <div class="review_star">
-                  <img src="../asset/img/star.png" alt="star" />
-                  <p>4.5</p>
+                <div class="display_star">
+                  <h3 class="ficaption_star">
+                    Everrything you need to know in UX
+                  </h3>
+
+                  <div class="review_star">
+                    <img src="../asset/img/star.png" alt="star" />
+                    <p>4.5</p>
+                  </div>
                 </div>
-              </div>
-              <div class="content_star">
-                <div>
+                <span class="content_star">
                   <p>6 weeks</p>
-                </div>
-                <div>
                   <p>1.5k Students</p>
-                </div>
-                <div class="money">
-                  <p>30.5$</p>
-                </div>
+                  <p class="money">30.5$</p>
+                </span>
               </div>
             </a>
-          </figure>
-          <figure class="figure_star">
-            <a href="#" class="a_star"
-              ><img
-                src="../asset/img/Explore_our_popular_course/Learn_photography.jpg"
-              />
-              <div class="display_star">
-                <figcaption class="ficaption_star">
-                  <h3>Learn photography with ease</h3>
-                </figcaption>
-                <div class="review_star">
-                  <img src="../asset/img/star.png" alt="star" />
-                  <p>4.5</p>
-                </div>
-              </div>
-              <div class="content_star">
+          </div>
+          <div class="display_star">
+            <a href="#" class="a_star">
+              <div class="figure_star">
+                <img
+                  src="../asset/img/Explore_our_popular_course/Learn_photography.jpg"
+                />
+
                 <div>
+                  <h3 class="ficaption_star">Learn photography with ease</h3>
+
+                  <div class="review_star">
+                    <img src="../asset/img/star.png" alt="star" />
+                    <p>4.5</p>
+                  </div>
+                </div>
+                <span class="content_star">
                   <p>6 weeks</p>
-                </div>
-                <div>
                   <p>1.5k Students</p>
-                </div>
-                <div class="money">
-                  <p>30.5$</p>
-                </div>
+                  <p class="money">30.5$</p>
+                </span>
               </div>
             </a>
-          </figure>
-          <figure class="figure_star">
-            <a href="#" class="a_star"
-              ><img
-                src="../asset/img/Explore_our_popular_course/Be_a_pro_in_data_analysis.jpg"
-              />
+          </div>
+          <div>
+            <a href="#" class="a_star">
+              <div class="figure_star">
+                <img
+                  src="../asset/img/Explore_our_popular_course/Be_a_pro_in_data_analysis.jpg"
+                />
+              </div>
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Be a pro in data analysis</h3>
@@ -503,12 +483,14 @@
                 </div>
               </div>
             </a>
-          </figure>
-          <figure class="figure_star">
-            <a href="#" class="a_star"
-              ><img
-                src="../asset/img/Explore_our_popular_course/Ethical_Harking.jpg"
-              />
+          </div>
+          <div>
+            <a href="#" class="a_star">
+              <div class="figure_star">
+                <img
+                  src="../asset/img/Explore_our_popular_course/Ethical_Harking.jpg"
+                />
+              </div>
               <div class="display_star">
                 <figcaption class="ficaption_star">
                   <h3>Ethical Harking is not hard as you think</h3>
@@ -530,7 +512,7 @@
                 </div>
               </div>
             </a>
-          </figure>
+          </div>
         </div>
       </div>
     </article>
@@ -556,7 +538,7 @@
                 <img
                   src="../asset/img/Increase.png"
                   alt="Competition"
-                  class="Competition_outstanding"
+                  class="competition_outstanding"
                 />
               </div>
               <div class="trans_text_increase">
@@ -619,7 +601,7 @@
         </div>
         <!--NATURE of Science-->
         <div class="display_Popular_examination">
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/NATURE_of_Sciencecbd.png"
@@ -627,9 +609,9 @@
               />
               <figcaption>NATURE of Science</figcaption>
             </a>
-          </figure>
+          </div>
           <!-- 2022 Astro Report-->
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/2022_Astro_Reportpng.png"
@@ -637,9 +619,9 @@
               />
               <figcaption>2022 Astro Report</figcaption>
             </a>
-          </figure>
+          </div>
           <!-- Data Analysis With Python -->
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/Data_Analysis_With_Python.png"
@@ -647,9 +629,9 @@
               />
               <figcaption>Data Analysis With Python</figcaption>
             </a>
-          </figure>
+          </div>
           <!-- Advanced UX Designs -->
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/UX_Designs.png"
@@ -657,9 +639,9 @@
               />
               <figcaption>Advanced UX Designs</figcaption>
             </a>
-          </figure>
+          </div>
         </div>
-        <div class="LR_content_exam">
+        <div class="lr_content_exam">
           <button class="left_exam">
             <div class="svg-container">
               <svg
@@ -679,35 +661,6 @@
             </div>
           </button>
 
-          <!-- <button class="box-button">
-            <div class="svg-container">
-              <svg
-                class="icon-svg"
-                enable-background="new 0 0 612 792"
-                version="1.1"
-                viewBox="0 0 612 792"
-                xml:space="preserve"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m82.983 432.29c-5.728 0-10.372 4.644-10.372 10.372v41.488c0 5.729 4.644 10.373 10.372 10.373 5.729 0 10.373-4.645 10.373-10.373v-41.488c-1e-3 -5.728-4.645-10.372-10.373-10.372z"
-                />
-                <path
-                  d="m124.47 453.03c-5.728 0-10.372 4.645-10.372 10.372v41.489c0 5.728 4.644 10.372 10.372 10.372s10.372-4.645 10.372-10.372v-41.489c0-5.727-4.644-10.372-10.372-10.372z"
-                />
-                <path
-                  d="m502.79 508.7c-4.835-3.073-11.244-1.643-14.317 3.191-2.948 4.641-1.765 10.775 2.701 13.984 28.511 19.197 36.06 57.871 16.865 86.381-19.197 28.51-57.871 36.062-86.381 16.865-28.511-19.197-36.062-57.871-16.865-86.381 11.559-17.167 30.896-27.465 51.592-27.476 5.729 0 10.372-4.645 10.372-10.372 0-5.729-4.644-10.372-10.372-10.372-45.827 9e-3 -82.972 37.166-82.962 82.993 9e-3 45.827 37.166 82.972 82.993 82.962 45.827-9e-3 82.972-37.166 82.962-82.993-5e-3 -27.583-13.717-53.361-36.588-68.782z"
-                />
-                <path
-                  d="m575.96 543.05c-10.049-34.813-34.776-63.516-67.719-78.606v-229.23c1e-3 -3.668-1.936-7.063-5.093-8.93l-228.19-134.84c-3.257-1.925-7.303-1.925-10.559 0l-228.19 134.84c-0.218 0.125-0.374 0.311-0.581 0.456-0.208 0.146-0.404 0.311-0.612 0.477-0.901 0.709-1.675 1.565-2.292 2.531 0 0.072-0.125 0.114-0.166 0.187v0.073c-0.584 1.054-0.981 2.201-1.172 3.392 0 0.311-0.093 0.602-0.125 0.913-0.031 0.312-0.145 0.591-0.145 0.902v269.68c-1e-3 3.668 1.936 7.063 5.093 8.931l228.19 134.84c0.273 0.132 0.553 0.25 0.84 0.353 0.283 0.142 0.574 0.266 0.871 0.373 2.283 0.954 4.853 0.954 7.136 0 0.301-0.107 0.595-0.231 0.882-0.373 0.27-0.124 0.56-0.197 0.83-0.353l61.933-36.604c19.058 66.017 88.022 104.08 154.04 85.027 66.016-19.058 104.08-88.024 85.027-154.04zm-306.28-430.63l53.936 31.874-79.97 47.256c-4.935 2.916-6.572 9.281-3.656 14.215 2.916 4.935 9.28 6.572 14.215 3.656l89.813-53.033 53.936 31.874-207.8 122.76-53.936-31.874 86.888-51.343c4.935-2.916 6.572-9.28 3.656-14.215s-9.281-6.572-14.215-3.656l-96.721 57.161-53.946-31.874 207.8-122.8zm-89.897 216.57v69.256l-53.583-31.667v-69.255l53.583 31.666zm156.23 216.45c-2.76 10.463-4.138 21.242-4.099 32.063 3e-3 4.341 0.23 8.679 0.685 12.996l-52.546 31.065v-33.689c0-5.728-4.644-10.372-10.372-10.372s-10.372 4.645-10.372 10.372v33.689l-207.45-122.58v-245.58l53.594 31.667v87.428c-4e-3 3.672 1.932 7.072 5.093 8.941l74.327 43.927c1.6 0.94 3.423 1.438 5.28 1.441 5.728 0 10.372-4.645 10.372-10.372v-75.188l58.78 34.736v170.4c0 5.729 4.644 10.373 10.372 10.373s10.372-4.645 10.372-10.373v-170.4l187.99-111.09c4.933-2.916 6.567-9.278 3.651-14.21s-9.278-6.567-14.21-3.651l-187.8 110.98-59.122-34.944 207.8-122.8 69.142 40.856v216.05c-66.202-17.46-134.02 22.051-151.48 88.255zm120.37 135.79c-57.284 0-103.72-46.438-103.72-103.72s46.439-103.72 103.72-103.72c57.285 0 103.72 46.438 103.72 103.72-0.063 57.259-46.464 103.66-103.72 103.72z"
-                />
-                <path
-                  d="m494.58 549.42c-4.02-3.883-10.394-3.883-14.413 0l-39.342 39.343-8.225-8.226c-4.12-3.98-10.687-3.866-14.667 0.254-3.883 4.02-3.883 10.394 0 14.412l15.559 15.559c4.051 4.049 10.616 4.049 14.667 0l46.675-46.675c3.98-4.12 3.866-10.688-0.254-14.667z"
-                />
-              </svg>
-            </div>
-            Your Orders
-          </button> -->
           <div class="background_right_exam">
             <button class="right_exam">&gt;</button>
           </div>
@@ -828,7 +781,7 @@
           <a href="#" class="see_all_Featured">See all</a>
         </div>
         <div class="article_background_Featured">
-          <figure class="figure_Featured">
+          <div class="figure_Featured">
             <a href="#">
               <div>
                 <img
@@ -844,8 +797,8 @@
                 <p>Eligibility: For designers Price: $60 Deadline: 26/8/2022</p>
               </div>
             </a>
-          </figure>
-          <figure class="figure_Featured">
+          </div>
+          <div class="figure_Featured">
             <a href="#">
               <div>
                 <img
@@ -861,8 +814,8 @@
                 <p>Eligibility: For designers Price: $60 Deadline: 26/8/2022</p>
               </div>
             </a>
-          </figure>
-          <figure class="figure_Featured">
+          </div>
+          <div class="figure_Featured">
             <a href="#">
               <div>
                 <img
@@ -878,8 +831,8 @@
                 <p>Eligibility: For designers Price: $60 Deadline: 26/8/2022</p>
               </div>
             </a>
-          </figure>
-          <figure class="figure_Featured">
+          </div>
+          <div class="figure_Featured">
             <a href="#">
               <div>
                 <img
@@ -895,8 +848,8 @@
                 <p>Eligibility: For designers Price: $60 Deadline: 26/8/2022</p>
               </div>
             </a>
-          </figure>
-          <figure class="figure_Featured">
+          </div>
+          <div class="figure_Featured">
             <a href="#">
               <div>
                 <img
@@ -916,8 +869,8 @@
                 </p>
               </div>
             </a>
-          </figure>
-          <figure class="figure_Featured">
+          </div>
+          <div class="figure_Featured">
             <a href="#">
               <div>
                 <img
@@ -938,8 +891,8 @@
                 </p>
               </div>
             </a>
-          </figure>
-          <figure class="figure_Featured">
+          </div>
+          <div class="figure_Featured">
             <a href="#">
               <div>
                 <img
@@ -960,7 +913,7 @@
                 </p>
               </div>
             </a>
-          </figure>
+          </div>
         </div>
         <div class="LR_content_Featured">
           <div class="background_left_Featured">
@@ -1056,7 +1009,7 @@
         </div>
         <!--NATURE of Science-->
         <div class="display_Popular_examination">
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/NATURE_of_Sciencecbd.png"
@@ -1064,9 +1017,9 @@
               />
               <figcaption>NATURE of Science</figcaption>
             </a>
-          </figure>
+          </div>
           <!-- 2022 Astro Report-->
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/2022_Astro_Reportpng.png"
@@ -1074,9 +1027,9 @@
               />
               <figcaption>2022 Astro Report</figcaption>
             </a>
-          </figure>
+          </div>
           <!-- Data Analysis With Python -->
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/Data_Analysis_With_Python.png"
@@ -1084,9 +1037,9 @@
               />
               <figcaption>Data Analysis With Python</figcaption>
             </a>
-          </figure>
+          </div>
           <!-- Advanced UX Designs -->
-          <figure class="figure_Popular_examination">
+          <div class="figure_Popular_examination">
             <a href="#"
               ><img
                 src="../asset/img/Popular_examination/UX_Designs.png"
@@ -1094,9 +1047,9 @@
               />
               <figcaption>Advanced UX Designs</figcaption>
             </a>
-          </figure>
+          </div>
         </div>
-        <div class="LR_content_exam">
+        <div class="lr_content_exam">
           <div class="background_left_exam">
             <label for="slide4" class="left_exam">&lt; </label>
           </div>
@@ -1110,9 +1063,9 @@
     <h1 class="review">Reviews</h1>
     <article class="reviews">
       <div class="title_student">
-        <h1>What our <span class="Experts_hr">Students</span> say about us</h1>
+        <h1>What our <span class="experts_hr">Students</span> say about us</h1>
         <div class="hr_students"></div>
-        <div class="LR_content_review">
+        <div class="lr_content_review">
           <div class="background_left_review">
             <button class="left_review">&lt;</button>
           </div>
@@ -1122,7 +1075,7 @@
         </div>
       </div>
       <div class="review_article">
-        <figure class="review_figure">
+        <div class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
               <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
@@ -1139,8 +1092,8 @@
               </p>
             </div>
           </div>
-        </figure>
-        <figure class="review_figure">
+        </div>
+        <div class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
               <img src="../asset/img/review/John_Mark.jpg" alt="Mohh_Jumah" />
@@ -1157,8 +1110,8 @@
               </p>
             </div>
           </div>
-        </figure>
-        <figure class="review_figure">
+        </div>
+        <div class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
               <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
@@ -1175,8 +1128,8 @@
               </p>
             </div>
           </div>
-        </figure>
-        <figure class="review_figure">
+        </div>
+        <div class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
               <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
@@ -1193,8 +1146,8 @@
               </p>
             </div>
           </div>
-        </figure>
-        <figure class="review_figure">
+        </div>
+        <div class="review_figure">
           <div class="div_review_father">
             <div class="div_review">
               <img src="../asset/img/review/Mohh_Jumah.jpg" alt="Mohh_Jumah" />
@@ -1211,9 +1164,10 @@
               </p>
             </div>
           </div>
-        </figure>
+        </div>
       </div>
     </article>
+
     <footer class="footer">
       <div class="display_content_ft">
         <div class="display_btn_ft">
@@ -1289,8 +1243,8 @@
             </div>
           </div>
         </div>
-        <span class="display_Contenttionary">
-          <div class="Contenttionary">
+        <span class="display_contenttionary">
+          <div class="contenttionary">
             <img src="../asset/img/logo.png" alt="logo" />
             <p>Contenttionary</p>
           </div>
