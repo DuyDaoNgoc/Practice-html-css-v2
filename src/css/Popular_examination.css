@@ -56,10 +56,11 @@
 
 .figure_Popular_examination img {
     width: 100%;
-    height: 111%;
+    height: 100%;
+    max-width: 273px;
     object-fit: cover;
     filter: brightness(0.5);
-    transition: filter 0.3s ease, transform 0.3s ease;
+    transition: filter 0.3sease, transform 0.3sease;
 }
 
 /* Chú thích */
@@ -86,7 +87,13 @@
     align-items: center;
     bottom: 193px;
     position: relative;
+    z-index: 999;
     left: 0%;
+}
+
+.space-lr {
+    position: relative;
+    top: -51px;
 }
 
 .background_left_exam,
@@ -117,15 +124,19 @@
     z-index: 12;
 }
 
-.left_exam svg {
+.left_exam svg,
+.right_exam svg {
     fill: #fff;
 
 }
 
-.left_exam svg:hover {
+.left_exam svg:hover,
+.right_exam svg:hover {
     fill: #F77E23;
     z-index: 12;
 }
+
+
 
 .right_exam,
 .left_exam {
@@ -150,27 +161,20 @@
     font-size: 1.2rem;
 }
 
-.box-button {
-    border: 1px solid orange;
-    color: orange;
-    padding: 15px 0px;
-    text-align: center;
-    margin: 5px 5px;
-    width: 90%;
-    font-size: 1.2rem;
-}
+
 
 .right_exam:hover,
 .left_exam:hover {
     background-color: white;
-    color: orange;
+    fill: orange;
 }
 
-.right_exam:hover,
+.right_exam .icon-svg {
+    transform: rotate(180deg) !important;
+
+}
+
+.right_exam:hover .icon-svg,
 .left_exam:hover .icon-svg {
     fill: orange !important;
-}
-
-.icon-svg {
-    fill: orange;
 }

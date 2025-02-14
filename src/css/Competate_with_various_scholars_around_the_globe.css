@@ -232,7 +232,7 @@
   top: 105.01px;
   border-radius: 2px;
   display: flex;
-  margin: 37px auto;
+  margin: 41px auto;
   transform: rotate3d(1, 0, 1, -2deg);
 }
 
@@ -373,7 +373,7 @@
   padding-bottom: 20px;
   padding-left: 42px;
   color: white;
-  font-family: 'DM Sans';
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;

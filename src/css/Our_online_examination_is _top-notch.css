@@ -107,8 +107,6 @@
 }
 
 .button_examination {
-  width: 158px;
-  height: 60px;
   border-radius: 5px;
   border: aliceblue;
   background-color: #FF6F28;
@@ -118,7 +116,7 @@
   padding-bottom: 20px;
   padding-left: 42px;
   color: white;
-  font-family: 'DM Sans';
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -264,7 +262,7 @@
 
 .content_Icrease {
   color: black;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .Instructors {

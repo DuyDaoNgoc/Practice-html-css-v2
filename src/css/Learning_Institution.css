@@ -228,7 +228,7 @@
 }
 
 .trans_text {
-  width: 114px;
+  width: 121px;
   /* height: 60px; */
   /* gap: 0px; */
   display: flex;
@@ -279,7 +279,7 @@
 
 .content_Icrease {
   color: #F77E23;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .Instructors {

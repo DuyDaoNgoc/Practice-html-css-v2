@@ -45,14 +45,13 @@
 }
 
 .sort_by_img {
-  width: 11.94px;
-  height: 19.63px;
   display: flex;
   flex-direction: row-reverse;
-  left: 31.69px;
+  left: 21.69px;
   z-index: 12;
   position: relative;
-  filter: invert(1);
+
+
 }
 
 .article_sort_by {

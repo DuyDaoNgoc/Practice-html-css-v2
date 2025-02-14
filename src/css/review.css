@@ -93,7 +93,7 @@
 }
 
 .review_p {
-    width: 168px;
+    width: 182px;
     font-weight: 800;
     font-size: 20px;
     transform: translate(24px, 0px);
@@ -109,7 +109,7 @@
 }
 
 .review_color {
-    font-weight: 100;
+    font-weight: 700;
     color: #F77E23;
 
 }

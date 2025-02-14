@@ -185,7 +185,7 @@
     bottom: 254px;
     position: relative;
     left: 0%;
-    z-index: 12;
+    z-index: 99999;
 }
 
 .background_left_Featured,
@@ -223,4 +223,47 @@
     justify-content: center;
     font-size: 33px;
     cursor: pointer;
+}
+
+.figure_Featured:hover .contest {
+    transform: translateY(-194px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.figure_Featured:hover .Content-Contest {
+    transform: translateY(-258px);
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.contest {
+    position: absolute;
+    top: 73%;
+    padding: 10px;
+    color: white;
+    font-size: 28px;
+    z-index: 99;
+    transition: transform 0.3s ease, opacity 0.1s ease;
+}
+
+
+
+.Content-Contest {
+    position: absolute;
+    top: 451px;
+    left: 24px;
+    color: white;
+    font-size: 16px;
+    /* line-height: 30px; */
+    font-weight: 400;
+    opacity: 0;
+    z-index: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    width: 232px;
+    /* height: 90px; */
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+
 }
