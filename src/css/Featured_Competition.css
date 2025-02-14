@@ -34,15 +34,14 @@
 /*content Top cartegories */
 .Featured {
     font-size: 48px;
-    Width: 564px;
     Height: 117px;
-    top: 49px;
     margin: 0 auto;
     font-family: Poppins;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    font-weight: 600;
     align-items: center;
     padding-bottom: 49px;
 }

@@ -1,11 +1,14 @@
 .h1_Competate {
-  width: 866px;
-  height: 130px;
-  font-family: 'Poppins';
   font-size: 48px;
-  line-height: 65.37px;
-  text-align: center;
   margin: 0 auto;
+  max-width: 806px;
+  font-family: Poppins;
+  display: flex;
+  font-weight: 600;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Cấu trúc nền */
