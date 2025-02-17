@@ -8,7 +8,7 @@
 
 # TimeLine:
 
-<li>17 Days (27th Mar - 11th May) but I have temporarily paused for the holiday.</li>
+<li>17 Days (27th Mar - 11th May) </li>
 
 # Design
 
