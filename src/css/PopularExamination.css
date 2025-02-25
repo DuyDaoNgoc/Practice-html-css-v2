@@ -1,5 +1,5 @@
 /* Container chính */
-.Popular_examination {
+.Popular-examination {
     display: grid;
     justify-content: center;
     padding: 0;
@@ -11,7 +11,7 @@
 }
 
 /* Tiêu đề */
-.title_section {
+.title-section {
     font-size: 48px;
     font-family: "Open Sans", serif;
     font-weight: 600;
@@ -21,7 +21,7 @@
 }
 
 /* Link "See all" */
-.see_all_popular_examination {
+.see-all-popular-examination {
     font-family: Poppins;
     font-size: 24px;
     font-weight: normal;
@@ -39,7 +39,7 @@
 }
 
 /* Figure */
-.figure_Popular_examination {
+.figure-Popular-examination {
     position: relative;
     max-width: 100%;
     height: 302.93px;
@@ -49,24 +49,24 @@
     margin: 0;
 }
 
-.display_Popular_examination {
+.display-Popular-examination {
     display: flex;
     gap: 20px;
     position: relative;
 
 }
 
-.figure_Popular_examination img {
+.figure-Popular-examination img {
     width: 100%;
     height: 100%;
     max-width: 273px;
     object-fit: cover;
     filter: brightness(0.5);
-    transition: filter 0.3sease, transform 0.3sease;
+    transition: filter 0.3s ease, transform 0.3s ease;
 }
 
 /* Chú thích */
-.figure_Popular_examination figcaption {
+.figure-Popular-examination figcaption {
     position: absolute;
     left: 24.28px;
     font-size: 26.15px;
@@ -82,7 +82,7 @@
     line-height: 39.22px;
 }
 
-.lr_content_exam {
+.lr-content-exam {
     display: flex;
     gap: 975px;
     justify-content: center;
@@ -98,8 +98,8 @@
     top: -51px;
 }
 
-.background_left_exam,
-.background_right_exam {
+.background-left-exam,
+.background-right-exam {
     background-color: #F77E23;
     width: 24vw;
     height: 5vw;
@@ -114,34 +114,34 @@
     color: white;
 }
 
-.background_left_exam:hover,
-.background_right_exam:hover {
+.background-left-exam:hover,
+.background-right-exam:hover {
     background-color: white;
     color: #F77E23;
     z-index: 1;
 }
 
-.background_left_exam:hover svg:hover {
+.background-left-exam:hover svg:hover {
     fill: #F77E23;
     z-index: 12;
 }
 
-.left_exam svg,
-.right_exam svg {
+.left-exam svg,
+.right-exam svg {
     fill: #fff;
 
 }
 
-.left_exam svg:hover,
-.right_exam svg:hover {
+.left-exam svg:hover,
+.right-exam svg:hover {
     fill: #F77E23;
     z-index: 12;
 }
 
 
 
-.right_exam,
-.left_exam {
+.right-exam,
+.left-exam {
     border: none;
     background-color: #F77E23;
     border-radius: 50%;
@@ -165,18 +165,18 @@
 
 
 
-.right_exam:hover,
-.left_exam:hover {
+.right-exam:hover,
+.left-exam:hover {
     background-color: white;
     fill: orange;
 }
 
-.right_exam .icon-svg {
+.right-exam .icon-svg {
     transform: rotate(180deg) !important;
 
 }
 
-.right_exam:hover .icon-svg,
-.left_exam:hover .icon-svg {
+.right-exam:hover .icon-svg,
+.left-exam:hover .icon-svg {
     fill: orange !important;
 }

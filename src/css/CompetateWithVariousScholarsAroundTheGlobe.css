@@ -1,4 +1,4 @@
-.h1_Competate {
+.h1-Competate {
   font-size: 48px;
   margin: 0 auto;
   max-width: 806px;
@@ -12,7 +12,7 @@
 }
 
 /* Cấu trúc nền */
-.background_Den {
+.background-Den {
   display: flex;
   align-items: center;
   gap: 244px;
@@ -21,13 +21,13 @@
 }
 
 /* Khung chứa hình tròn và viền */
-.circle-container_competate {
+.circle-container-competate {
   position: relative;
   width: 220px;
   height: 220px;
 }
 
-.inside_background_den {
+.inside-background-den {
   display: flex;
   gap: 363px;
   flex-direction: row;
@@ -38,7 +38,7 @@
 }
 
 /* Viền nét đứt */
-.circle-border_den {
+.circle-border-den {
   position: absolute;
   top: 60px;
   left: 0;
@@ -53,7 +53,7 @@
 
 
 /* Ảnh vượt ra ngoài viền */
-.circle-image_den {
+.circle-image-den {
   position: absolute;
   width: 413.5px;
   height: 570.26px;
@@ -66,7 +66,7 @@
 }
 
 
-.content_den {
+.content-den {
   max-width: 500px;
   transform: translate(99px, 107px);
 }
@@ -93,7 +93,7 @@
   transform: translateY(-16px);
 }
 
-.circle_color_den {
+.circle-color-den {
   width: 373.31px;
   height: 373.31px;
   background-color: #FFE7DB;
@@ -105,7 +105,7 @@
 }
 
 
-.button_Experts:hover {
+.button-Experts:hover {
   background-color: white;
   color: #F77E23;
 
@@ -114,7 +114,7 @@
 
 
 
-.background_Learning_institution {
+.background-Learning-institution {
   background-color: rgb(249 205 170);
   width: 48px;
   height: 48px;
@@ -126,7 +126,7 @@
 
 }
 
-.background_Learning_institution_2 {
+.background-Learning-institution-2 {
   background-color: rgb(249 205 170);
   width: 48px;
   height: 48px;
@@ -137,9 +137,9 @@
   /* transform: translate(228px, 118px);*/
 }
 
-/*background_Competate_with_various_scholars_around_the_globe*/
+/*background Competate with various scholars around the globe*/
 @supports (backdrop-filter: blur(10px)) {
-  .background_Competate_with_various_scholars_around_the_globe {
+  .background-Competate-with-various-scholars-around-the-globe {
     background: linear-gradient(to right, rgb(240 185 140 / 53%),
         /* Màu nhạt bên trái */
         rgb(255 255 255 / 80%) 50%,
@@ -159,7 +159,7 @@
 
 
 
-.trans_text_den {
+.trans-text-den {
   height: 60px;
 
   /* gap: 0px; */
@@ -205,7 +205,7 @@
   color: #F77E23;
 }
 
-.Competition_Competate {
+.Competition-Competate-2 {
   width: 70px;
   height: 70px;
   top: 16px;
@@ -219,7 +219,7 @@
 }
 
 
-.background_Instructors_den {
+.background-Instructors-den {
   width: max-content;
   display: flex;
   transform: translate(40px, 73px);
@@ -228,7 +228,7 @@
 
 
 
-.hr_Den {
+.hr-Den {
   background-color: #F77E23;
   width: 79px;
   height: 1.99px;
@@ -239,7 +239,7 @@
   transform: rotate3d(1, 0, 1, -2deg);
 }
 
-.form_den {
+.form-den {
   background-color: white;
   width: 604px;
   height: 655px;
@@ -258,7 +258,7 @@
   top: 50%;
 }
 
-.form_den_label {
+.form-den-label {
   font-size: 16px;
   font-weight: 600;
   width: 503px;
@@ -273,7 +273,7 @@
 
 }
 
-.form_input {
+.form-input {
   width: 515px;
   height: 71px;
   top: 122px;
@@ -285,7 +285,7 @@
   border: 1.07px solid #D9DCE0;
 }
 
-.form_input-opption {
+.form-input-opption {
   width: 556px;
   height: 73px;
   top: 122px;
@@ -298,7 +298,7 @@
   border: 1.07px solid #D9DCE0;
 }
 
-.form_slect {
+.form-slect {
   margin: 0 auto;
   display: flex;
   position: relative;
@@ -326,7 +326,7 @@
 }
 
 
-.list_a_course {
+.list-a-course {
   display: none;
   position: absolute;
   top: 468px;
@@ -342,7 +342,7 @@
 }
 
 
-.list_a_course li {
+.list-a-course li {
   padding: 12px 14px;
   color: #333;
   cursor: pointer;
@@ -353,18 +353,18 @@
 
 }
 
-.list_a_course li:hover {
+.list-a-course li:hover {
   background-color: #f7f7f7;
 }
 
 /* Khi checkbox được chọn, hiển thị danh sách */
-#toggle:checked+.selected+.list_a_course {
+#toggle:checked+.selected+.list-a-course {
   display: block;
 }
 
 
 
-.button_Den {
+.button-Den {
   width: 221px;
   height: 55px;
   border-radius: 5px;
@@ -386,7 +386,7 @@
 
 }
 
-.button_Den:hover {
+.button-Den:hover {
   width: 221px;
   height: 55px;
   border-radius: 5px;
@@ -405,7 +405,7 @@
 
 }
 
-.form_regiter {
+.form-regiter {
   display: contents;
 }
 

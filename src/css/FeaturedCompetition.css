@@ -1,4 +1,4 @@
-.article_background_Featured {
+.article-background-Featured {
     background: bottom;
     max-width: 1238px;
     height: auto;
@@ -15,7 +15,7 @@
 
 
 /*see all*/
-.see_all_Featured {
+.see-all-Featured {
     color: #F77E23;
     text-decoration: none;
     display: flex;
@@ -46,13 +46,13 @@
     padding-bottom: 49px;
 }
 
-.article_content_Featured {
+.article-content-Featured {
     gap: 1px;
     margin: 48px auto;
     max-width: 1225px;
 }
 
-.article_content_Featured h1 {
+.article-content-Featured h1 {
     font-size: 48px;
     max-Width: 389px;
     Height: auto;
@@ -69,13 +69,13 @@
     font-size: 38px;
 }
 
-.article_content_Featured .figure_Featured a {
+.article-content-Featured .figure-Featured a {
     position: relative;
     display: inline-block;
     overflow: hidden;
 }
 
-.article_content_Featured .figure_Featured a::before {
+.article-content-Featured .figure-Featured a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -87,7 +87,7 @@
     z-index: 1;
 }
 
-.article_content_Featured .figure_Featured a img {
+.article-content-Featured .figure-Featured a img {
     width: 291px;
     height: 432px;
     position: relative;
@@ -95,12 +95,12 @@
     object-fit: cover;
 }
 
-.article_content_Featured h1 {
+.article-content-Featured h1 {
     text-align: center;
     font-size: 38px;
 }
 
-.fig_Contest h3 {
+.fig-Contest h3 {
     text-decoration: none;
     display: flex;
     align-content: stretch;
@@ -118,23 +118,23 @@
     transform: translateY(-73px);
 }
 
-.fig_Contest p {
+.fig-Contest p {
     font-size: 16px;
     transform: translateY(-117px);
 }
 
 /* Đặt trạng thái ban đầu */
-.figure_Featured {
+.figure-Featured {
     margin: 0;
 }
 
-.figure_Featured img {
+.figure-Featured img {
     width: 291px;
     height: 432px;
     transition: transform 0.3s ease;
 }
 
-.fig_Contest {
+.fig-Contest {
     position: absolute;
     top: 348px;
     left: 24px;
@@ -148,7 +148,7 @@
 }
 
 /* Nội dung bị ẩn mặc định */
-.Content_Contest {
+.Content-Contest {
     position: absolute;
     top: 451px;
     left: 24px;
@@ -167,16 +167,16 @@
 
 }
 
-.figure_Featured:hover .fig_Contest {
+.figure-Featured:hover .fig-Contest {
     transform: translateY(-95px);
 }
 
-.figure_Featured:hover .Content_Contest {
+.figure-Featured:hover .Content-Contest {
     transform: translateY(-133px);
     opacity: 1;
 }
 
-.LR_content_Featured {
+.LR-content-Featured {
     display: flex;
     gap: 975px;
     justify-content: center;
@@ -187,8 +187,8 @@
     z-index: 99999;
 }
 
-.background_left_Featured,
-.background_right_Featured {
+.background-left-Featured,
+.background-right-Featured {
     background-color: #F77E23;
     width: 5vw;
     height: 5vw;
@@ -203,13 +203,13 @@
     color: white;
 }
 
-.background_left_Featured:hover,
-.background_right_Featured:hover {
+.background-left-Featured:hover,
+.background-right-Featured:hover {
     background-color: green;
 }
 
-.left_Featured,
-.right_Featured {
+.left-Featured,
+.right-Featured {
     width: 30px;
     height: 30px;
     top: 15px;
@@ -224,12 +224,12 @@
     cursor: pointer;
 }
 
-.figure_Featured:hover .contest {
+.figure-Featured:hover .contest {
     transform: translateY(-194px);
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.figure_Featured:hover .Content-Contest {
+.figure-Featured:hover .Content-Contest {
     transform: translateY(-258px);
     opacity: 1;
     transition: transform 0.3s ease, opacity 0.3s ease;

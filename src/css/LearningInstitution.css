@@ -1,14 +1,13 @@
 /* Cấu trúc nền */
-.background_examination {
+.background-learning-institution {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 244px;
-  margin: 4px auto;
-  max-width: 1103px;
+  margin: 0 auto;
 }
 
 /* Khung chứa hình tròn và viền */
-.circle-container_our {
+.circle-container {
   width: max-content;
   /* height: 631px; */
   display: flex;
@@ -16,14 +15,20 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+  top: 120px;
+}
 
-
+.inside-background-learning {
+  display: flex;
+  /* gap: 115px; */
+  flex-direction: row-reverse;
+  margin: 0 auto;
 }
 
 /* Viền nét đứt */
-.circle-border_examination {
+.circle-border {
   position: absolute;
-  top: -73px;
+  top: -249px;
   left: 0;
   width: 498px;
   height: 498px;
@@ -34,69 +39,84 @@
 
 }
 
+.inside-background-learning {
+  display: flex;
+  gap: 400px;
+  flex-direction: row;
+  margin: 0 auto;
+  position: absolute;
+
+}
 
 /* Ảnh vượt ra ngoài viền */
-.circle-image_our {
+.circle-image {
+  position: absolute;
   width: 413.5px;
   height: 570.26px;
   border-radius: 50%;
   object-fit: cover;
   z-index: 2;
-  top: -192.36px;
-  left: -17.06px;
-  transform: rotateY(181deg);
-  position: absolute;
+  top: -190.36px;
+  left: 13.94px;
+  overflow: hidden;
+
 
 }
 
-/* Phần nội dung */
-
-
-.inside_background {
+.display-title {
   display: flex;
-  /* gap: 115px; */
-  flex-direction: row-reverse;
-  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
+.display-backgound-article-learning {
 
-
-
-
-.display_backgound_article {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  left: -85px;
   position: relative;
+
 }
 
-.title_our p {
+/* Phần nội dung */
+.content {
+  width: 100%;
+  max-width: 500px;
+
+}
+
+.title p {
   font-size: 52px;
   font-weight: bold;
   color: #333;
   font-family: Poppins;
   line-height: 78px;
-  /* height: 168px; */
-  max-width: 515px;
+  height: 156px;
+  width: 608px;
   margin-bottom: 0;
-
 }
 
-.content_our_onl p {
-  font-size: 24px;
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 662px;
+}
+
+.description p {
+  font-size: 16px;
   color: #666;
+  width: 100%;
   max-width: 562px;
-  /* height: 150px; */
-  left: 595px;
   font-family: 'Poppins';
   font-weight: 400;
-  line-height: 36px;
-
+  line-height: 24px;
 }
 
-.circle_color {
+.circle-color {
   width: 373.31px;
   height: 373.31px;
   background-color: #FFE7DB;
@@ -106,31 +126,40 @@
   position: relative;
 }
 
-.button_examination {
+.button-Experts {
+  width: 100%;
+  max-width: 158px;
   border-radius: 5px;
   border: aliceblue;
   background-color: #FF6F28;
-  gap: 10px;
-  padding-top: 20px;
-  padding-right: 42px;
-  padding-bottom: 20px;
-  padding-left: 42px;
+  padding: 20px 42px;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Source Sans 3", serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   cursor: pointer;
 }
 
-.button_examination:hover {
+.button-Experts:hover {
   background-color: white;
   color: #F77E23;
 }
 
 
 
-.background_our_examination {
+
+.background-Learning-institution {
+  background-color: rgb(249 205 170);
+  width: 48px;
+  height: 48px;
+  /* top: 25px; */
+  /* left: 882px; */
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.background-Learning-institution-2 {
   background-color: rgb(249 205 170);
   width: 48px;
   height: 48px;
@@ -139,23 +168,12 @@
   border-radius: 50%;
   z-index: 5;
 
-
+  /* transform: translate(228px, 118px);*/
 }
 
-.background_our_examination_2 {
-  background-color: rgb(249 205 170);
-  width: 48px;
-  height: 48px;
-  /* top: 25px; */
-  /* left: 882px; */
-  border-radius: 50%;
-  z-index: 5;
-
-}
-
-/*background Increase*/
+/*background institution*/
 @supports (backdrop-filter: blur(10px)) {
-  .background_Our_online_examination_istop-notch {
+  .background-institution {
     background: linear-gradient(to right, rgb(240 185 140 / 53%),
         /* Màu nhạt bên trái */
         rgb(255 255 255 / 80%) 50%,
@@ -165,43 +183,40 @@
       );
     backdrop-filter: blur(300px);
     width: 100%;
-    max-height: 776px;
-    position: relative;
+    height: 675px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: inline-grid;
-    height: 675px;
-    top: 40px;
   }
 }
 
-
-
-.background_Our_online_examination {
-  display: flex;
-  /* gap: 528px; */
-  max-width: 1151px;
-  /* flex-direction: row-reverse; */
-  /* margin: 0 auto; */
-  align-items: center;
-  position: relative;
-  top: 47px;
-}
-
-
-
-
-.examination-hr {
+.experts-hr {
   color: #F77E23;
 }
 
+.Hr {
+  position: relative;
+  margin: 2px auto;
+}
 
-.background-Increase {
+.hr {
+  width: 211px;
+  height: 4.8px;
+  border-radius: 4px;
+  margin: 0 auto;
+  background-color: #F77E23;
+  transform: rotate3d(0, 112, -57, 6deg);
+  position: absolute;
+  left: 234%;
+  top: -45px;
+}
+
+.background-outstanding {
   background-color: white;
   width: 168px;
-  height: 175px;
+  height: 235px;
   /* top: 408px; */
-  /* left: 367px; */
+  left: 367px;
   border-radius: 10px;
   margin: 0 auto;
   position: relative;
@@ -210,12 +225,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.trans_text_increase {
-  width: 114px;
-
+.trans-text {
+  width: 121px;
   /* height: 60px; */
   /* gap: 0px; */
   display: flex;
@@ -227,7 +240,7 @@
   z-index: 3;
 }
 
-.text-Instrctors {
+.text-outstanding {
   width: 60px;
   top: -22px;
   /* left: 21px; */
@@ -242,7 +255,7 @@
   position: relative;
 }
 
-.Competition_outstanding {
+.competition-outstanding {
   width: 70px;
   height: 70px;
   top: 16px;
@@ -254,33 +267,48 @@
   z-index: 2;
 }
 
-.background_Instructors_our {
+.background-Instructors {
   width: max-content;
   display: flex;
-  gap: 27px;
+  gap: 30px;
+  position: absolute;
+  top: 155px;
+  left: 39px;
+
 }
 
-.content_Icrease {
-  color: black;
+.content-Icrease {
+  color: #F77E23;
   font-weight: 300;
 }
 
 .Instructors {
   width: 40px;
   height: 40px;
-  gap: 8px;
   border-radius: 30px;
   border: 3px solid white;
-  opacity: 1
+  position: absolute;
 }
 
-.hr_Increase {
+.Instructors,
+.Instructors-2,
+.Instructors-3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: 3px solid white;
+  position: absolute;
+}
+
+
+.hr-instructors {
   background-color: #F77E23;
-  width: 119px;
+  width: 133px;
   height: 1.99px;
-  top: 105.01px;
+  top: 122.01px;
   border-radius: 2px;
-  display: flex;
-  margin: 17px auto;
-  transform: rotate3d(1, 49, -2, 20deg);
+  display: grid;
+  position: absolute;
+  left: 25px;
+
 }

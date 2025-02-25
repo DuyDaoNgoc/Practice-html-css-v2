@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.review_article h1 {
+.review-article h1 {
     width: 382px;
     height: 195px;
     top: 123.93px;
@@ -39,13 +39,13 @@
     padding: 20px;
 }
 
-.title_student h1 {
+.title-student h1 {
     max-width: 681px;
     line-height: 100px;
     width: 621px;
 }
 
-.review_article {
+.review-article {
     background: bottom;
     width: 202%;
     height: auto;
@@ -63,7 +63,7 @@
 
 }
 
-.review_figure {
+.review-figure {
     width: 382px;
     height: 188px;
     border-radius: 10px;
@@ -83,7 +83,7 @@
 
 
 
-.review_figure img {
+.review-figure img {
     width: 70px;
     height: 70px;
     gap: 0px;
@@ -92,14 +92,14 @@
     object-fit: cover;
 }
 
-.review_p {
+.review-p {
     width: 182px;
     font-weight: 800;
     font-size: 20px;
     transform: translate(24px, 0px);
 }
 
-.div_review {
+.div-review {
     display: flex;
     justify-content: center;
     transform: translate(-62px, -37px);
@@ -108,13 +108,13 @@
 
 }
 
-.review_color {
+.review-color {
     font-weight: 700;
     color: #F77E23;
 
 }
 
-.content_review {
+.content-review {
     transform: translate(18px, -34px);
     width: 397px;
     height: 151px;
@@ -127,11 +127,11 @@
 
 }
 
-.div_review_father {
+.div-review-father {
     transform: translate(-32px, -9px);
 }
 
-.hr_students {
+.hr-students {
     width: 305.5px;
     height: 11.33px;
     top: 248.49px;
@@ -145,7 +145,7 @@
 
 }
 
-.lr_content_review {
+.lr-content-review {
     display: flex;
     /* justify-content: space-between; */
     /* width: 5em; */
@@ -156,8 +156,8 @@
 
 }
 
-.background_left_review,
-.background_right_review {
+.background-left-review,
+.background-right-review {
     background: bottom;
     border-radius: 50%;
     display: flex;
@@ -169,16 +169,16 @@
     color: #F77E23;
 }
 
-.background_left_review:hover,
-.background_right_review:hover,
-.right_review:hover,
-.left_review:hover {
+.background-left-review:hover,
+.background-right-review:hover,
+.right-review:hover,
+.left-review:hover {
     background-color: #F77E23;
     color: white;
 }
 
-.right_review,
-.left_review {
+.right-review,
+.left-review {
     width: 60px;
     height: 60px;
     top: 15px;
@@ -199,11 +199,11 @@
 }
 
 
-.review_article figure {
+.review-article figure {
     gap: 20px;
 }
 
-.title_student {
+.title-student {
     max-width: 456px;
     font-size: 48px;
 }

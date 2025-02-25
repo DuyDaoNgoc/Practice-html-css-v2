@@ -1,4 +1,4 @@
-.circle-image_nature {
+.circle-image-nature {
     width: 413.5px;
     height: 442.26px;
     border-radius: 50%;
@@ -10,7 +10,7 @@
     position: absolute;
 }
 
-.background_Nature {
+.background-Nature {
     display: flex;
     align-items: center;
     gap: 397px;
@@ -26,13 +26,13 @@
 
 }
 
-.content_nature {
+.content-nature {
     max-width: 500px;
 
 
 }
 
-.Readers_are_leaders {
+.Readers-are-leaders {
     background-color: white;
     width: 168px;
     height: 175px;
@@ -46,7 +46,7 @@
     box-shadow: 1px 2px 4px 0px;
 }
 
-.trans_text_Readers_are_leaders {
+.trans-text-Readers-are-leaders {
     width: 63px;
     height: 47px;
     gap: 0px;
@@ -60,7 +60,7 @@
     text-align: right;
 }
 
-.hr_text_Readers_are_leaders {
+.hr-text-Readers-are-leaders {
     background-color: #F77E23;
     width: 98px;
     height: 1.99px;
@@ -73,7 +73,7 @@
 
 }
 
-.background-Readers_are_leaders {
+.background-Readers-are-leaders {
     background-color: white;
     width: 168px;
     height: 198px;
@@ -89,7 +89,7 @@
     align-items: center
 }
 
-.hr_leader {
+.hr-leader {
     background-color: #F77E23;
     width: 119px;
     height: 1.99px;
@@ -104,14 +104,14 @@
 
 
 
-.Hr_Readers_are_leaders {
+.Hr-Readers-are-leaders {
     transform: translate(-347px, 863px);
     position: relative;
     margin: 2px auto;
 
 }
 
-.content_get_publicstions {
+.content-get-publicstions {
     font-size: 24px;
     color: #666;
     width: 562px;
@@ -123,7 +123,7 @@
     transform: translateY(31px);
 }
 
-.text-Readers_are_leaders {
+.text-Readers-are-leaders {
     width: 60px;
     top: -22px;
     left: -12px;
@@ -138,11 +138,11 @@
     position: relative;
 }
 
-.title_narute p {
+.title-narute p {
     margin-bottom: 0;
 }
 
-.title_narute {
+.title-narute {
     font-size: 52px;
     font-weight: bold;
     color: #333;
@@ -152,7 +152,7 @@
     max-width: 611px;
 }
 
-.content_get_publications p {
+.content-get-publications p {
     font-size: 24px;
     color: #666;
     width: 562px;
@@ -165,7 +165,7 @@
 
 }
 
-.hr_publicstions {
+.hr-publicstions {
     max-width: 312px;
     height: 5px;
     border-radius: 4px;
