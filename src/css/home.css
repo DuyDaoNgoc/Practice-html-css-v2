@@ -6,7 +6,7 @@ body {
 }
 
 .img-index {
-    position: relative;
+    position: sticky;
     text-align: center;
 }
 

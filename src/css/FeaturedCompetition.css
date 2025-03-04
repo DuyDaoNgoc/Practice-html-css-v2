@@ -139,7 +139,7 @@
     top: 348px;
     left: 24px;
     font-size: 32px;
-    font-family: 'Poppins';
+
     font-weight: 600;
     line-height: 48px;
     color: white;
@@ -147,24 +147,44 @@
     transition: transform 0.3s ease;
 }
 
-/* Nội dung bị ẩn mặc định */
 .Content-Contest {
     position: absolute;
     top: 451px;
     left: 24px;
     color: white;
     font-size: 20px;
-    line-height: 30px;
+
     font-weight: 400;
-    opacity: 0;
+
     z-index: 1;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    width: 232px;
-    height: 90px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Poppins;
 
+
+
+
+
+}
+
+.Content-Contest-2 {
+    position: absolute;
+    top: 451px;
+    left: 24px;
+    color: white;
+    font-size: 20px;
+
+    font-weight: 400;
+
+    z-index: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.figure-Featured:hover .fig-Contest {
+    transform: translateY(-95px);
+}
+
+.figure-Featured:hover .Content-Contest-2 {
+    transform: translateY(-133px);
+    opacity: 1;
 }
 
 .figure-Featured:hover .fig-Contest {
