@@ -12,7 +12,11 @@ body {
 
 .img-index img {
     width: 100%;
+<<<<<<< HEAD
     height: 634px;
+=======
+    height: 520px;
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     display: block;
     object-fit: cover;
 }
@@ -20,7 +24,11 @@ body {
 
 
 
+<<<<<<< HEAD
 .img-index::before {
+=======
+.img_index::before {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     content: "";
     position: absolute;
     top: 0;
@@ -37,7 +45,11 @@ header {
     top: 19px;
     left: 0;
     right: 0;
+<<<<<<< HEAD
 
+=======
+    padding: 20px;
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -189,7 +201,11 @@ header h1 {
     z-index: 9999;
 }
 
+<<<<<<< HEAD
 .register-menu {
+=======
+.register_menu {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     background-color: white;
     color: #f77e23;
     border: 1px solid #f77e23;
@@ -219,13 +235,18 @@ header h1 {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .mobile-width {
+=======
+.mobile_width {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     display: flex;
     justify-content: space-around;
     width: 51%;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .dis-button-menu {
     display: none;
 }
@@ -234,6 +255,15 @@ header h1 {
     display: flex;
     gap: 14px;
     align-items: center;
+=======
+.dis_button_menu {
+    display: none;
+}
+
+.support_item {
+    display: flex;
+    gap: 24px;
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
 
 
 }
@@ -249,14 +279,22 @@ header h1 {
         display: flex;
     }
 
+<<<<<<< HEAD
     .dis-button-menu {
+=======
+    .dis_button_menu {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         display: block;
         position: relative;
         top: 38px;
         cursor: pointer;
     }
 
+<<<<<<< HEAD
     .sp-index {
+=======
+    .sp_index {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         display: flex;
         align-items: center;
         justify-content: center;
@@ -265,7 +303,11 @@ header h1 {
         z-index: 9999;
     }
 
+<<<<<<< HEAD
     .img-index img {
+=======
+    .img_index img {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         width: 100%;
         height: 520px;
         display: block;
@@ -276,13 +318,21 @@ header h1 {
         display: none;
     }
 
+<<<<<<< HEAD
     .img-index {
+=======
+    .img_index {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         position: relative;
         text-align: center;
         top: 88px;
     }
 
+<<<<<<< HEAD
     .button-menu {
+=======
+    .button_menu {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         display: flex;
         gap: 5px;
         flex-direction: column;
@@ -292,17 +342,26 @@ header h1 {
 
     }
 
+<<<<<<< HEAD
     .mobile-content-menu div li a {
+=======
+    .mobile_content_menu div li a {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         position: absolute;
         display: none;
     }
 
+<<<<<<< HEAD
     .mobile-width {
+=======
+    .mobile_width {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
     }
 
+<<<<<<< HEAD
     .max-content-mobile-menu {
         padding: 0;
     }
@@ -312,6 +371,17 @@ header h1 {
     }
 
     .mobile-content-menu {
+=======
+    .max-content-mobile_menu {
+        padding: 0;
+    }
+
+    .fountain_mobile {
+        padding-left: 0;
+    }
+
+    .mobile_content_menu {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         list-style: none;
         display: flex;
         gap: 20px;
@@ -320,7 +390,11 @@ header h1 {
         justify-content: center;
     }
 
+<<<<<<< HEAD
     .register-menu {
+=======
+    .register_menu {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         display: none;
     }
 
@@ -334,14 +408,22 @@ header h1 {
         height: 7px;
     }
 
+<<<<<<< HEAD
     .nav-menu {
+=======
+    .nav_menu {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         justify-content: center;
         width: 100%;
         height: auto;
 
     }
 
+<<<<<<< HEAD
     .navigation-controls {
+=======
+    .navigation_controls {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         display: flex;
 
     }
@@ -356,11 +438,19 @@ header h1 {
         margin: 0 21px;
     }
 
+<<<<<<< HEAD
     .nav-menu div li a {
         color: #f77e23;
     }
 
     .nav-menu-f {
+=======
+    .nav_menu div li a {
+        color: #f77e23;
+    }
+
+    .nav_menu_f {
+>>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
         display: none;
     }
 

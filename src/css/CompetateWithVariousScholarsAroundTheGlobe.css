@@ -398,6 +398,10 @@
   display: contents;
 }
 
+.form_regiter {
+  display: contents;
+}
+
 .register {
   display: flex;
   flex-direction: column;
