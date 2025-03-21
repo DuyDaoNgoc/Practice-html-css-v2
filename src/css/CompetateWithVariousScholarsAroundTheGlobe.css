@@ -387,21 +387,10 @@
 }
 
 .button-Den:hover {
-  width: 221px;
-  height: 55px;
-  border-radius: 5px;
-  border: aliceblue;
+
   background-color: white;
-  gap: 10px;
-  padding-top: 20px;
-  padding-right: 42px;
-  padding-bottom: 20px;
-  padding-left: 42px;
+
   color: #FF6F28;
-  font-family: 'DM Sans';
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
 
 }
 
