@@ -55,11 +55,7 @@
 
 }
 
-<<<<<<< HEAD
 .sub-btn {
-=======
-.sub_btn {
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     background: #F77E23;
     color: white;
     width: 126px;
@@ -67,11 +63,7 @@
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .div-footer p {
-=======
-.div_footer p {
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
 
     color: white;
     max-width: 240px;
@@ -129,11 +121,7 @@
 
 
 
-<<<<<<< HEAD
 .ft-Subscribe {
-=======
-.ft_Subscribe {
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
@@ -196,21 +184,13 @@
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .form-ft {
-=======
-.form_ft {
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-<<<<<<< HEAD
 .display-content-ft {
-=======
-.display_content_ft {
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     display: flex;
     flex-direction: column;
     gap: 20px
@@ -222,21 +202,12 @@
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .input-subcribe,
 .input-subcribe::placeholder {
-=======
-.input_subcribe,
-.input_subcribe::placeholder {
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     font-family: "Poppins", serif;
     font-size: 14px;
     left: 419px;
     border: none;
-<<<<<<< HEAD
-=======
-
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998
     padding: 20px;
     padding-right: 224px;
     color: #F77E23;

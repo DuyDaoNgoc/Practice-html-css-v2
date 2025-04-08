@@ -10,7 +10,7 @@
     position: absolute;
 }
 
-.background-Nature {
+.background-nature {
     display: flex;
     align-items: center;
     gap: 397px;
@@ -19,7 +19,7 @@
     flex-direction: row-reverse;
 }
 
-.circle-container-Nature {
+.circle-container-nature {
     position: relative;
     width: 220px;
     height: 220px;
@@ -32,7 +32,7 @@
 
 }
 
-.Readers-are-leaders {
+.readers-are-leaders {
     background-color: white;
     width: 168px;
     height: 175px;
@@ -46,7 +46,7 @@
     box-shadow: 1px 2px 4px 0px;
 }
 
-.trans-text-Readers-are-leaders {
+.trans-text-readers-are-leaders {
     width: 63px;
     height: 47px;
     gap: 0px;
@@ -60,7 +60,7 @@
     text-align: right;
 }
 
-.hr-text-Readers-are-leaders {
+.hr-text-readers-are-leaders {
     background-color: #F77E23;
     width: 98px;
     height: 1.99px;
@@ -73,7 +73,7 @@
 
 }
 
-.background-Readers-are-leaders {
+.background-readers-are-leaders {
     background-color: white;
     width: 168px;
     height: 198px;

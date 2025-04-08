@@ -1,4 +1,4 @@
-.article-background-Featured {
+.article-background-featured {
     background: bottom;
     max-width: 1238px;
     height: auto;
@@ -15,7 +15,7 @@
 
 
 /*see all*/
-.see-all-Featured {
+.see-all-featured {
     color: #F77E23;
     text-decoration: none;
     display: flex;
@@ -32,7 +32,7 @@
 }
 
 /*content Top cartegories */
-.Featured {
+.featured {
     font-size: 48px;
     Height: 117px;
     margin: 0 auto;
@@ -46,13 +46,13 @@
     padding-bottom: 49px;
 }
 
-.article-content-Featured {
+.article-content-featured {
     gap: 1px;
     margin: 48px auto;
     max-width: 1225px;
 }
 
-.article-content-Featured h1 {
+.article-content-featured h1 {
     font-size: 48px;
     max-Width: 389px;
     Height: auto;
@@ -69,13 +69,13 @@
     font-size: 38px;
 }
 
-.article-content-Featured .figure-Featured a {
+.article-content-featured .figure-featured a {
     position: relative;
     display: inline-block;
     overflow: hidden;
 }
 
-.article-content-Featured .figure-Featured a::before {
+.article-content-featured .figure-Featured a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -87,7 +87,7 @@
     z-index: 1;
 }
 
-.article-content-Featured .figure-Featured a img {
+.article-content-featured .figure-featured a img {
     width: 291px;
     height: 432px;
     position: relative;
@@ -95,12 +95,12 @@
     object-fit: cover;
 }
 
-.article-content-Featured h1 {
+.article-content-featured h1 {
     text-align: center;
     font-size: 38px;
 }
 
-.fig-Contest h3 {
+.fig-contest h3 {
     text-decoration: none;
     display: flex;
     align-content: stretch;
@@ -118,23 +118,23 @@
     transform: translateY(-73px);
 }
 
-.fig-Contest p {
+.fig-contest p {
     font-size: 16px;
     transform: translateY(-117px);
 }
 
 /* Đặt trạng thái ban đầu */
-.figure-Featured {
+.figure-featured {
     margin: 0;
 }
 
-.figure-Featured img {
+.figure-featured img {
     width: 291px;
     height: 432px;
     transition: transform 0.3s ease;
 }
 
-.fig-Contest {
+.fig-contest {
     position: absolute;
     top: 348px;
     left: 24px;
@@ -147,7 +147,7 @@
     transition: transform 0.3s ease;
 }
 
-.Content-Contest {
+.content-contest {
     position: absolute;
     top: 451px;
     left: 24px;
@@ -165,7 +165,7 @@
 
 }
 
-.Content-Contest-2 {
+.content-contest-2 {
     position: absolute;
     top: 451px;
     left: 24px;
@@ -178,25 +178,25 @@
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.figure-Featured:hover .fig-Contest {
+.figure-featured:hover .fig-contest {
     transform: translateY(-95px);
 }
 
-.figure-Featured:hover .Content-Contest-2 {
+.figure-featured:hover .content-contest-2 {
     transform: translateY(-133px);
     opacity: 1;
 }
 
-.figure-Featured:hover .fig-Contest {
+.figure-featured:hover .fig-contest {
     transform: translateY(-95px);
 }
 
-.figure-Featured:hover .Content-Contest {
+.figure-featured:hover .content-contest {
     transform: translateY(-133px);
     opacity: 1;
 }
 
-.LR-content-Featured {
+.lr-content-featured {
     display: flex;
     gap: 975px;
     justify-content: center;
@@ -207,8 +207,8 @@
     z-index: 99999;
 }
 
-.background-left-Featured,
-.background-right-Featured {
+.background-left-featured,
+.background-right-featured {
     background-color: #F77E23;
     width: 5vw;
     height: 5vw;
@@ -223,13 +223,13 @@
     color: white;
 }
 
-.background-left-Featured:hover,
-.background-right-Featured:hover {
+.background-left-featured:hover,
+.background-right-featured:hover {
     background-color: green;
 }
 
-.left-Featured,
-.right-Featured {
+.left-featured,
+.right-featured {
     width: 30px;
     height: 30px;
     top: 15px;
@@ -244,12 +244,12 @@
     cursor: pointer;
 }
 
-.figure-Featured:hover .contest {
+.figure-featured:hover .contest {
     transform: translateY(-194px);
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.figure-Featured:hover .Content-Contest {
+.figure-featured:hover .Content-Contest {
     transform: translateY(-258px);
     opacity: 1;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -268,7 +268,7 @@
 
 
 
-.Content-Contest {
+.content-contest {
     position: absolute;
     top: 451px;
     left: 24px;

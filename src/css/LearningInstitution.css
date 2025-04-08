@@ -208,11 +208,7 @@
   transform: rotate3d(0, 112, -57, 6deg);
   position: absolute;
   left: 234%;
-<<<<<<< HEAD:src/css/LearningInstitution.css
   top: -45px;
-=======
-  top: -7px;
->>>>>>> e4295c1e0452e27ebd44299cda6e28c75b791998:src/css/Learning_Institution.css
 }
 
 .background-outstanding {
