@@ -249,7 +249,7 @@
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.figure-featured:hover .Content-Contest {
+.figure-featured:hover .content-contest {
     transform: translateY(-258px);
     opacity: 1;
     transition: transform 0.3s ease, opacity 0.3s ease;
