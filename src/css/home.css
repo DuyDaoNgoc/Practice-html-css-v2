@@ -12,11 +12,7 @@ body {
 
 .img-index img {
     width: 100%;
-
     height: 634px;
-
-    height: 520px;
-
     display: block;
     object-fit: cover;
 }
@@ -24,10 +20,7 @@ body {
 
 
 
-
-
-.img_index::before {
-
+.img-index::before {
     content: "";
     position: absolute;
     top: 0;
@@ -44,10 +37,6 @@ header {
     top: 19px;
     left: 0;
     right: 0;
-
-
-
-    padding: 20px;
 
     display: flex;
     justify-content: space-around;
@@ -200,10 +189,7 @@ header h1 {
     z-index: 9999;
 }
 
-
-
-.register_menu {
-
+.register-menu {
     background-color: white;
     color: #f77e23;
     border: 1px solid #f77e23;
@@ -233,10 +219,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-
-
-.mobile_width {
-
+.mobile-width {
     display: flex;
     justify-content: space-around;
     width: 51%;

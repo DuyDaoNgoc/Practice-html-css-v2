@@ -1,7 +1,7 @@
-.h1-competate {
+.h1-Competate {
   font-size: 48px;
   margin: 0 auto;
-  max-width: 806px;
+
   font-family: Poppins;
   display: flex;
   font-weight: 600;
@@ -12,7 +12,7 @@
 }
 
 /* Cấu trúc nền */
-.background-den {
+.background-Den {
   display: flex;
   align-items: center;
   gap: 244px;
@@ -105,7 +105,7 @@
 }
 
 
-.button-experts:hover {
+.button-Experts:hover {
   background-color: white;
   color: #F77E23;
 
@@ -114,7 +114,7 @@
 
 
 
-.background-learning-institution {
+.background-Learning-institution {
   background-color: rgb(249 205 170);
   width: 48px;
   height: 48px;
@@ -126,7 +126,7 @@
 
 }
 
-.background-learning-institution-2 {
+.background-Learning-institution-2 {
   background-color: rgb(249 205 170);
   width: 48px;
   height: 48px;
@@ -176,7 +176,7 @@
 
 
 
-.background-competate {
+.background-Competate {
   background-color: white;
   width: 194px;
   height: 214px;
@@ -192,7 +192,7 @@
 
 
 
-.text-competate {
+.text-Competate {
   width: 31px;
   /* top: 78px; */
   /* left: 21px; */
@@ -205,7 +205,7 @@
   color: #F77E23;
 }
 
-.competition-competate-2 {
+.Competition-Competate-2 {
   width: 70px;
   height: 70px;
   top: 16px;
@@ -219,7 +219,7 @@
 }
 
 
-.background-instructors-den {
+.background-Instructors-den {
   width: max-content;
   display: flex;
   transform: translate(40px, 73px);
@@ -228,7 +228,7 @@
 
 
 
-.hr-den {
+.hr-Den {
   background-color: #F77E23;
   width: 79px;
   height: 1.99px;
@@ -364,7 +364,7 @@
 
 
 
-.button-den {
+.button-Den {
   width: 221px;
   height: 55px;
   border-radius: 5px;
@@ -386,7 +386,7 @@
 
 }
 
-.button-den:hover {
+.button-Den:hover {
   width: 221px;
   height: 55px;
   border-radius: 5px;
@@ -406,10 +406,6 @@
 }
 
 .form-regiter {
-  display: contents;
-}
-
-.form_regiter {
   display: contents;
 }
 

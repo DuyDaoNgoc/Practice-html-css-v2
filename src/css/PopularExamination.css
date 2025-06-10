@@ -1,5 +1,5 @@
 /* Container chính */
-.popular-examination {
+.Popular-examination {
     display: grid;
     justify-content: center;
     padding: 0;
@@ -49,14 +49,14 @@
     margin: 0;
 }
 
-.display-popular-examination {
+.display-Popular-examination {
     display: flex;
     gap: 20px;
     position: relative;
 
 }
 
-.figure-popular-examination img {
+.figure-Popular-examination img {
     width: 100%;
     height: 100%;
     max-width: 273px;
@@ -66,7 +66,7 @@
 }
 
 /* Chú thích */
-.figure-popular-examination figcaption {
+.figure-Popular-examination figcaption {
     position: absolute;
     left: 24.28px;
     font-size: 26.15px;
@@ -84,10 +84,11 @@
 
 .lr-content-exam {
     display: flex;
-    gap: 975px;
-    justify-content: center;
+    /* gap: 975px; */
+
     align-items: center;
     bottom: 193px;
+    justify-content: space-between;
     position: relative;
     z-index: 999;
     left: 0%;
@@ -119,7 +120,6 @@
     background-color: white;
     color: #F77E23;
     z-index: 1;
-
 }
 
 .background-left-exam:hover svg:hover {
@@ -148,39 +148,11 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
-
-}
-
-.background_left_exam:hover svg:hover {
-    fill: #F77E23;
-    z-index: 12;
-}
-
-.left_exam svg {
-    fill: #fff;
-
-}
-
-.left_exam svg:hover {
-    fill: #F77E23;
-    z-index: 12;
-}
-
-.right_exam,
-.left_exam {
-    border: none;
-    background-color: #F77E23;
-    border-radius: 50%;
-    width: 5vw;
-    height: 5vw;
-    max-width: 60px;
-    max-height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 
     cursor: pointer;
-
 
     /* padding: 15px 0px; */
 
@@ -205,38 +177,4 @@
 .right-exam:hover .icon-svg,
 .left-exam:hover .icon-svg {
     fill: orange !important;
-
-    border: 1px solid orange;
-    color: orange;
-    padding: 15px 0px;
-    text-align: center;
-    margin: 5px 5px;
-    width: 90%;
-    font-size: 1.2rem;
-}
-
-.box-button {
-    border: 1px solid orange;
-    color: orange;
-    padding: 15px 0px;
-    text-align: center;
-    margin: 5px 5px;
-    width: 90%;
-    font-size: 1.2rem;
-}
-
-.right_exam:hover,
-.left_exam:hover {
-    background-color: white;
-    color: orange;
-}
-
-.right_exam:hover,
-.left_exam:hover .icon-svg {
-    fill: orange !important;
-}
-
-.icon-svg {
-    fill: orange;
-
 }
