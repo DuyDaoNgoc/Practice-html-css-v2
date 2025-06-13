@@ -18,12 +18,9 @@
 
     .examination-hr::after {
         width: 203px;
-        top: 47px;
+        top: 63px;
     }
 
-    .title {
-        max-width: 341px !important;
-    }
 
     .title p {
         font-size: 32px !important;
@@ -213,8 +210,7 @@
 @media (max-width: 768px) {
     .sort-by-text {
         font-size: 16px;
-        width: 50px;
-        height: 24px;
+       
     }
 
     .inside-background-learning {
@@ -315,8 +311,7 @@
 @media (max-width: 480px) {
     .sort-by-text {
         font-size: 14px;
-        width: 45px;
-        height: 20px;
+    
     }
 
 
