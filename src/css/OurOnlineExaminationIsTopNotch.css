@@ -9,15 +9,10 @@
 
 /* Khung chứa hình tròn và viền */
 .circle-container-our {
-  width: max-content;
-  /* height: 631px; */
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
 
-
+  position: relative;
+  top: 77px;
+  left: -90px;
 }
 
 /* Viền nét đứt */
@@ -38,11 +33,11 @@
 /* Ảnh vượt ra ngoài viền */
 .circle-image-our {
   width: 413.5px;
-  height: 570.26px;
+  height: 484.26px;
   border-radius: 50%;
   object-fit: cover;
   z-index: 2;
-  top: -192.36px;
+  top: -103.36px;
   left: -17.06px;
   transform: rotateY(181deg);
   position: absolute;
@@ -54,9 +49,12 @@
 
 .inside-background {
   display: flex;
-  /* gap: 115px; */
+  gap: 73px;
   flex-direction: row-reverse;
   margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -68,7 +66,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  left: -85px;
+  padding: 20px;
   position: relative;
 }
 
@@ -78,7 +76,6 @@
   color: #333;
   font-family: Poppins;
   line-height: 78px;
-  /* height: 168px; */
   max-width: 515px;
   margin-bottom: 0;
 
@@ -153,29 +150,6 @@
 
 }
 
-/*background Increase*/
-@supports (backdrop-filter: blur(10px)) {
-  .background-Our-online-examination-istop-notch {
-    background: linear-gradient(to right, rgb(240 185 140 / 53%),
-        /* Màu nhạt bên trái */
-        rgb(255 255 255 / 80%) 50%,
-        /* Màu đậm ở giữa */
-        rgb(255 184 125 / 55%) 100%
-        /* Màu nhạt bên phải */
-      );
-    backdrop-filter: blur(300px);
-    width: 100%;
-    max-height: 776px;
-    position: relative;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    display: inline-grid;
-    height: 675px;
-    top: 40px;
-  }
-}
-
-
 
 .background-Our-online-examination {
   display: flex;
@@ -187,7 +161,6 @@
   position: relative;
   top: 47px;
 }
-
 
 
 
@@ -212,10 +185,10 @@
   background-color: white;
   width: 168px;
   height: 175px;
-  /* top: 408px; */
-  /* left: 367px; */
+  top: -288px;
+  left: 0px;
   border-radius: 10px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   position: relative;
   z-index: 5;
   box-shadow: 1px 2px 4px 0px;
@@ -294,7 +267,7 @@
 
 .content-Icrease {
   color: black;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .Instructors {

@@ -5,9 +5,9 @@
     object-fit: cover;
     z-index: 2;
     top: -45.36px;
-    left: -21.06px;
+    left: 40.94px;
     transform: rotateY(181deg);
-    position: absolute;
+    position: relative;
 }
 
 .background-Nature {
@@ -77,8 +77,8 @@
     background-color: white;
     width: 168px;
     height: 198px;
-    /* top: 408px; */
-    left: -32px;
+    top: -324px;
+    left: -200px;
     border-radius: 10px;
     margin: 0 auto;
     position: relative;
@@ -86,7 +86,7 @@
     box-shadow: 1px 2px 4px 0px;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 .hr-leader {

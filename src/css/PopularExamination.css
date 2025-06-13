@@ -1,16 +1,12 @@
-/* Container chính */
 .Popular-examination {
     display: grid;
     justify-content: center;
-    padding: 0;
-    text-align: center;
-    margin: 153px auto;
-    /* width: max-content; */
-    gap: 27px;
-    max-width: 1200px;
+    /* padding: 0; */
+    text-align: start;
+
 }
 
-/* Tiêu đề */
+
 .title-section {
     font-size: 48px;
     font-family: "Open Sans", serif;
@@ -49,10 +45,29 @@
     margin: 0;
 }
 
+.figure-Popular-examination a {
+    text-decoration: none;
+}
+
+.position-circle {
+    position: relative;
+    top: 140px;
+}
+
+.figure-Popular-examination a p {
+    position: relative;
+    top: -87px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .display-Popular-examination {
     display: flex;
     gap: 20px;
     position: relative;
+    padding: 10px;
 
 }
 
@@ -65,7 +80,7 @@
     transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-/* Chú thích */
+
 .figure-Popular-examination figcaption {
     position: absolute;
     left: 24.28px;
@@ -177,4 +192,22 @@
 .right-exam:hover .icon-svg,
 .left-exam:hover .icon-svg {
     fill: orange !important;
+}
+
+/* title*/
+@media screen and (max-width:768px) {
+    .Featured {
+        font-size: 24px !important;
+
+    }
+
+    .h1-Competate {
+        font-size: 24px !important;
+
+    }
+
+    .fig-Contest h3 {
+        transform: translateY(-239px) !important;
+        font-size: 16px !important;
+    }
 }

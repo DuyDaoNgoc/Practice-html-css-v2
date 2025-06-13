@@ -102,20 +102,17 @@
 }
 
 .ft-Subscribe {
-    position: relative;
+
     display: flex;
-    width: max-content;
+
     flex-direction: column;
     align-items: center;
-    gap: 28px;
+
 }
 
 
 .display-ft-subscribe {
-    width: max-content;
-    position: relative;
-    left: 43%;
-    /* top: -173px; */
+
     color: white;
 }
 
@@ -126,7 +123,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
-    text-align: left;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
@@ -148,6 +145,7 @@
 
 .inp-btn-subscribe {
     display: flex;
+    justify-content: center;
 }
 
 .display-contenttionary {
@@ -184,11 +182,8 @@
     flex-wrap: wrap;
 }
 
-.form-ft {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+
 
 .display-content-ft {
     display: flex;
@@ -209,7 +204,7 @@
     left: 419px;
     border: none;
     padding: 20px;
-    padding-right: 224px;
+    width: 40%;
     color: #F77E23;
     border: none;
 
