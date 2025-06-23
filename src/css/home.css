@@ -238,3 +238,10 @@ header h1 {
 
 
 }
+
+.size-image {
+    width: 301px;
+    height: 432px;
+    position: relative;
+    left: -109px;
+}
