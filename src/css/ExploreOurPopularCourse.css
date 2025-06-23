@@ -76,14 +76,13 @@
 }
 
 .figure-star {
-  width: max-content;
+
   border: 1px solid #c8bbbb36;
-  margin: 0;
+
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   cursor: pointer;
-  max-width: 392px;
-  max-height: 427px;
+
   background: white;
 }
 
