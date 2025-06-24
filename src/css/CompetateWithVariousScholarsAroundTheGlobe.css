@@ -1,12 +1,8 @@
 .h1-Competate {
   font-size: 48px;
-
   font-family: Poppins;
   text-align: center;
   font-weight: 600;
-
-
-
 }
 
 .inside-background-learning {
@@ -16,13 +12,9 @@
   flex-wrap: wrap;
 }
 
-/* Cấu trúc nền */
-
-
 /* Khung chứa hình tròn và viền */
 .circle-container-competate {
   position: relative;
-
   height: 220px;
 }
 
@@ -39,7 +31,7 @@
 /* Viền nét đứt */
 .circle-border-den {
   position: absolute;
-  top: 60px;
+  top: 0;
   left: 0;
   width: 498px;
   height: 498px;
@@ -47,30 +39,20 @@
   border-radius: 50%;
   box-sizing: border-box;
   z-index: 1;
-  /* background-color: white;*/
 }
-
 
 /* Ảnh vượt ra ngoài viền */
 .circle-image-den {
   position: relative;
   width: 413.5px;
-  height: 570.26px;
+  height: 494.26px;
   border-radius: 50%;
   object-fit: cover;
   z-index: 2;
-  top: -69.36px;
+  top: -198%;
   left: 53.94px;
   overflow: hidden;
 }
-
-
-.content-den {
-  max-width: 500px;
-  transform: translate(99px, 107px);
-}
-
-
 
 .description p {
   font-size: 24px;
@@ -95,43 +77,6 @@
   z-index: 2;
 }
 
-
-.button-Experts:hover {
-  background-color: white;
-  color: #F77E23;
-
-}
-
-
-
-
-
-
-/*background Competate with various scholars around the globe*/
-@supports (backdrop-filter: blur(10px)) {
-  .background-Competate-with-various-scholars-around-the-globe {
-    background: linear-gradient(to right, rgb(240 185 140 / 53%),
-        /* Màu nhạt bên trái */
-        rgb(255 255 255 / 80%) 50%,
-        /* Màu đậm ở giữa */
-        rgb(255 184 125 / 55%) 100%
-        /* Màu nhạt bên phải */
-      );
-    backdrop-filter: blur(300px);
-    width: 100%;
-    height: auto;
-    position: relative;
-
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-
-  }
-}
-
-
-
-
-
-
 .trans-text-den p {
   text-align: center;
   margin-bottom: 0;
@@ -154,22 +99,16 @@
   top: 0;
   left: 0;
   border-radius: 10px;
-
-
   position: relative;
   z-index: 5;
   box-shadow: 1px 2px 4px 0px;
 }
 
-
-
 .text-Competate {
-
   font-family: Poppins;
   font-weight: 600;
   font-size: 20px;
   line-height: 11px;
-
   color: #F77E23;
 }
 
@@ -190,44 +129,17 @@
   margin: 0 auto;
   padding-top: 11px;
   z-index: 2;
-
-}
-
-
-.background-Instructors-den {
-  width: max-content;
-  display: flex;
-  transform: translate(40px, 73px);
-  gap: 27px;
-}
-
-
-
-.hr-Den {
-  background-color: #F77E23;
-  width: 79px;
-  height: 1.99px;
-  top: 105.01px;
-  border-radius: 2px;
-  display: flex;
-  margin: 41px auto;
-  transform: rotate3d(1, 0, 1, -2deg);
 }
 
 .form-den {
   background-color: white;
-  width: 604px;
   height: 655px;
-
   box-shadow: 0px 0px 25px 0px #1118272E;
-
+  padding: 20px;
   display: grid;
-
-  justify-items: center;
+  justify-items: end;
   align-content: space-evenly;
   gap: 3px;
-
-
 }
 
 .form-den-label {
@@ -239,7 +151,6 @@
   left: 41px;
   text-align: center;
   color: #333333;
-
 }
 
 .form-input {
@@ -248,7 +159,6 @@
   top: 122px;
   left: 39px;
   gap: 0px;
-  /* margin-top: -102px; */
   padding-inline: 20px;
   background-color: #FAFAFC;
   border: 1.07px solid #D9DCE0;
@@ -260,7 +170,6 @@
   top: 122px;
   left: 39px;
   gap: 0px;
-  /* margin-top: -102px; */
   padding-inline: 20px;
   background-color: #FAFAFC;
   color: gray;
@@ -278,23 +187,6 @@
   align-items: center;
 }
 
-
-.selected {
-  width: 515px;
-  height: 71px;
-  top: 8px;
-  left: 5px;
-  gap: 0px;
-  margin-top: -102px;
-  padding-inline: 20px;
-  background-color: #FAFAFC;
-  border: 1.07px solid #D9DCE0;
-  display: flex;
-  align-items: center;
-  color: #000000ab;
-}
-
-
 .list-a-course {
   display: none;
   position: absolute;
@@ -310,79 +202,11 @@
   margin: 0;
 }
 
-
-.list-a-course li {
-  padding: 12px 14px;
-  color: #333;
-  cursor: pointer;
-  transition: background-color 0.2s;
-  filter: grayscale(1);
-  position: relative;
-  left: -44px;
-
-}
-
-.list-a-course li:hover {
-  background-color: #f7f7f7;
-}
-
 /* Khi checkbox được chọn, hiển thị danh sách */
 #toggle:checked+.selected+.list-a-course {
   display: block;
 }
 
-
-
-.button-Den {
-  width: 221px;
-  height: 55px;
-  border-radius: 5px;
-  border: aliceblue;
-  background-color: #FF6F28;
-  gap: 10px;
-  padding-top: 20px;
-  padding-right: 42px;
-  padding-bottom: 20px;
-  padding-left: 42px;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  position: relative;
-  left: 127px;
-  cursor: pointer;
-
-}
-
-.button-Den:hover {
-  width: 221px;
-  height: 55px;
-  border-radius: 5px;
-  border: aliceblue;
-  background-color: white;
-  gap: 10px;
-  padding-top: 20px;
-  padding-right: 42px;
-  padding-bottom: 20px;
-  padding-left: 42px;
-  color: #FF6F28;
-  font-family: 'DM Sans';
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-
-}
-
 .form-regiter {
   display: contents;
-}
-
-.register {
-  display: flex;
-  flex-direction: column;
-  gap: 128px;
-  position: relative;
-  top: 6%;
-  align-items: center;
 }

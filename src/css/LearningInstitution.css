@@ -1,8 +1,5 @@
 /* Khung chứa hình tròn và viền */
 .circle-container {
-
-
-
   position: absolute;
   top: 112px;
 }
@@ -43,8 +40,6 @@
 .display-title {
   display: flex;
   flex-direction: column;
-
-
 }
 
 
@@ -76,6 +71,14 @@
   line-height: 78px;
   max-width: 543px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .title p {
+    font-size: 32px !important;
+    text-align: center;
+  }
+
 }
 
 .description p {
@@ -154,6 +157,17 @@
   margin-top: -12px;
   border-radius: 40px;
   transform: skewY(-1deg);
+}
+
+@media screen and (max-width: 768px) {
+  .experts-hr::after {
+    width: 100%;
+    position: absolute;
+    height: 6px;
+    margin-top: -23px;
+    left: 2px;
+  }
+
 }
 
 .Hr {
@@ -268,17 +282,4 @@
   border-radius: 30px;
   border: 3px solid white;
   position: absolute;
-}
-
-
-.hr-instructors {
-  background-color: #F77E23;
-  width: 133px;
-  height: 1.99px;
-  top: 122.01px;
-  border-radius: 2px;
-  display: grid;
-  position: absolute;
-  left: 25px;
-
 }

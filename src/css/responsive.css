@@ -1,42 +1,4 @@
 @media (max-width: 768px) {
-    header {
-
-
-        justify-content: flex-start;
-        background: white;
-        height: 90px;
-        position: absolute;
-        width: 100%;
-        top: 0;
-
-    }
-
-    .figure-Featured:hover .contest {
-        transform: none !important;
-
-    }
-
-    .examination-hr::after {
-        width: 203px;
-        top: 63px;
-    }
-
-
-    .title p {
-        font-size: 32px !important;
-        text-align: center;
-    }
-
-    .figure-Featured:hover .Content-Contest-2 {
-        transform: none !important;
-        opacity: 1;
-    }
-
-    .figure-Featured:hover .Content-Contest {
-        transform: none !important;
-
-
-    }
 
     .background-learning-institution {
         position: relative;

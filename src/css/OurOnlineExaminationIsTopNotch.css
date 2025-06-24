@@ -9,7 +9,6 @@
 
 /* Khung chứa hình tròn và viền */
 .circle-container-our {
-
   position: relative;
   top: 77px;
   left: -90px;
@@ -29,7 +28,6 @@
 
 }
 
-
 /* Ảnh vượt ra ngoài viền */
 .circle-image-our {
   width: 413.5px;
@@ -41,12 +39,9 @@
   left: -17.06px;
   transform: rotateY(181deg);
   position: absolute;
-
 }
 
 /* Phần nội dung */
-
-
 .inside-background {
   display: flex;
   gap: 73px;
@@ -56,10 +51,6 @@
   align-items: center;
   justify-content: center;
 }
-
-
-
-
 
 .display-backgound-article {
   display: flex;
@@ -78,19 +69,16 @@
   line-height: 78px;
   max-width: 515px;
   margin-bottom: 0;
-
 }
 
 .content-our-onl p {
   font-size: 24px;
   color: #666;
   max-width: 562px;
-  /* height: 150px; */
   left: 595px;
   font-family: 'Poppins';
   font-weight: 400;
   line-height: 36px;
-
 }
 
 .circle-color {
@@ -125,48 +113,40 @@
   color: #F77E23;
 }
 
-
-
 .background-our-examination {
   background-color: rgb(249 205 170);
   width: 48px;
   height: 48px;
-  /* top: 25px; */
-  /* left: 882px; */
   border-radius: 50%;
   z-index: 5;
-
-
 }
 
 .background-our-examination-2 {
   background-color: rgb(249 205 170);
   width: 48px;
   height: 48px;
-  /* top: 25px; */
-  /* left: 882px; */
   border-radius: 50%;
   z-index: 5;
-
 }
-
 
 .background-Our-online-examination {
   display: flex;
-  /* gap: 528px; */
   max-width: 1151px;
-  /* flex-direction: row-reverse; */
-  /* margin: 0 auto; */
   align-items: center;
   position: relative;
   top: 47px;
 }
 
-
-
 .examination-hr {
   color: #F77E23;
   position: relative;
+}
+
+@media screen and (max-width :768px) {
+  .examination-hr::after {
+    width: 203px;
+    top: 63px;
+  }
 }
 
 .examination-hr::after {
@@ -188,44 +168,28 @@
   top: -288px;
   left: 0px;
   border-radius: 10px;
-  /* margin: 0 auto; */
   position: relative;
   z-index: 5;
   box-shadow: 1px 2px 4px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .trans-text-increase {
   width: 114px;
-
-  /* height: 60px; */
-  /* gap: 0px; */
   display: flex;
-  /* justify-content: center; */
-  /* transform: translateY(-23px); */
   position: absolute;
   top: 31%;
-  /* left: 50%; */
   z-index: 3;
 }
 
 .text-Instrctors {
-
-
-  /* top: -22px; */
-  /* left: 21px; */
   font-family: Poppins;
   font-weight: 600;
   font-size: 17px;
-  /* line-height: 30px; */
   text-align: center;
-  /* display: flex
-; */
   color: #F77E23;
-
 }
 
 .text-Instrctors p {
@@ -277,15 +241,4 @@
   border-radius: 30px;
   border: 3px solid white;
   opacity: 1
-}
-
-.hr-Increase {
-  background-color: #F77E23;
-  width: 119px;
-  height: 1.99px;
-  top: 105.01px;
-  border-radius: 2px;
-  display: flex;
-  margin: 17px auto;
-  transform: rotate3d(1, 49, -2, 20deg);
 }

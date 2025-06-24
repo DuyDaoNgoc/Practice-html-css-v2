@@ -89,27 +89,9 @@
     align-items: center;
 }
 
-.hr-leader {
-    background-color: #F77E23;
-    width: 119px;
-    height: 1.99px;
-    top: 105.01px;
-    border-radius: 2px;
-    display: flex;
-    transform: rotate3d(1, 49, -2, 20deg);
-    position: relative;
-    top: 91px;
-
-}
 
 
 
-.Hr-Readers-are-leaders {
-    transform: translate(-347px, 863px);
-    position: relative;
-    margin: 2px auto;
-
-}
 
 .content-get-publicstions {
     font-size: 24px;
@@ -161,18 +143,4 @@
     font-family: 'Poppins';
     font-weight: 400;
     line-height: 36px;
-
-
-}
-
-.hr-publicstions {
-    max-width: 312px;
-    height: 5px;
-    border-radius: 4px;
-    margin: 0 auto;
-    background-color: #F77E23;
-    transform: rotate3d(0, 112, -57, 2deg);
-    position: relative;
-    left: -41px;
-    top: -315px;
 }

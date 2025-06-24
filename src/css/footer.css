@@ -1,17 +1,14 @@
 .footer {
-    background-color: black;
+    background-color: var(--black);
     width: 100%;
     height: auto;
     margin-top: 78px;
-
 }
 
 .fb {
     filter: invert(1);
     width: max-content;
     height: max-content;
-
-
 }
 
 .fb img {
@@ -39,7 +36,7 @@
 
 .div-footer h1 a {
     text-decoration: none;
-    color: #F77E23;
+    color: var(--primary-color-1);
     margin-bottom: 0;
 }
 
@@ -50,22 +47,20 @@
 .div-footer {
     display: grid;
     width: max-content;
-    /* padding: 62px; */
     gap: 20px;
 
 }
 
 .sub-btn {
-    background: #F77E23;
-    color: white;
+    background: var(--primary-color-1);
+    color: var(--white);
     width: 126px;
     border: none;
     cursor: pointer;
 }
 
 .div-footer p {
-
-    color: white;
+    color: var(--white);
     max-width: 240px;
     font-family: Poppins;
     font-size: 16px;
@@ -78,13 +73,10 @@
 }
 
 .address-and-company {
-    color: white;
+    color: var(--white);
     display: flex;
-    /* justify-content: flex-end; */
     width: max-content;
     position: relative;
-    /* left: 57%; */
-    /* top: -293px; */
     gap: 86px;
 }
 
@@ -98,25 +90,18 @@
 
 .ul-company li a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .ft-Subscribe {
-
     display: flex;
-
     flex-direction: column;
     align-items: center;
-
 }
-
 
 .display-ft-subscribe {
-
-    color: white;
+    color: var(--white);
 }
-
-
 
 .ft-Subscribe {
     font-family: Poppins;
@@ -127,7 +112,6 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-
 
 .ft-Subscribe button {
     max-width: 126px;
@@ -142,7 +126,6 @@
 
 }
 
-
 .inp-btn-subscribe {
     display: flex;
     justify-content: center;
@@ -155,7 +138,13 @@
     gap: 20px;
     padding: 62px;
     font-size: 24px;
+}
 
+@media screen and (max-width: 768px) {
+    .display-contenttionary {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .contenttionary {
@@ -182,9 +171,6 @@
     flex-wrap: wrap;
 }
 
-
-
-
 .display-content-ft {
     display: flex;
     flex-direction: column;
@@ -201,11 +187,10 @@
 .input-subcribe::placeholder {
     font-family: "Poppins", serif;
     font-size: 14px;
-    left: 419px;
-    border: none;
+    border: var(secondary-color-2) 1px solid;
     padding: 20px;
     width: 40%;
     color: #F77E23;
-    border: none;
+
 
 }

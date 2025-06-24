@@ -1,7 +1,6 @@
 .Popular-examination {
     display: grid;
     justify-content: center;
-    /* padding: 0; */
     text-align: start;
 
 }
@@ -80,7 +79,6 @@
     transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-
 .figure-Popular-examination figcaption {
     position: absolute;
     left: 24.28px;
@@ -99,8 +97,6 @@
 
 .lr-content-exam {
     display: flex;
-    /* gap: 975px; */
-
     align-items: center;
     bottom: 193px;
     justify-content: space-between;
@@ -154,8 +150,6 @@
     z-index: 12;
 }
 
-
-
 .right-exam,
 .left-exam {
     border: none;
@@ -166,17 +160,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     cursor: pointer;
-
-    /* padding: 15px 0px; */
-
     margin: 5px 5px;
-
     font-size: 1.2rem;
 }
-
-
 
 .right-exam:hover,
 .left-exam:hover {
