@@ -151,7 +151,7 @@
     display: flex;
     align-content: center;
     align-items: center;
-    color: #F77E23;
+    color: var(--primary-color-1);
     font-weight: 600;
     font-size: 24px;
 }

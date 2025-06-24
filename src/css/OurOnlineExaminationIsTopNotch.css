@@ -144,8 +144,8 @@
 
 @media screen and (max-width :768px) {
   .examination-hr::after {
-    width: 203px;
-    top: 63px;
+    width: 203px !important;
+    top: 42px !important;
   }
 }
 
