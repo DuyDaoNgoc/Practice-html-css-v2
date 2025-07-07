@@ -93,11 +93,6 @@
     color: var(--white);
 }
 
-.ft-Subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .display-ft-subscribe {
     color: var(--white);
@@ -112,7 +107,17 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-
+@media screen and (max-width:768px) {
+.ft-Subscribe{
+    text-align: start;
+    padding-left: 40px;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+    
+}
 .ft-Subscribe button {
     max-width: 126px;
     height: auto;
@@ -195,8 +200,14 @@
     font-size: 14px;
     border: var(secondary-color-2) 1px solid;
     padding: 20px;
-    width: 40%;
+    width: 60%;
     color: #F77E23;
-
-
+}
+@media screen and (max-width:480px) {
+       .input-subcribe,
+    .input-subcribe::placeholder {
+        width: 380px !important;
+        ;
+    }
+    
 }

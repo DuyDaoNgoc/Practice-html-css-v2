@@ -35,7 +35,14 @@
   flex-direction: column;
   margin-bottom: 20px;
 }
+@media screen and (max-width) {
+      .display-title {
+        align-items: center !important;
+        text-align: center !important;
+    }
 
+  
+}
 .title h1 {
   font-size: 52px;
   font-weight: bold;
@@ -87,15 +94,14 @@
   width: 100%;
   max-width: 158px;
   border-radius: 5px;
-  border: aliceblue;
   background-color: #FF6F28;
   padding: 20px 42px;
   color: white;
   font-family: "Source Sans 3", serif;
   font-weight: 600;
   font-size: 14px;
-  line-height: 20px;
   cursor: pointer;
+  border:none;
 }
 
 .button-Experts:hover {
@@ -147,9 +153,6 @@
   }
 
 }
-
-
-
 
 .background-outstanding {
   background-color: white;

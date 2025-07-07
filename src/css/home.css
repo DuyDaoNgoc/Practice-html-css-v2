@@ -4,12 +4,33 @@
     position: sticky;
     text-align: center;
 }
+    .button-menu {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
 
+    }
 .img-index img {
     width: 100%;
     height: 634px;
     display: block;
     object-fit: cover;
+}
+@media (max-width: 768px) {
+    .img-index {
+        position: relative;
+        text-align: center;
+        top: 88px;
+    }
+        .img-index img {
+        width: 100%;
+        height: 520px;
+        display: block;
+        object-fit: cover;
+    }
 }
 
 .img-index::before {
@@ -43,6 +64,27 @@ header {
         width: 100%;
         top: 0;
     }
+        .nav-menu div li a {
+        color: #f77e23;
+    }
+        .nav-menu-f {
+        display: none;
+    }
+        .index-text div p {
+        font-size: 45px;
+        flex-wrap: wrap;
+    }
+   .index-text span p{
+    font-size: 18px;
+    margin: 0;
+   }
+       .nav-menu {
+        justify-content: center;
+        width: 100%;
+        height: auto;
+
+    }
+  
 }
 
 header h1 {
@@ -92,7 +134,12 @@ header h1 {
     gap: 10px;
     padding-right: 30px;
 }
+@media (max-width: 768px) {
+    .form {
 
+        display: none;
+    }
+}
 .find {
     display: grid;
     justify-items: end;
@@ -137,7 +184,7 @@ header h1 {
 }
 
 .index-text {
-    top: 19%;
+    top:16%;
     position: absolute;
     color: var(--white);
     text-align: center;
@@ -145,10 +192,11 @@ header h1 {
     width: 100%;
 }
 
-.index-text pre {
+.index-text div p {
     font-size: 60px;
     font-weight: 700;
     flex-wrap: wrap;
+    margin: 0;
     font-family: var(--font-family);
     color: var(--white);
 }
@@ -177,7 +225,18 @@ header h1 {
     top: -79px;
     z-index: 9999;
 }
+@media screen and (max-width:768px) {
+        .sp-index {
+       
+        top: -18px;
 
+    }
+       .support {
+        flex-wrap: wrap;
+    }
+
+    
+}
 .register-menu {
     background-color: var(--white);
     color: var(--primary-color-1);
@@ -229,4 +288,93 @@ header h1 {
     height: 432px;
     position: relative;
     left: -109px;
+}
+@media (max-width: 768px) {
+
+    .background-learning-institution {
+        position: relative;
+        top: 50%;
+        left: -149px;
+    }
+ 
+    .dis-button-menu {
+        display: block;
+        position: relative;
+        top: 38px;
+        cursor: pointer;
+    }
+
+    .form span img {
+        display: none;
+    }
+    .mobile-content-menu div li a {
+        position: absolute;
+        display: none;
+    }
+
+    .mobile-width {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .max-content-mobile-menu {
+        padding: 0;
+    }
+
+    .fountain-mobile {
+        padding-left: 0;
+    }
+
+    .mobile-content-menu {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .register-menu {
+        display: none;
+    }
+
+    .form input {
+        display: none;
+    }
+
+    .deco {
+        background: black;
+        width: 61%;
+        height: 7px;
+    }
+
+
+
+    .navigation-controls {
+        display: flex;
+
+    }
+
+    .form {
+        background: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 0;
+        margin: 0 21px;
+    }
+
+
+
+    .display-btn-ft {
+        flex-direction: column-reverse;
+    }
+
+    .get-button {
+        font-size: 14px;
+        margin-top: 49px;
+        padding: 8px 16px;
+    }
 }

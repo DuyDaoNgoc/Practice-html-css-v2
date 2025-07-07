@@ -23,6 +23,10 @@
     font-family: Poppins;
     font-weight: 600;
     text-align: center;
+ 
+}
+.Featured p{
+    margin: 0;
 }
 .text{
     text-align: end;
@@ -156,6 +160,12 @@
     .figure-Featured:hover .contest {
         transform: none !important;
     }
+      .contest {
+        font-size: 16px !important;
+        top: 40% !important;
+        left: 10px !important;
+    }
+
 }
 .figure-Featured:hover .Content-Contest {
     transform: translateY(-258px);
@@ -186,3 +196,62 @@
     opacity: 0px;
     font-family: Poppins;
 }
+
+
+/* Responsive Design for Small Screens (Mobile) */
+@media (max-width: 768px) {
+    .article-content-Featured .figure-Featured a::before {
+        height: 97% !important;
+    }
+
+    .size-image {
+        width: 164px;
+        height: 199px;
+        left: 0;
+    }
+
+    .figure-Featured:hover .Content-Contest {
+        transform: none !important;
+        opacity: 1;
+    }
+
+    .figure-Featured:hover .contest {
+        transform: none !important;
+    }
+
+
+    .div-center-content {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .lr-content-exam {
+        display: none;
+    }
+
+    .figure-Popular-examination {
+        max-width: 162px !important;
+        max-height: 191px;
+
+    }
+
+    .article-content-Featured .figure-Featured a img {
+        max-width: 162px;
+
+        max-height: 191px;
+        z-index: 0;
+
+    }
+
+    .inside-background {
+        gap: 0 !important;
+    }
+
+
+}
+
+
+
+

@@ -5,6 +5,7 @@
 .reviews {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -20,6 +21,11 @@
     }
     .lr-content-review{
         gap:33px !important; 
+    }
+        .title-student {
+        display: flex;
+        align-items: flex-end;
+        font-size: 24px !important;
     }
 }
 
