@@ -146,9 +146,7 @@
         flex-wrap: wrap;
     }
 
-    .index-text {
-        top: 57%;
-    }
+  
 
     .title-narute {
         text-align: center;
@@ -211,11 +209,10 @@
 
     .money {
         font-size: 20px;
-        padding-left: 50px;
+
     }
 
     .content-star {
-        padding-left: 10px;
         gap: 10px;
     }
 
@@ -258,6 +255,7 @@
     .div-center-content {
         text-align: center;
         margin-top: 0;
+        margin-bottom: 20px;
     }
 
 
@@ -343,7 +341,7 @@
 
     .money {
         font-size: 18px;
-        padding-left: 40px;
+
     }
 
 

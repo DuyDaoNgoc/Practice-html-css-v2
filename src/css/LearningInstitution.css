@@ -1,12 +1,9 @@
-/* Khung chứa hình tròn và viền */
+
 .circle-container {
   position: absolute;
   top: 112px;
 }
 
-
-
-/* Viền nét đứt */
 .circle-border {
   position: absolute;
   top: -249px;
@@ -21,8 +18,6 @@
 }
 
 
-
-/* Ảnh vượt ra ngoài viền */
 .circle-image {
   position: absolute;
   width: 413.5px;
@@ -33,23 +28,13 @@
   top: -40%;
   left: 13.94px;
   overflow: hidden;
-
-
 }
 
 .display-title {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
-
-
-/* Phần nội dung */
-.content {
-  width: 100%;
-  max-width: 500px;
-
-}
-
 
 .title h1 {
   font-size: 52px;
@@ -57,11 +42,8 @@
   color: #333;
   font-family: Poppins;
   line-height: 78px;
-
-
   margin-bottom: 0;
 }
-
 
 .title {
   font-size: 52px;
@@ -121,9 +103,6 @@
   color: #F77E23;
 }
 
-
-
-
 /*background institution*/
 @supports (backdrop-filter: blur(10px)) {
   .background-institution {
@@ -137,7 +116,6 @@
     backdrop-filter: blur(300px);
     width: 100%;
     height: auto;
-
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
   }
@@ -170,22 +148,8 @@
 
 }
 
-.Hr {
-  position: relative;
-  margin: 2px auto;
-}
 
-.hr {
-  width: 211px;
-  height: 4.8px;
-  border-radius: 4px;
-  margin: 0 auto;
-  background-color: #F77E23;
-  transform: rotate3d(0, 112, -57, 6deg);
-  position: absolute;
-  left: 234%;
-  top: -45px;
-}
+
 
 .background-outstanding {
   background-color: white;

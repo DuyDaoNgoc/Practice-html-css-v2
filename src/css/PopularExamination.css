@@ -17,20 +17,13 @@
 
 /* Link "See all" */
 .see-all-popular-examination {
-    font-family: Poppins;
+   font-family: Poppins; 
     font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
+
     color: #f77e23;
-    display: flex;
-    justify-content: flex-end;
+   
     text-decoration: none;
-    border: none;
-    background: none;
+  
 }
 
 /* Figure */
@@ -194,7 +187,7 @@
     }
 
     .fig-Contest h3 {
-        transform: translateY(-239px) !important;
+        transform: translateY(-230px) !important;
         font-size: 16px !important;
     }
 }

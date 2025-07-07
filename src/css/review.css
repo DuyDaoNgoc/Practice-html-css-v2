@@ -18,6 +18,9 @@
     .title-student h1 {
         max-width: 410px;
     }
+    .lr-content-review{
+        gap:33px !important; 
+    }
 }
 
 .review-article {
@@ -80,7 +83,7 @@
     display: flex;
     gap: 101px;
     overflow: hidden;
-    transform: translateY(-10px);
+
 }
 
 .background-left-review,

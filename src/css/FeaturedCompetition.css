@@ -9,16 +9,12 @@
 }
 /*see all*/
 .see-all-Featured {
-    color: #F77E23;
+   color: #F77E23;
     text-decoration: none;
-    display: flex;
-    line-height: 15px;
     font-weight: 400;
     font-size: 24px;
+
     font-family: 'Poppins';
-    justify-content: flex-end;
-    bottom: 27px;
-    position: relative;
     cursor: pointer;
 }
 /*content Top cartegories */
@@ -28,7 +24,9 @@
     font-weight: 600;
     text-align: center;
 }
-
+.text{
+    text-align: end;
+}
 .article-content-Featured {
     gap: 1px;
     margin: 48px auto;

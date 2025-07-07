@@ -33,6 +33,7 @@
   border-radius: 50px;
   background-color: #F77E23;
   display: flex;
+  cursor: pointer;
   align-items: center;
   max-width: 130px;
 }
@@ -40,8 +41,8 @@
 .transform-sort-by {
   display: flex;
   justify-content: flex-end;
-  padding-bottom: 64px;
-  cursor: pointer;
+  padding-bottom: 12px;
+
 }
 
 .sort-by-img {
@@ -137,7 +138,10 @@
   height: 72px;
   width: 320px;
 }
-
+.dp-money{
+  display: flex;
+  gap: 20px;
+}
 .money {
   font-size: 24px;
   color: var(--primary-color-1);
@@ -146,7 +150,6 @@
 
 .content-star {
   display: flex;
-  /* padding-left: 20px; */
   gap: 20px;
   font-family: 'Poppins';
   align-items: center;
