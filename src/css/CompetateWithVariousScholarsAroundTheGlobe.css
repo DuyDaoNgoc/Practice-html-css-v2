@@ -20,7 +20,17 @@
     .inside-background-learning {
         gap: 291px !important;
     }
-
+    .form-den-label{
+      font-size: 24px !important;
+    }
+ .form-den{
+      display: none !important;
+    }
+    .mobile-den{
+    display: contents !important;
+  }
+}
+@media screen and (max-width:769px) {
   
 }
 @media screen and (max-width:480px) {
@@ -31,6 +41,12 @@
         .inside-background {
         gap: 0 !important;
     }
+    .form-den{
+      display: none !important;
+    }
+  .mobile-den{
+    display: contents;
+  }
 }
 
 /* Khung chứa hình tròn và viền */
@@ -175,9 +191,6 @@
 .form-input {
   width: 515px;
   height: 71px;
-  top: 122px;
-  left: 39px;
-  gap: 0px;
   padding-inline: 20px;
   background-color: #FAFAFC;
   border: 1.07px solid #D9DCE0;
@@ -229,3 +242,6 @@
 .form-regiter {
   display: contents;
 }
+  .mobile-den{
+    display: none ;
+  }
