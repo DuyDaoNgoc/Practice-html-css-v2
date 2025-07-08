@@ -10,22 +10,88 @@
 }
 
 .title-student h1 {
-    max-width: 600px;
-    line-height: 100px;
-    margin: 0;
+    font-family: Open Sans;
+    font-weight: 700;
+
+    font-size: 48px;
+
+    line-height: 100%;
+
+    text-transform: capitalize;
+
 }
 
 @media (max-width: 768px) {
     .title-student h1 {
-        max-width: 410px;
+        font-size: 24px;
+        margin: 0;
     }
-    .lr-content-review{
-        gap:33px !important; 
+
+    .experts-hr {
+        font-size: 24px;
     }
-        .title-student {
+
+    .overflow-review {
+        width: 200px;
+        overflow: hidden;
+    }
+
+    .right-review,
+    .left-review {
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 18px !important;
+
+    }
+
+    .lr-content-review {
+        gap: 33px !important;
+    }
+
+    .review-color {
+        font-size: 12px !important;
+    }
+
+    .content-review {
+        font-size: 12px !important;
+
+    }
+
+    .review-article {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        gap: 0px;
+    }
+
+    .review-figure {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .review-figure img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .title-student {
         display: flex;
         align-items: flex-end;
         font-size: 24px !important;
+        gap: 20px;
+    }
+
+    .review-figure {
+        width: 183px !important;
+    }
+
+    .review-p {
+        font-size: 12px !important;
+    }
+
+    .content-review {
+        font-size: 12px !important;
     }
 }
 
@@ -41,15 +107,13 @@
 }
 
 .review-figure {
-    width: 382px;
+    width: 480px;
     height: auto;
     border-radius: 10px;
-    opacity: 0px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background: white;
     padding: 20px;
     border: 1px solid #00000012;
-    position: relative;
 }
 
 .review-figure img {
@@ -62,25 +126,43 @@
 }
 
 .review-p {
-    width: 182px;
+
     font-weight: 800;
     font-size: 20px;
-    transform: translate(24px, 0px);
+
 }
+
+
 
 .div-review {
     display: flex;
+    gap: 14px;
+}
+
+.review-p p {
+    margin: 0;
 }
 
 .review-color {
-    font-weight: 700;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
     color: #F77E23;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 
 .content-review {
-    width: 397px;
-    line-height: 30px;
+    font-family: Open Sans;
+    font-weight: 400;
+
     font-size: 18px;
+    width: 304px;
+    line-height: 30px;
+
+
 }
 
 
@@ -134,4 +216,6 @@
 
 .title-student {
     font-size: 48px;
+
+
 }

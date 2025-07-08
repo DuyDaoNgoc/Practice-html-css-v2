@@ -1,4 +1,3 @@
-
 .circle-container {
   position: absolute;
   top: 112px;
@@ -35,14 +34,16 @@
   flex-direction: column;
   margin-bottom: 20px;
 }
-@media screen and (max-width) {
-      .display-title {
-        align-items: center !important;
-        text-align: center !important;
-    }
 
-  
+@media screen and (max-width) {
+  .display-title {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+
 }
+
 .title h1 {
   font-size: 52px;
   font-weight: bold;
@@ -101,7 +102,7 @@
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  border:none;
+  border: none;
 }
 
 .button-Experts:hover {
@@ -128,6 +129,15 @@
 }
 
 .experts-hr {
+  font-family: Open Sans;
+  font-weight: 700;
+  margin: 0;
+  font-size: 48px;
+
+  line-height: 100%;
+
+  text-transform: capitalize;
+
   color: #F77E23;
   position: relative;
 }
@@ -135,20 +145,20 @@
 .experts-hr::after {
   content: "";
   display: block;
-  width: 326px;
-  height: 10px;
+  width: 210.5px;
+  height: 7.33px;
   background-color: #F77E23;
-  margin-top: -12px;
+  margin-top: -3px;
   border-radius: 40px;
   transform: skewY(-1deg);
 }
 
 @media screen and (max-width: 768px) {
   .experts-hr::after {
-    width: 100%;
+    width: 69%;
     position: absolute;
-    height: 6px;
-    margin-top: -23px;
+    height: 2px;
+    margin-top: -2px;
     left: 2px;
   }
 

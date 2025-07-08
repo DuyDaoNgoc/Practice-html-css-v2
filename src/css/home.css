@@ -1,31 +1,33 @@
-
-
 .img-index {
     position: sticky;
     text-align: center;
 }
-    .button-menu {
-        display: flex;
-        gap: 5px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
 
-    }
+.button-menu {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
 .img-index img {
     width: 100%;
     height: 634px;
     display: block;
     object-fit: cover;
 }
+
 @media (max-width: 768px) {
     .img-index {
         position: relative;
         text-align: center;
         top: 88px;
     }
-        .img-index img {
+
+    .img-index img {
         width: 100%;
         height: 520px;
         display: block;
@@ -64,27 +66,32 @@ header {
         width: 100%;
         top: 0;
     }
-        .nav-menu div li a {
+
+    .nav-menu div li a {
         color: #f77e23;
     }
-        .nav-menu-f {
+
+    .nav-menu-f {
         display: none;
     }
-        .index-text div p {
+
+    .index-text div p {
         font-size: 45px;
         flex-wrap: wrap;
     }
-   .index-text span p{
-    font-size: 18px;
-    margin: 0;
-   }
-       .nav-menu {
+
+    .index-text span p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .nav-menu {
         justify-content: center;
         width: 100%;
         height: auto;
 
     }
-  
+
 }
 
 header h1 {
@@ -134,12 +141,14 @@ header h1 {
     gap: 10px;
     padding-right: 30px;
 }
+
 @media (max-width: 768px) {
     .form {
 
         display: none;
     }
 }
+
 .find {
     display: grid;
     justify-items: end;
@@ -184,7 +193,7 @@ header h1 {
 }
 
 .index-text {
-    top:16%;
+    top: 16%;
     position: absolute;
     color: var(--white);
     text-align: center;
@@ -225,18 +234,21 @@ header h1 {
     top: -79px;
     z-index: 9999;
 }
+
 @media screen and (max-width:768px) {
-        .sp-index {
-       
+    .sp-index {
+
         top: -18px;
 
     }
-       .support {
+
+    .support {
         flex-wrap: wrap;
     }
 
-    
+
 }
+
 .register-menu {
     background-color: var(--white);
     color: var(--primary-color-1);
@@ -289,6 +301,7 @@ header h1 {
     position: relative;
     left: -109px;
 }
+
 @media (max-width: 768px) {
 
     .background-learning-institution {
@@ -296,7 +309,7 @@ header h1 {
         top: 50%;
         left: -149px;
     }
- 
+
     .dis-button-menu {
         display: block;
         position: relative;
@@ -307,6 +320,7 @@ header h1 {
     .form span img {
         display: none;
     }
+
     .mobile-content-menu div li a {
         position: absolute;
         display: none;
@@ -369,7 +383,7 @@ header h1 {
 
 
     .display-btn-ft {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
     }
 
     .get-button {
