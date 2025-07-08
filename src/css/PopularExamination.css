@@ -42,16 +42,19 @@
 }
 
 .position-circle {
-    position: relative;
-    top: 140px;
+      position: relative;
+    top: 50px;
 }
-
+.figure-Popular-examination a div{
+    padding: 17px;
+}
 .figure-Popular-examination a p {
     position: relative;
-    top: -87px;
+    top: -83px;
     color: white;
-    padding: 10px;
+ 
     font-size: 18px;
+    margin: 0;
     font-weight: 600;
 }
 
@@ -190,4 +193,16 @@
         transform: translateY(-230px) !important;
         font-size: 16px !important;
     }
+    .figure-Popular-examination a p{
+        font-size: 11.22px;
+        top: -60px !important;
+    }
+       .figure-Popular-examination {
+       width: 149px !important;
+       height: 143px;
+
+    }
+ .see-all-popular-examination{
+    font-size: 14px;
+ }
 }

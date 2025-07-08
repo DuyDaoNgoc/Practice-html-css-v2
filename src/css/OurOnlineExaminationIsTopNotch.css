@@ -16,15 +16,15 @@
 
 /* Viền nét đứt */
 .circle-border-examination {
-  position: absolute;
-  top: -73px;
-  left: -7px;
-  width: 498px;
-  height: 498px;
-  border: 3px dashed #F77E23;
-  border-radius: 50%;
-  box-sizing: border-box;
-  z-index: 1;
+position: absolute;
+    top: -18px;
+    left: -46px;
+    width: 498px;
+    height: 498px;
+    border: 3px dashed #F77E23;
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 1;
 
 }
 
@@ -137,6 +137,14 @@
 }
 
 .examination-hr {
+  font-family: Poppins;
+font-weight: 700;
+
+font-size: 52px;
+
+line-height: 100%;
+letter-spacing: 0%;
+
   color: #F77E23;
   position: relative;
 }
@@ -146,6 +154,13 @@
     width: 203px !important;
     top: 42px !important;
   }
+  .examination-hr {
+  font-size: 32px;
+}
+.circle-border-examination{
+  width: 427px;
+  height: 427px;
+}
 }
 
 .examination-hr::after {

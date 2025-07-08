@@ -110,6 +110,12 @@
   grid-template: 1fr 1fr/1fr 1fr 1fr;
   gap: 32px;
 }
+@media screen and (max-width:1024px) {
+  .display-figure{
+    grid-template: 1fr 1fr/1fr 1fr;
+  }
+  
+}
 
 @media screen and (max-width: 946px) {
   .display-figure {

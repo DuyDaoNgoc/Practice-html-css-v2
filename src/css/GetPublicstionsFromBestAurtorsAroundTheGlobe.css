@@ -1,13 +1,12 @@
     .circle-image-nature {
-        width: 413.5px;
-        height: 442.26px;
-        border-radius: 50%;
-        object-fit: cover;
-        z-index: 2;
-        top: -45.36px;
-        left: 40.94px;
-
-        position: relative;
+           width: 413.5px;
+    height: 442.26px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: relative;
     }
 
     .background-Nature {
@@ -151,6 +150,13 @@
 
     .title-narute {
         font-size: 32px !important;
+    }
+    .circle-image-nature{
+        width: 338px !important;
+        height: 338px !important;
+        opacity: 1;
+        top: 0;
+        left: 0;
     }
         
     }

@@ -7,16 +7,8 @@
     gap: 20px;
     margin: 0 auto;
 }
-/*see all*/
-.see-all-Featured {
-   color: #F77E23;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 24px;
 
-    font-family: 'Poppins';
-    cursor: pointer;
-}
+
 /*content Top cartegories */
 .Featured {
     font-size: 48px;
@@ -162,8 +154,16 @@
     }
       .contest {
         font-size: 16px !important;
-        top: 40% !important;
-        left: 10px !important;
+        top: 56% !important;
+        left: -3px !important;
+
+    }
+    .fig-Contest{
+        top: 305px;
+        left: 7px;
+    }
+    .fig-Contest h3{
+        line-height:24px
     }
 
 }
@@ -197,16 +197,20 @@
     font-family: Poppins;
 }
 
+.size-image {
+    width: 301px;
+    height: 432px;
+    position: relative;
+    left: -109px;
+}
 
 /* Responsive Design for Small Screens (Mobile) */
 @media (max-width: 768px) {
-    .article-content-Featured .figure-Featured a::before {
-        height: 97% !important;
-    }
+  
 
     .size-image {
-        width: 164px;
-        height: 199px;
+        width: 149px;
+        height: 143px;
         left: 0;
     }
 
@@ -231,15 +235,13 @@
         display: none;
     }
 
-    .figure-Popular-examination {
-        max-width: 162px !important;
-        max-height: 191px;
-
-    }
+ .article-content-Featured .figure-Featured a {
+border-radius: 5px;
+ }
 
     .article-content-Featured .figure-Featured a img {
-        max-width: 162px;
-
+            max-width: 181px;
+        left: -32px;
         max-height: 191px;
         z-index: 0;
 
