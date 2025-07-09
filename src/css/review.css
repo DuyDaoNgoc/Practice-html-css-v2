@@ -88,7 +88,7 @@ width: 314px;
         display: flex;
         align-items: flex-end;
         font-size: 24px !important;
-        gap: 20px;
+      
     }
 
 
@@ -99,6 +99,11 @@ width: 314px;
     .content-review {
         font-size: 12px !important;
     }
+}
+@media screen and (max-width:480px) {
+   .lr-content-review{
+    gap: 16px !important;
+   } 
 }
 
 .review-article {

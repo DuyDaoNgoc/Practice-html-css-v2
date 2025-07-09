@@ -66,7 +66,7 @@ position: absolute;
   font-weight: bold;
   color: #333;
   font-family: Poppins;
-  line-height: 78px;
+  line-height: 100%;
   max-width: 515px;
   margin-bottom: 0;
 }
@@ -106,21 +106,8 @@ position: absolute;
   color: #F77E23;
 }
 
-.background-our-examination {
-  background-color: rgb(249 205 170);
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  z-index: 5;
-}
 
-.background-our-examination-2 {
-  background-color: rgb(249 205 170);
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  z-index: 5;
-}
+
 
 .background-Our-online-examination {
   /* display: flex;

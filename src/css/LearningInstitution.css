@@ -1,20 +1,5 @@
-.circle-container {
-  position: absolute;
-  top: 0;
-}
 
-.circle-border {
-  position: absolute;
-  top: -249px;
-  left: 0;
-  width: 498px;
-  height: 498px;
-  border: 3px dashed #F77E23;
-  border-radius: 50%;
-  box-sizing: border-box;
-  z-index: 1;
 
-}
 
 
 .circle-image {
@@ -35,7 +20,15 @@
   margin-bottom: 20px;
   align-items: center;
 }
-
+@media screen and (max-width:468px) {
+  .circle-image{
+          width: 329px !important;
+        top: -48px !important;
+        height: 452px;
+        left: 39px !important;
+  }
+  
+}
 @media screen and (max-width:768px) {
 
 
@@ -169,7 +162,7 @@ font-size: 52px;
   transform: skewY(-1deg);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .experts-hr::after {
     width: 100%;
     position: absolute;
@@ -184,15 +177,56 @@ left: 5.73px;
     height: 333.31px;
   }
   .circle-image-our{
-    width: 403.5px !important;
-        height: 452.26px !important;
-        top: -85.36px !important;
-        left: -64.06px !important;
+         width: 369.5px !important;
+        height: 412.26px !important;
+        top: -39.36px !important;
+        left: -29.06px !important;
   
   }
-
+  .background-Increase{
+        top: 145px !important;
+    left: 0 !important;
+        width: 139px !important;
+    height: 164px !important;
+   
+  }
+.content-Icrease{
+  font-size: 12px;
+}
+.text-Instrctors{
+  font-size: 14px;
+}
+.background-den{
+      width: 131px !important;
+    height: auto;
+    left: 246px !important;
+     padding: 0 !important;
 }
 
+}
+@media screen and (max-width:458px) {
+  .circle-wrapper{
+    position: relative;
+    width: 373px;
+    height: 420px;
+    top: -15px;
+  }
+  .circle-border-examination {
+        width: 357px !important;
+        height: 378px !important;
+        top: 0 !important;
+    left: 0 !important;
+
+    }
+}
+@media screen and (max-width:480px) {
+  .background-outstanding{
+    width: 160px !important;
+    height: 197px !important;
+    top: 192px !important;
+    left: 194px !important;
+  }
+}
 .background-outstanding {
   background-color: white;
   width: 168px;
@@ -299,4 +333,10 @@ padding: 20px 0;
   border-radius: 30px;
   border: 3px solid white;
   position: absolute;
+}
+@media screen and (max-width:480px) {
+  .background-Instructors{
+    top: 142px;
+    left: 34px;
+  }
 }

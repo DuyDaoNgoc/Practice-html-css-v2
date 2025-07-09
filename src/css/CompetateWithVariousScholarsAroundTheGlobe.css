@@ -246,3 +246,20 @@
   .mobile-den{
     display: none ;
   }
+  @media screen and (max-width:578px) {
+    .form-input{
+      width: 434px;
+    }
+    .form-input-opption{
+                width: 474px;
+    }
+  }
+  @media screen and (max-width:480px) {
+    .form-input{
+      width: 328px;
+    }
+    .form-input-opption {
+      width: 368px;
+    }
+  }
+

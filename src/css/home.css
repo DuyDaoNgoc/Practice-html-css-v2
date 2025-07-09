@@ -64,7 +64,11 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-
+@media screen and (max-width:428px) {
+    header{
+        gap:0 !important;
+    } 
+}
 @media (max-width: 768px) {
     header {
 background: var(--white);
@@ -105,6 +109,11 @@ background: var(--white);
 .text-menu{
     font-size: 23px !important;
 }
+}
+@media screen and (max-width:480px) {
+    header{
+                gap: 210px !important;
+    }
 }
 
 header h1 {
@@ -240,10 +249,18 @@ header h1 {
 }
 
 .sp-index {
-    display: flex;
+  width: 74%;
+    display: flex
+;
+padding: 30px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
     position: relative;
+    border-radius: 10px;
+    height: auto;
+    background-color: var(--white);
+    box-shadow: 0 4px 8px var(--shadow);
     top: -79px;
     z-index: 9999;
 }
@@ -261,6 +278,15 @@ header h1 {
 
 
 }
+@media screen and (max-width:428px) {
+    .support{
+
+    }
+    .sp-index{
+
+            width: 86%;
+    }
+}
 
 .register-menu {
     background-color: var(--white);
@@ -269,14 +295,9 @@ header h1 {
 }
 
 .support {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--white);
-    margin: 40px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px var(--shadow);
-    padding: 36px 148px;
+    display: flex
+;    justify-content: center;
+   
     gap: 48px;
 }
 

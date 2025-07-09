@@ -249,6 +249,17 @@ border-radius: 5px;
 
 
 }
+@media screen and (max-width:680px) {
+        .size-image {
+            width: 129px !important;
+        height: 136px !important;
+        }
+    .contest{
+            font-size: 13px !important;
+                    top: 62% !important;
+
+    }
+}
 
 
 

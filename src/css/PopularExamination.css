@@ -198,11 +198,30 @@
         top: -60px !important;
     }
        .figure-Popular-examination {
-       width: 149px !important;
-       height: 143px;
+        width: 129px !important;
+        height: 136px;
 
     }
  .see-all-popular-examination{
     font-size: 14px;
  }
+}
+@media screen and (max-width:558px) {
+    .figure-Popular-examination{
+                width: 88px !important;
+        height: 88px;
+    }
+         
+    
+}
+@media screen and (max-width:580px) {
+        .figure-Popular-examination {
+    width: 97px !important;
+        height: 97px;
+    }
+}
+@media screen and (max-width:455px) {
+    .display-Popular-examination{
+        gap: 5px !important;
+    }
 }

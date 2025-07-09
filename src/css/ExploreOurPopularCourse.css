@@ -140,12 +140,21 @@
     }
 
 }
+@media screen and (max-width:430px) {
+    .display-figure{
+        grid-template: 1fr 1fr 1fr/  1fr;
+    }
+    .figure-star{
+      max-width: 373px !important;
+    }
+}
 .figure-star {
   border: 1px solid #c8bbbb36;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   cursor: pointer;
   background: white;
+      max-width: 312px;
 }
 
 .figure-star:hover {
@@ -156,6 +165,7 @@
 .figure-star img {
   width: 100%;
   height: 215px;
+  
   object-fit: cover;
   opacity: 1;
   transition: opacity 0.3s ease;
@@ -174,7 +184,7 @@
 
 .review-star img {
   width: 18px;
-  height: 18px;
+  height: 18px !important;
 }
 
 /* Phần hiển thị tên bài viết */
@@ -227,7 +237,30 @@
         gap: 10px;
     }
 
-  
+  .figure-star img{
+    height: 132px;
+  }
+}
+@media screen and (max-width:665px) {
+        .figure-star {
+        max-width: 218px !important;
+    }
+        .ficaption-star {
+        font-size: 13px!important;
+    }
+    .dp-money{
+        font-size: 12px;
+    }
+        .money {
+        font-size: 15px;
+    }
+    .review-star img {
+    width: 13px;
+    height: 13px !important;
+}
+.review-star{
+        font-size: 12px;
+}
 }
 @media screen and (max-width:480px) {
       .money {
@@ -239,20 +272,20 @@
 }
 @media (max-width: 480px) {
 
-    .sort-by-background {
-        width: 90px;
-    }
+  
 
     .figure-star {
-        max-width: 280px;
+        max-width: 128px;
 
     }
 
+.figure-star img{
+    
+    height: 128px;
+    
+}
 
-
-    .figure-star img {
-        height: auto;
-    }
+   
 
   
 
@@ -262,7 +295,18 @@
     }
 
 }
-
+@media screen and (max-width:672px) {
+ 
+        .figure-star {
+        max-width: 266px;
+    }
+        .ficaption-star {
+        font-size: 16px;
+    }
+    .display-star{
+        padding: 0 10px;
+    }
+}
 .content-star {
   display: flex;
   gap: 20px;
