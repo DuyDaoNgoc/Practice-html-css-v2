@@ -1,3 +1,6 @@
+.user{
+    display: none;
+}
 .img-index {
     position: sticky;
     text-align: center;
@@ -33,6 +36,12 @@
         display: block;
         object-fit: cover;
     }
+    .user{
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    display: flex;
+}
 }
 
 .img-index::before {
@@ -46,25 +55,27 @@
 }
 
 header {
-    position: absolute;
-    top: 19px;
+ position: absolute;
     left: 0;
     right: 0;
-    display: flex;
+    display: flex
+;
+    z-index: 2;
     justify-content: space-around;
     align-items: center;
-    z-index: 2;
-
 }
 
 @media (max-width: 768px) {
     header {
-        justify-content: flex-start;
-        background: var(--white);
-        height: 90px;
+background: var(--white);
+        height: auto;
         position: absolute;
         width: 100%;
+        display: flex
+;
+        gap: 263px;
         top: 0;
+        justify-content: space-around;
     }
 
     .nav-menu div li a {
@@ -91,7 +102,9 @@ header {
         height: auto;
 
     }
-
+.text-menu{
+    font-size: 23px !important;
+}
 }
 
 header h1 {
@@ -101,7 +114,7 @@ header h1 {
 .text-menu {
     color: #f77e23;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .nav-menu {
@@ -278,12 +291,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-.mobile-width {
-    display: flex;
-    justify-content: space-around;
-    width: 51%;
-    align-items: center;
-}
+
 
 .dis-button-menu {
     display: none;
@@ -323,7 +331,7 @@ header h1 {
     .mobile-width {
         display: flex;
         align-items: center;
-        flex-direction: row-reverse;
+      gap: 24px;
     }
 
     .max-content-mobile-menu {
@@ -352,9 +360,13 @@ header h1 {
     }
 
     .deco {
-        background: black;
+               background: black;
         width: 61%;
-        height: 7px;
+        border-radius: 10px;
+        height: 3px;
+    }
+    .dp-none{
+        display: none;
     }
 
 
@@ -364,16 +376,7 @@ header h1 {
 
     }
 
-    .form {
-        background: white;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        cursor: pointer;
-        padding: 0;
-        margin: 0 21px;
-    }
-
+  
 
 
     .display-btn-ft {

@@ -10,8 +10,8 @@
 /* Khung chứa hình tròn và viền */
 .circle-container-our {
   position: relative;
-  top: 77px;
-  left: -90px;
+  top: 0;
+  left: 0;
 }
 
 /* Viền nét đứt */
@@ -34,9 +34,9 @@ position: absolute;
   height: 484.26px;
   border-radius: 50%;
   object-fit: cover;
-  z-index: 2;
-  top: -103.36px;
-  left: -17.06px;
+  z-index: 4;
+    top: -58.36px;
+    left: -17.06px;
   transform: rotateY(181deg);
   position: absolute;
 }
@@ -55,6 +55,7 @@ position: absolute;
 .display-backgound-article {
   display: flex;
   align-items: center;
+      padding: 89px;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
@@ -80,15 +81,7 @@ position: absolute;
   line-height: 36px;
 }
 
-.circle-color {
-  width: 373.31px;
-  height: 373.31px;
-  background-color: #FFE7DB;
-  border-radius: 50%;
-  left: 62.73px;
-  z-index: 2;
-  position: relative;
-}
+
 
 .button-examination {
   border-radius: 5px;
@@ -103,6 +96,7 @@ position: absolute;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 16px;
+  margin-top: 17px;
   line-height: 20px;
   cursor: pointer;
 }
@@ -129,11 +123,11 @@ position: absolute;
 }
 
 .background-Our-online-examination {
-  display: flex;
+  /* display: flex;
   max-width: 1151px;
   align-items: center;
   position: relative;
-  top: 47px;
+  top: 47px; */
 }
 
 .examination-hr {
@@ -151,8 +145,9 @@ letter-spacing: 0%;
 
 @media screen and (max-width :768px) {
   .examination-hr::after {
-    width: 203px !important;
-    top: 42px !important;
+    height: 3px !important;
+        width: 203px !important;
+        top: 38px !important;
   }
   .examination-hr {
   font-size: 32px;
@@ -179,10 +174,10 @@ letter-spacing: 0%;
   background-color: white;
   width: 168px;
   height: 175px;
-  top: -288px;
-  left: 0px;
+    top: 137px;
+    left: -77px;
   border-radius: 10px;
-  position: relative;
+  position: absolute;
   z-index: 5;
   box-shadow: 1px 2px 4px 0px;
   display: flex;
@@ -246,6 +241,7 @@ letter-spacing: 0%;
 .content-Icrease {
   color: black;
   font-weight: 400;
+  margin: 0;
 }
 
 .Instructors {
