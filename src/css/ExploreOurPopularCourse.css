@@ -243,13 +243,13 @@
 }
 @media screen and (max-width:665px) {
         .figure-star {
-        max-width: 218px !important;
+              max-width: 193px !important;
     }
         .ficaption-star {
         font-size: 13px!important;
     }
     .dp-money{
-        font-size: 12px;
+      font-size: 10px;
     }
         .money {
         font-size: 15px;
