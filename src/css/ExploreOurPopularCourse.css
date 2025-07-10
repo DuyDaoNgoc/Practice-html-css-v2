@@ -39,10 +39,14 @@
 
 
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .sort-by-text {
-        font-size: 14px;
+       font-size: 10px;
 
+    }
+    .sort-by-background{
+            max-width: 68px !important;
+        max-height: 24px !important;
     }
       .review-star {
         font-size: 12px;
@@ -51,6 +55,12 @@
         font-size: 28px;
         line-height: 42px;
         max-width: 280px;
+    }
+    .sort-by-img{ 
+      left: 7.69px !important; 
+    }
+    .sort-by-img img{
+      width: 10px;
     }
   }
 .font-title-Explore {
@@ -65,7 +75,7 @@
 }
 
 .sort-by-background {
-  width: 129px;
+  width: 100%;
   height: auto;
   border-radius: 50px;
   background-color: #F77E23;
@@ -110,7 +120,7 @@
 .display-figure {
   display: grid;
   grid-template: 1fr 1fr/1fr 1fr 1fr;
-  gap: 32px;
+  gap: 7px;
 }
 @media screen and (max-width:1024px) {
   .display-figure{
@@ -130,7 +140,7 @@
 {
     .display-figure {
         flex-direction: column;
-        gap: 10px;
+        gap: 3px !important;
     }  
 }
 @media screen and (max-width:768px) {
@@ -141,9 +151,7 @@
 
 }
 @media screen and (max-width:430px) {
-    .display-figure{
-        grid-template: 1fr 1fr 1fr/  1fr;
-    }
+ 
     .figure-star{
       max-width: 373px !important;
     }
@@ -243,10 +251,10 @@
 }
 @media screen and (max-width:665px) {
         .figure-star {
-              max-width: 193px !important;
+              max-width: 193px ;
     }
         .ficaption-star {
-        font-size: 13px!important;
+        font-size: 13px;
     }
     .dp-money{
       font-size: 10px;
@@ -262,20 +270,22 @@
         font-size: 12px;
 }
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
       .money {
-        font-size: 18px;
+        font-size: 10px;
 
     }
 
-  
+      .ficaption-star {
+        font-size: 9px !important;
+    }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
   
 
     .figure-star {
-        max-width: 128px;
+        max-width: 174px !important;
 
     }
 

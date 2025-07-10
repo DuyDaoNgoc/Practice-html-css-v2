@@ -155,13 +155,13 @@
         line-height: 5px;
     }
     .dislay-ft{
-        padding:50px !important;
+        padding:50px;
     }
 
 }
 @media screen and (max-width:600px) {
         .dislay-ft{
-                    padding: 6px !important;
+                    padding: 6px !important ;
         }
         .display-contenttionary{
                     padding: 12px 12px;
@@ -216,21 +216,20 @@
     color: #F77E23;
         height: 5.07px;
 }
-@media screen and (max-width:507px) {
+@media screen and (max-width:600px) {
        .input-subcribe,
     .input-subcribe::placeholder {
-        width: 380px !important;
-        ;
+             width: 185px ;
+     
     }
     .div-footer p{
-        font-size: 12px !important;
+        font-size: 12px ;
     }
 .address-and-company{
         font-size: 12px;
+        gap:53px;
 }
-.input-subcribe, .input-subcribe::placeholder{
-            width: 217px !important;
-}
+
 .contenttionary{
     font-size: 20px;
 }

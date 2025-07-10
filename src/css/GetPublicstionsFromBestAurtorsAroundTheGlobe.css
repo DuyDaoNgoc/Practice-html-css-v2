@@ -161,11 +161,15 @@ text-align: center;
 
     }
     .circle-image-nature{
-        width: 338px !important;
-        height: 338px !important;
+              width: 281px !important;
+        height: 266px !important;
         opacity: 1;
-        top: 17px;
-        left: 10px;
+        top: 26px;
+        left: 18px;
+    }
+    .move-content{
+            position: relative;
+    left: -20px;
     }
         
     }

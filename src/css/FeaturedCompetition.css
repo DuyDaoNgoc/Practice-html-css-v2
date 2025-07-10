@@ -128,6 +128,18 @@
     transform: translateY(-133px);
     opacity: 1;
 }
+@media  (max-width:580px) {
+    .article-content-Featured .figure-Featured a img{
+                max-width: 156px !important;
+        left: -32px;
+        max-height: 116px !important;
+        z-index: 0;
+    }
+    .size-image{
+        width: 111px !important;
+        height: 118px !important;
+    }
+}
 @media screen and (max-width: 768px) {
     .figure-Featured:hover .fig-Contest {
         transform: none !important;
@@ -251,8 +263,8 @@ border-radius: 5px;
 }
 @media screen and (max-width:680px) {
         .size-image {
-            width: 129px !important;
-        height: 136px !important;
+            width: 129px ;
+        height: 136px ;
         }
     .contest{
             font-size: 13px !important;

@@ -20,7 +20,11 @@ width: 314px;
     text-transform: capitalize;
 
 }
-
+@media screen and (max-width:600px) {
+    .title-student h1{
+        width: 250px !important;
+    }
+}
 @media (max-width: 768px) {
     .review{
         display: none;
@@ -33,6 +37,7 @@ width: 314px;
     .title-student h1 {
         font-size: 24px;
         margin: 0;
+            width: 286px;
     }
 
     .experts-hr {

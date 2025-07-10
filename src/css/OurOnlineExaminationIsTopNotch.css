@@ -55,7 +55,7 @@ position: absolute;
 .display-backgound-article {
   display: flex;
   align-items: center;
-      padding: 89px;
+      padding: 83px;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
@@ -132,8 +132,8 @@ letter-spacing: 0%;
 
 @media screen and (max-width :768px) {
   .examination-hr::after {
-    height: 3px !important;
-        width: 203px !important;
+     height: 3px !important;
+        width: 189px !important;
         top: 38px !important;
   }
   .examination-hr {
@@ -144,7 +144,18 @@ letter-spacing: 0%;
   height: 427px;
 }
 }
+@media  (max-width:580px) {
+  .inside-background{
+    gap: 31px;
+  }
+  .circle-container-our{
+        top: 61px;
 
+  }
+  .display-backgound-article{
+    padding: 23px;
+  }
+}
 .examination-hr::after {
   content: "";
   position: absolute;
@@ -162,7 +173,7 @@ letter-spacing: 0%;
   width: 168px;
   height: 175px;
     top: 137px;
-    left: -77px;
+    left: -52px;
   border-radius: 10px;
   position: absolute;
   z-index: 5;
@@ -242,7 +253,7 @@ letter-spacing: 0%;
 @media screen and (max-width:768px) {
      .title-our p {
         margin-top: 0;
-        font-size: 32px !important;
+        font-size: 32px;
     }
   
 }

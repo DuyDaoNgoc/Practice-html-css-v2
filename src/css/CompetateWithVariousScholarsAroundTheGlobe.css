@@ -36,9 +36,7 @@
 }
 @media screen and (max-width:480px) {
 
-    .inside-background-learning {
-        gap: 8px !important;
-    }  
+   
 
     .form-den{
       display: none !important;
@@ -256,10 +254,10 @@
   }
   @media screen and (max-width:480px) {
     .form-input{
-      width: 328px;
+      width: 261px;
     }
     .form-input-opption {
-      width: 368px;
+     width: 300px;
     }
   }
 

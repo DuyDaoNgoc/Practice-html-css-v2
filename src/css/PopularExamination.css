@@ -61,6 +61,7 @@
 .display-Popular-examination {
     display: flex;
     gap: 20px;
+    justify-content: center;
     position: relative;
 
 
@@ -168,37 +169,37 @@
 }
 
 .right-exam .icon-svg {
-    transform: rotate(180deg) !important;
+    transform: rotate(180deg) ;
 
 }
 
 .right-exam:hover .icon-svg,
 .left-exam:hover .icon-svg {
-    fill: orange !important;
+    fill: orange ;
 }
 
 /* title*/
 @media screen and (max-width:768px) {
     .Featured {
-        font-size: 24px !important;
+        font-size: 20px !important ;
 
     }
 
     .h1-Competate {
-        font-size: 24px !important;
+        font-size: 20px !important;
 
     }
 
     .fig-Contest h3 {
-        transform: translateY(-230px) !important;
-        font-size: 16px !important;
+        transform: translateY(-230px) ;
+        font-size: 16px ;
     }
     .figure-Popular-examination a p{
         font-size: 11.22px;
-        top: -60px !important;
+        top: -60px ;
     }
        .figure-Popular-examination {
-        width: 129px !important;
+        width: 129px;
         height: 136px;
 
     }
@@ -208,7 +209,7 @@
 }
 @media screen and (max-width:558px) {
     .figure-Popular-examination{
-                width: 88px !important;
+                width: 88px ;
         height: 88px;
     }
          
@@ -216,12 +217,12 @@
 }
 @media screen and (max-width:580px) {
         .figure-Popular-examination {
-    width: 97px !important;
-        height: 97px;
+          width: 84px;
+        height: 84px;
     }
 }
 @media screen and (max-width:455px) {
     .display-Popular-examination{
-        gap: 5px !important;
+        gap: 5px ;
     }
 }

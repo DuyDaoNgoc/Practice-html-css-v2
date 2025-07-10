@@ -23,7 +23,7 @@
     object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .img-index {
         position: relative;
         text-align: center;
@@ -66,10 +66,10 @@ header {
 }
 @media screen and (max-width:428px) {
     header{
-        gap:0 !important;
+        gap:0;
     } 
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     header {
 background: var(--white);
         height: auto;
@@ -91,7 +91,7 @@ background: var(--white);
     }
 
     .index-text div p {
-        font-size: 32px !important;
+        font-size: 29px  !important;
         flex-wrap: wrap;
     }
 
@@ -112,7 +112,7 @@ background: var(--white);
 }
 @media screen and (max-width:480px) {
     header{
-                gap: 210px !important;
+                 gap: 131px;
     }
 }
 
@@ -164,7 +164,7 @@ header h1 {
     padding-right: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width:900px) {
     .form {
 
         display: none;
@@ -222,7 +222,11 @@ header h1 {
     z-index: 2;
     width: 100%;
 }
-
+@media screen and (max-width:500px) {
+    .index-text div p{
+        font-size: 29px !important;
+    }
+}
 .index-text div p {
     font-size: 60px;
     font-weight: 700;
@@ -284,7 +288,9 @@ padding: 30px;
     }
     .sp-index{
 
-            width: 86%;
+                    width: 100%;
+        padding: 0px !important;
+                top: 5px !important;
     }
 }
 
@@ -325,8 +331,10 @@ padding: 30px;
 }
 
 
-@media (max-width: 768px) {
-
+@media (max-width: 900px) {
+.sp-index{
+    top: 0;
+}
     .background-learning-institution {
         position: relative;
         top: 50%;
