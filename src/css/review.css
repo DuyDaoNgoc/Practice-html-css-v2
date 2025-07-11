@@ -235,3 +235,8 @@ color: #333333;
 
 
 }
+@media screen and (max-width :400px){
+    .title-student h1{
+                width: 195px !important;
+    }
+}

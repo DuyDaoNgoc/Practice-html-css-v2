@@ -38,13 +38,14 @@ position: absolute;
     top: -58.36px;
     left: -17.06px;
   transform: rotateY(181deg);
-  position: absolute;
+  position: relative;
 }
 
 /* Phần nội dung */
 .inside-background {
   display: flex;
   gap: 73px;
+  max-width: 100%;
   flex-direction: row-reverse;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -132,16 +133,16 @@ letter-spacing: 0%;
 
 @media screen and (max-width :768px) {
   .examination-hr::after {
-     height: 3px !important;
+          height: 3px !important;
         width: 189px !important;
-        top: 38px !important;
+        top: 37px !important;
   }
   .examination-hr {
   font-size: 32px;
 }
 .circle-border-examination{
-  width: 427px;
-  height: 427px;
+        width: 325px;
+        height: 325px;
 }
 }
 @media  (max-width:580px) {
@@ -155,6 +156,26 @@ letter-spacing: 0%;
   .display-backgound-article{
     padding: 23px;
   }
+}
+@media screen and (max-width:400px) {
+  .circle-container-our{
+         position: relative;
+    top: 123px !important;
+
+  }
+  .circle-image{
+    width: 279px !important;
+        top: -79px !important;
+        height: 327px;
+        left: -6px !important;
+  }
+  .circle-color{
+    left: 31.73px;
+        top: 48px;
+        width: 200.31px;
+        height: 200.31px;
+  }
+  
 }
 .examination-hr::after {
   content: "";
@@ -170,17 +191,20 @@ letter-spacing: 0%;
 
 .background-Increase {
   background-color: white;
-  width: 168px;
-  height: 175px;
+    width: 168px;
+    height: 175px;
     top: 137px;
     left: -52px;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 5;
-  box-shadow: 1px 2px 4px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    box-shadow: 1px 2px 4px 0px;
+    display: flex
+;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .trans-text-increase {
@@ -242,18 +266,52 @@ letter-spacing: 0%;
   margin: 0;
 }
 
-.Instructors {
-  width: 40px;
-  height: 40px;
-  gap: 8px;
-  border-radius: 30px;
-  border: 3px solid white;
-  opacity: 1
+
+@media  (max-width:500px) {
+  .text-Instrctors p::after {
+    top: -7px ;
+    position:relative;
+  }
+}
+@media screen and (max-width:400px) {
+  .circle-border-examination{
+            width: 240px !important;
+        height: 240px !important;
+  }
+  .examination-hr{
+    font-size: 20px;
+  }
+  .examination-hr::after{
+    height: 2px !important;
+        width: 126px !important;
+        top: 22px !important;
+  }
+   .background-den{
+            width: max-content !important;
+        height: auto;
+        top: 66px !important;
+        left: 133px !important;
+        padding: 15px !important;
+  }
+  .text-Instrctors{
+font-size:12px;
+  }
+  .button-examination{
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-size: 10px;
+  }
 }
 @media screen and (max-width:768px) {
      .title-our p {
         margin-top: 0;
         font-size: 32px;
     }
-  
+    .Competition-outstanding{
+          width: 40px;
+    height: 40px;
+    }
+ 
 }

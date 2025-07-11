@@ -226,3 +226,19 @@
         gap: 5px ;
     }
 }
+@media screen and (max-width:400px) {
+    .figure-Popular-examination{
+                width: 70px;
+        height: 70px;
+    }
+    .h1-Competate{
+        font-size: 14px !important;
+    }
+    .inside-background-learning{
+                gap: 10px !important;
+    }
+    .review-star img{
+        width: 10px;
+        height: 10px !important;
+    }
+}

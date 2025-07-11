@@ -9,8 +9,9 @@
   border-radius: 50%;
   object-fit: cover;
   z-index: 4;
-  top: -15%;
+  top: -100px;
   left: 13.94px;
+      position: relative;
   overflow: hidden;
 }
 
@@ -38,7 +39,7 @@
         left: -21px;
 }
 .inside-background-learning{
-  gap: 0 !important;
+  gap: 30px !important;
 }
 }
 .content-our-onl p{
@@ -74,7 +75,11 @@ font-size: 52px;
   }
 
 }
-
+@media screen and (max-width:400px) {
+  .title p{
+            font-size: 20px !important;
+  }
+}
 .description p {
   font-size: 16px;
   color: #666;
@@ -93,13 +98,10 @@ font-size: 52px;
   position: absolute;
   bottom: 0;  
   left: 0;
+  top: 14px;
   z-index: 2; 
 }
-.circle-wrapper {
-  position: relative;
-  width: 373px;
-  height: 420px; 
-}
+
 .button-Experts {
   width: 100%;
   max-width: 158px;
@@ -185,7 +187,7 @@ font-size: 52px;
   }
   .background-Increase{
         top: 145px !important;
-    left: 0 !important;
+    left: -16px !important;
         width: 139px !important;
     height: 164px !important;
    
@@ -202,37 +204,86 @@ font-size: 52px;
         left: 195px !important;
         padding: 0 !important;
 }
+.form-input-opption{
+  width: 500px ;
+}
 
 }
-@media screen and (max-width:768px) {
-  .circle-wrapper{
-   position: relative;
-        width: 373px;
-        height: 420px;
-        top: -15px;
+@media screen and (max-width:400px) {
+  .circle-image-our{
+    width: 279.5px !important;
+        height: 327.26px !important;
+        top: -77.36px !important;
+        left: -18.06px !important;
   }
+  .background-Increase{
+            top: 128px !important;
+        left: 140px !important;
+        padding: 10px;
+        width: max-content !important;
+        height: auto !important;
+  }.competition-outstanding{
+        width: 40px !important;
+    height: 40px !important;
+  }
+  .title-our p{
+            font-size: 20px !important;
+  }
+}
+@media screen and (max-width:768px) {
+
   .circle-border-examination {
- width: 320px !important;
-        height: 320px !important;
+ width: 320px;
+        height: 320px ;
         top: 0 !important;
         left: 0 !important;
 
     }
+    .background-outstanding{
+          width: 148px !important;
+    height: 204px !important;
+    top: 119px !important;
+    left: 232px !important;
+    }
+}
+@media screen and (max-width:400px) {
+  .circle-image-nature{     
+  width: 190px !important;
+        height: 190px !important;
+        
+}
+.content-our-onl p{
+      font-size: 12px !important;
+}
+.background-den{
+  width: 64% !important;
+        height: auto;
+        top: 89px !important;
+        left: 129px !important;
+        padding: 0 !important;
+}
+.circle-wrapper{
+          height: 345px;
+}
+.div-center-content{
+          margin-top: 55px !important;
+}
 }
 @media screen and (max-width:480px) {
-  .background-outstanding{
-    width: 160px !important;
-    height: 197px !important;
-    top: 192px !important;
-    left: 194px !important;
-  }
+.background-outstanding{
+          left: 213px !important;
+
+}
+.text-outstanding p::after{
+  top: 80px !important;
+}
 }
 .background-outstanding {
   background-color: white;
   width: 168px;
   height: 235px;
-  top: 124px;
-  left: -64px;
+     top: 200px;
+    left: 280px;
   border-radius: 10px;
   /* margin: 0 auto; */
   position: absolute;
@@ -262,8 +313,8 @@ font-size: 52px;
   background-color: white;
     width: 168px;
     height: auto;
-    top: 124px;
-    left: -64px;
+ top: 218px;
+    left: 268px;
     border-radius: 10px;
     margin: 0 auto;
     position: absolute;
@@ -302,12 +353,13 @@ padding: 20px 0;
 }
 
 .background-Instructors {
-  width: max-content;
-  display: flex;
-  gap: 30px;
-  position: absolute;
-  top: 155px;
-  left: 39px;
+      width: max-content;
+    display: flex
+;
+    gap: 30px;
+    position: relative;
+    top: 51px;
+    left: -17px;
 
 }
 
@@ -317,13 +369,6 @@ padding: 20px 0;
   font-family: 'Poppins';
 }
 
-.Instructors {
-  width: 40px;
-  height: 40px;
-  border-radius: 30px;
-  border: 3px solid white;
-  position: absolute;
-}
 
 .Instructors,
 .Instructors-2,
@@ -334,9 +379,34 @@ padding: 20px 0;
   border: 3px solid white;
   position: absolute;
 }
-@media screen and (max-width:480px) {
+
+@media screen and (max-width:400px) {
   .background-Instructors{
-    top: 142px;
-    left: 34px;
+           top: 10px;
+        left: -14px;
+        gap: 21px;
   }
+  .Instructors, .Instructors-2, .Instructors-3{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 3px solid white;
+    position: absolute;
+  }
+  .text-outstanding{
+        font-size: 12px !important;
+  }
+  .background-outstanding{
+               width: max-content !important;
+        height: 113px !important;
+        top: 101px !important;
+        padding: 13px;
+        left: 163px !important;
+  }
+  .text-outstanding p::after{
+        top: 82px;
+            width: 76px;
+    height: 1.99px;
+  }
+  
 }

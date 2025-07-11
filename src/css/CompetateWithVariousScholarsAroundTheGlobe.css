@@ -12,6 +12,7 @@
 .inside-background-learning {
     display: flex
 ;
+max-width: 100%;
     gap: 108px;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -31,12 +32,12 @@
     display: contents !important;
   }
 }
-@media screen and (max-width:769px) {
-  
-}
+
 @media screen and (max-width:480px) {
 
-   
+    .form-den-label{
+      font-size: 20px !important;
+    }
 
     .form-den{
       display: none !important;
@@ -191,7 +192,7 @@
   padding-inline: 20px;
   background-color: #FAFAFC;
   margin-top:17px ;
-  border: 1.07px solid #D9DCE0;
+    border: 0.76px solid #0000001A;
 }
 
 .form-input-opption {
@@ -255,9 +256,16 @@
   @media screen and (max-width:480px) {
     .form-input{
       width: 261px;
+      height: 45px;
     }
     .form-input-opption {
      width: 300px;
+     height: 45px;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .form-input-opption{
+      width: 272px;
     }
   }
 

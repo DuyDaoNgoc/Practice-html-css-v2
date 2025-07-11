@@ -156,6 +156,15 @@
       max-width: 373px !important;
     }
 }
+@media screen and (max-width:400px) {
+  .figure-star{
+    max-width: 147px !important;
+    
+  }
+  .ficaption-star{
+            font-size: 7px !important;
+  }
+}
 .figure-star {
   border: 1px solid #c8bbbb36;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -278,9 +287,10 @@
 
       .ficaption-star {
         font-size: 9px !important;
+        line-height: 23px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
   
 
@@ -300,10 +310,27 @@
   
 
     .ficaption-star {
-        font-size: 18px;
+        font-size: 9px !important;
         width: 220px;
     }
 
+}
+@media screen and (max-width:400px) {
+  .figure-star img{
+            height: 87px;
+  }
+  .figure-star{
+            max-width: 150px !important;
+         
+  }
+  .review-star{
+            font-size: 9px;
+                    
+  }
+  .dp-money{
+    font-size: 7px;
+    gap: 6px;
+  }
 }
 @media screen and (max-width:672px) {
  

@@ -241,3 +241,22 @@
     font-size: 16px;
 }
 }
+@media screen and (max-width:400px) {
+    .address-and-company{
+                font-size: 10px;
+        gap: 49px;
+    }
+    .input-subcribe, .input-subcribe::placeholder{
+                width: 154px;
+    }
+    .input-subcribe, .input-subcribe::placeholder{
+            font-size: 10px !important;
+    }
+    .ft-Subscribe{
+                padding-left: 20px;
+        font-size: 10px;
+    }.sub-btn{
+            width: 90px;
+    font-size: 10px;
+    }
+}

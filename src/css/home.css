@@ -37,8 +37,8 @@
         object-fit: cover;
     }
     .user{
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     display: flex;
 }
@@ -64,11 +64,12 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-@media screen and (max-width:428px) {
+@media screen and (max-width:400px) {
     header{
-        gap:0;
+               gap: 100px !important;
     } 
 }
+
 @media (max-width: 900px) {
     header {
 background: var(--white);
@@ -330,7 +331,9 @@ padding: 30px;
     align-items: center;
 }
 
-
+text-center{
+    text-align: center;
+}
 @media (max-width: 900px) {
 .sp-index{
     top: 0;
