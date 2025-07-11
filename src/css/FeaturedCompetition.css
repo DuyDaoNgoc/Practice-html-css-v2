@@ -215,7 +215,7 @@
     position: relative;
     left: -109px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:768px) {
     .fig-Contest{
         top: 133px;
         left: 7px;

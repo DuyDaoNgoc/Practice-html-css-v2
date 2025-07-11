@@ -183,10 +183,10 @@ letter-spacing: 0%;
   width: 318px;
   height: 6px;
   background-color: #F77E23;
-  top: 68px;
+  top: 59px;
   left: 4px;
   border-radius: 40px;
-  transform: skewY(-2deg)
+  transform: skewY(-1deg)
 }
 
 .background-Increase {

@@ -260,3 +260,8 @@
     font-size: 10px;
     }
 }
+@media screen and (max-width:310px) {
+    .address-and-company{
+        gap: 37px;
+    }
+}

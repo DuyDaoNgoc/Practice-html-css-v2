@@ -271,7 +271,7 @@ font-size: 52px;
 }
 @media screen and (max-width:480px) {
 .background-outstanding{
-          left: 213px !important;
+          left: 199px !important;
 
 }
 .text-outstanding p::after{

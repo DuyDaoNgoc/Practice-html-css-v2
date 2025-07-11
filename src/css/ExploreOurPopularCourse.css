@@ -39,7 +39,7 @@
 
 
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .sort-by-text {
        font-size: 10px;
 
