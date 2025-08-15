@@ -1,0 +1,15 @@
+{
+  "name": "practice-html-css-tn",
+  "version": "1.0.0",
+  "description": "Practice HTML and CSS knowledge with responsive web design",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  },
+  "type": "module"
+}
